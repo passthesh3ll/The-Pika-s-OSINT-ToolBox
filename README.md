@@ -1,4 +1,4 @@
-# The Pika's OSINT ToolBox
+# The Pika's OSINT ToolBox ⚡️
 ![image](https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png)
 
 ## Description
@@ -47,7 +47,7 @@ holehe 'email@provider.com'
 ```bash
 phoneinfoga scan -n '<NUMBER>'
 ```
-- ⚙️ [ignorant](https://github.com/megadose/ignorant) (🌐 [osint.rocks](https://osint.rocks/))*\~ phone registered accounts*
+- ⚙️ [ignorant](https://github.com/megadose/ignorant) (🌐 [osint.rocks](https://osint.rocks/)) *\~ phone registered accounts*
 ```bash
 ignorant '<NUMBER>' --only-used
 ```
@@ -56,7 +56,7 @@ ignorant '<NUMBER>' --only-used
 - 🌐 [faceonlive.com](https://faceonlive.com/face-search-online/#search-panel) *\~ reverse face search [AI]*
 - 🌐 [pimeyes.com](https://pimeyes.com/en) (📜 [unblur](https://greasyfork.org/en/scripts/531501)) *\~ reverse face search [AI]*
 - 🌐 [images.google.com](https://images.google.com/) (🌐 [yandex.com](https://yandex.com/images?)) *\~ reverse image search*
-- 🌐 [lenso.ai](https://lenso.ai/) (📜 [unblur](https://greasyfork.org/en/scripts/531499))*\~ reverse image search [AI]*
+- 🌐 [lenso.ai](https://lenso.ai/) (📜 [unblur](https://greasyfork.org/en/scripts/531499)) *\~ reverse image search [AI]*
 - 🌐 [exifinfo.org](https://exifinfo.org) *\~ exif parser*
 - 🌐 [29a.ch](https://29a.ch/photo-forensics/#forensic-magnifier) *\~ image forensic parser*
 
@@ -156,13 +156,13 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [snapchat.com](https://www.snapchat.com/) (nikname✉️📞->✅) *\~ account validator*
 - 🌐 [identity.flickr.com](https://identity.flickr.com/forgot-password) (✉️->✅) *\~ account validator*
 - 🌐 [pinterest.com](https://www.pinterest.com/password/reset/) (nikname->✅) *\~ account validator*
-- 🌐 [login.yahoo.com](https://login.yahoo.com/) (\*->✉️📞)*\~ account knocker*
-- 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (nikname->✉️📞)*\~ account knocker*
-- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nikname✉️📞SKYPEID->📞✉️)*\~ account knocker*
+- 🌐 [login.yahoo.com](https://login.yahoo.com/) (\*->✉️📞) *\~ account knocker*
+- 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (nikname->✉️📞) *\~ account knocker*
+- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nikname✉️📞SKYPEID->📞✉️) *\~ account knocker*
 - 🌐 [paypal.com](https://www.paypal.com/authflow/email-recovery) (✉️->✅) *\~ account validator*
 
 ## Breaches 🏴‍☠️
-- 🌐 [databreach.com](https://databreach.com/) (🌐 [haveibeenpwned.com](https://haveibeenpwned.com/), 🌐 [dehashed.com](https://www.dehashed.com/search-guide), 🌐 [leak-lookup.com](https://leak-lookup.com/), 🌐 [leakpeek.com](https://leakpeek.com/))*\~ breaches cheker*
+- 🌐 [databreach.com](https://databreach.com/) (🌐 [haveibeenpwned.com](https://haveibeenpwned.com/), 🌐 [dehashed.com](https://www.dehashed.com/search-guide), 🌐 [leak-lookup.com](https://leak-lookup.com/), 🌐 [leakpeek.com](https://leakpeek.com/)) *\~ breaches cheker*
 - 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) (⚠️ you assume all responsibility of your actions) *\~ databreach collector*
 
 
