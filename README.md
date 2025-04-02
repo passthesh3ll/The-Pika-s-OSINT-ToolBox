@@ -63,7 +63,7 @@ ignorant '<NUMBER>' --only-used
 ## Social 👥
 - 💉 Multisocial Search *\~ social profiles finder*
 ```html
-<NAME> <SURNAME> <CITY> site:facebook.com | site:twitter.com | site:instagram.com | site:tiktok.com
+<NAME> <SURNAME> <CITY> site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com
 ```
 - 💉 Instagram Place Search *\~ ig place finder*
 ```html
