@@ -5,7 +5,7 @@
 Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence)) is the collection and analysis of data gathered from open sources to produce actionable intelligence. This carefully edited OSINT list won't be an endless list of links, but priority will be given to highly effective content, the goal is quality over quantity.
 
 > [!WARNING]
-> While OSINT itself is not illegal, it is crucial to understand that the legality of specific OSINT activities depends heavily on how the information is obtained and used. You assume full and sole responsibility for any and all consequences, risks of your actions. This includes, but is not limited to, any direct, indirect, incidental, or consequential damages.
+> While OSINT itself is not illegal, it is crucial to understand that the legality of specific OSINT activities depends heavily on how the information is obtained and used. You assume full and sole responsibility for all consequences of your actions. This includes, but is not limited to, any direct, indirect, incidental, or consequential damages.
 
 #### Symbols
 - ⚙️ *Executable Program*
