@@ -4,7 +4,7 @@
 
 ## Description
 
-Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence)) is the collection and analysis of data gathered from open sources to produce actionable intelligence. This carefully edited OSINT list won't be an endless list of links, but priority will be given to highly effective content, the goal is quality over quantity.
+Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence)) is the collection and analysis of data gathered from open sources to produce actionable intelligence. This carefully edited OSINT list won't be an endless list of links, but priority will be given to highly effective content (quality over quantity) and only services that can be used for free.
 
 > \[!WARNING\]  
 > While OSINT itself is not illegal, it is crucial to understand that the legality of specific OSINT activities depends heavily on how the information is obtained and used. You assume full and sole responsibility for all consequences of your actions. This includes, but is not limited to, any direct, indirect, incidental, or consequential damages.
@@ -73,6 +73,7 @@ ignorant '<NUMBER>' --only-used
 
 - 🌐 [faceonlive.com](https://faceonlive.com/face-search-online/#search-panel) *\~ reverse face search \[AI\]*
 - 🌐 [pimeyes.com](https://pimeyes.com/en) (📜 [unblur](https://greasyfork.org/en/scripts/531501)) *\~ reverse face search \[AI\]*
+- 🌐 [facecheck.id](https://facecheck.id/) *\~ reverse face search \[AI\]*
 - 🌐 [images.google.com](https://images.google.com/) (🌐 [yandex.com](https://yandex.com/images "https://yandex.com/images?")) *\~ reverse image search*
 - 🌐 [lenso.ai](https://lenso.ai/) (📜 [unblur](https://greasyfork.org/en/scripts/531499)) *\~ reverse image search \[AI\]*
 - 🌐 [exifinfo.org](https://exifinfo.org) *\~ exif parser*
@@ -92,18 +93,18 @@ ignorant '<NUMBER>' --only-used
 https://www.instagram.com/explore/search/keyword/?q=<PLACE>
 ```
 
-- ⚙️ [instaloader](https://github.com/instaloader/instaloader) *\~ backup ig profile*
-- 📜 [Instagram Followers/Following Scraper](https://greasyfork.org/en/scripts/527647) *\~ backup ig followe/rs*
-- 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) *\~ enrich ig info*
-- 📜 [Instagram Threads Checker](https://greasyfork.org/en/scripts/526760) *\~ ig threads matcher*
-- 📜 [Facebook Profile ID Extractor](https://greasyfork.org/en/scripts/527377) *\~ fb id finder*
+- ⚙️ [instaloader](https://github.com/instaloader/instaloader) *\~ IG backup*
+- 📜 [Instagram Followers/Following Scraper](https://greasyfork.org/en/scripts/527647) *\~ IG followe/rs*
+- 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) *\~ IG ui enrich*
+- 📜 [Instagram Threads Checker](https://greasyfork.org/en/scripts/526760) *\~ IG threads matcher*
+- 📜 [Facebook Profile ID Extractor](https://greasyfork.org/en/scripts/527377) *\~ FB id finder*
 
 ```html
 https://www.facebook.com/profile.php?id=<PROFILEID>
 ```
 
-- 🌐 [ytcomment.kmcat.uk](https://ytcomment.kmcat.uk) *\~ yt comments search*
-- 🌐 [badoo-archive-collection](https://web.archive.org/collection-search/badoo.com) *\~ bd wayback search*
+- 🌐 [ytcomment.kmcat.uk](https://ytcomment.kmcat.uk) *\~ YT comments search*
+- 🌐 [badoo-archive-collection](https://web.archive.org/collection-search/badoo.com) *\~ badoo wayback db*
 - 💉 Last 3months Strava History *\~ strava info*
 
 ```html
@@ -112,28 +113,36 @@ https://www.strava.com/athletes/<NIKNAME>
 
 ## Chat 💬
 
-- 🌐 [vedbex.com](https://www.vedbex.com/) *\~ mail/phone/ip skype*
-- 🌐 [discord.id](https://discord.id/) *\~ discord lookup*
-- 🌐 [intelx.io](https://intelx.io/tools?tab=telegram) *\~ telegram search*
-- 🌐 [telegram-archive-collection](https://web.archive.org/collection-search/telegram) *\~ telegram wayback search*
-- ⚙️ [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker) *\~ telegram lookup*
+- 🌐 [vedbex.com](https://www.vedbex.com/) *\~ SKYPE mail/phone/ip*
+- 🌐 [discordlookup.com](https://discordlookup.com/) *\~ DISCORD lookup*
+- 🌐 [hugonun.github.io](https://hugonun.github.io/discordid2date/) (🌐 [chloethesis.github.io](https://chloethesis.github.io/tools/discord-date/)) *\~ DISCORD creation time*
+- 🌐 [discord.com](https://discord.com/servers) (🌐 [discord.me](https://discord.me/servers), 🌐 [disboard.org](https://disboard.org/) ) *\~ DISCORD server search*
+- 🌐 [intelx.io](https://intelx.io/tools?tab=telegram) *\~ TG search*
+- 🌐 [tgfind.org](https://tgfind.org/) *\~ TG channel search*
+- 🌐 [telegram-archive-collection](https://web.archive.org/collection-search/telegram) *\~ TG wayback db*
+- ⚙️ [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker) *\~ TG lookup*
 
 ```bash
 python telegram_phone_number_checker/main.py --phone-numbers '<NUMBER>' --download-profile-photos
 ```
 
-- ⚙️ [telepathy](https://github.com/proseltd/Telepathy-Community) *\~ telegram groups/channels lookup*
+- ⚙️ [telepathy](https://github.com/proseltd/Telepathy-Community) *\~ TG groups/channels lookup*
 
 ```bash
 telepathy -t '<NIKNAME>' -c
 ```
 
+- 🌐 [telegra.ph](https://telegra.ph/How-to-find-the-owner-and-administrator-of-a-Telegram-channel-11-02) *\~ TG invite link lookup*
+- 🌐 [@creationdatebot](https://t.me/creationdatebot) *\~ TG registration lookup*
+- 🌐 [@SangMata_beta_bot](https://t.me/SangMata_beta_bot) *\~ TG nik lookup*
+- 🌐 [@usinfobot](https://t.me/usinfobot) *\~ TG id resolver*
+
 ## Gaming 🎮️
 
-- 🌐 [xresolver.com](https://xresolver.com/) *\~ xbox/psn/gta resolver*
-- 🌐 [psnprofiles.com](https://psnprofiles.com/) *\~ psn parser*
-- 🌐 [xboxgamertag.com](https://xboxgamertag.com/) *\~ xbox parser*
-- 🌐 [epic-lookup.com](https://epic-lookup.com/) *\~ epicgames parser*
+- 🌐 [xresolver.com](https://xresolver.com/) *\~ XBOX/PSN/GTA resolver*
+- 🌐 [psnprofiles.com](https://psnprofiles.com/) *\~ PSN parser*
+- 🌐 [xboxgamertag.com](https://xboxgamertag.com/) *\~ XBOX parser*
+- 🌐 [epic-lookup.com](https://epic-lookup.com/) *\~ EPICGAMES parser*
 
 ## Location 🗺️
 
@@ -148,6 +157,7 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 
 - 🌐 [pleper.com](https://pleper.com/index.php?do=tools&sdo=cid_converter) *\~ gmaps spots info*
 - 🌐 [plonkit.net](https://www.plonkit.net/guide) *\~ geoguesser guide*
+- 🌐 [geotips.net](https://geotips.net/) *\~ geoguesser guide*
 - 🌐 [cipher387.github.io](https://cipher387.github.io/venicle_number_search_toolbox/) *\~ car plate info*
 
 ## General 📂
@@ -160,9 +170,10 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 
 - 🌐 [cybdetective.com/pastebin](https://cybdetective.com/pastebin.html) *\~ pastebin search*
 - 🌐 [cybdetective.com/codesearch](https://cybdetective.com/codesearch.html) *\~ repos search*
-- 🌐 [Cyber Detective's WorldMap](https://cybdetective.com/osintmap/) *\~ world institutions directory*
+- 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) *\~ world institutions directory*
+- 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) *\~ world institutions directory*
 
-## Company 💼
+## Corporate 💼
 
 - 🌐 [companyresearcher.exa.ai](https://companyresearcher.exa.ai/) *\~ general company info*
 - 🌐 [skymem.info](https://www.skymem.info/) *\~ company emails*
@@ -172,7 +183,7 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 - 🌐 [sitereport.netcraft.com](https://sitereport.netcraft.com/) *\~ website general info*
 - 🌐 [centralops.net](https://centralops.net/) *\~ whois*
 - 🌐 [dnsdumpster.com](https://dnsdumpster.com/) *\~ reverse website location*
-- 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) *\~ ip website hystory*
+- 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) *\~ ip website history*
 - 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) *\~ websites associated to dns*
 - 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) *\~ all websites registered by ip*
 - 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) *\~ all websites registered by name/email*
@@ -198,6 +209,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [x.com](https://x.com/account/begin_password_reset) (nikname->✅) *\~ account validator*
 - 🌐 [accounts.google.com](https://accounts.google.com/v3/signin/identifier/) (nikname->✉️) *\~ account knocker*
 - 🌐 [snapchat.com](https://www.snapchat.com/) (nikname✉️📞->✅) *\~ account validator*
+- 🌐 [discord.com](https://discord.com/login/) (nikname✉️📞->✅) *\~ account validator*
 - 🌐 [identity.flickr.com](https://identity.flickr.com/forgot-password) (✉️->✅) *\~ account validator*
 - 🌐 [pinterest.com](https://www.pinterest.com/password/reset/) (nikname->✅) *\~ account validator*
 - 🌐 [login.yahoo.com](https://login.yahoo.com/) (\*->✉️📞) *\~ account knocker*
@@ -211,8 +223,8 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) *\~ breach cheker*
 - 🌐 [dehashed.com](https://www.dehashed.com/search-guide) *\~ breach cheker*
 - 🌐 [leak-lookup.com](https://leak-lookup.com/) *\~ breach searcher*
-- 🌐 [leakpeek.com](https://leakpeek.com/) *\~ breach searcher*
-- 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) (⚠️ you assume all responsibility of your actions) *\~ breach torrents*
+- 🌐 [leakpeek.com](https://leakpeek.com/) *\~ breach searcher*
+- 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) ⚠️ **you assume all responsibility** *\~ breach torrents*
 
 ## Resources 📚️
 
