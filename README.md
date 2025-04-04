@@ -204,24 +204,24 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 
 ## Knocking 🚪
 
-- 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (nikname->✉️📞) *\~ account knocker*
-- 🌐 [facebook.com](https://www.facebook.com/login/identify/?ctx=recover) (nikname->✉️📞) *\~ account knocker*
-- 🌐 [x.com](https://x.com/account/begin_password_reset) (nikname->✅) *\~ account validator*
+- 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (nk->✉️📞) *\~ account knocker*
+- 🌐 [facebook.com](https://www.facebook.com/login/identify/?ctx=recover) (nik->✉️📞) *\~ account knocker*
+- 🌐 [x.com](https://x.com/account/begin_password_reset) (nik->✅) *\~ account validator*
 - 🌐 [accounts.google.com](https://accounts.google.com/v3/signin/identifier/) (nikname->✉️) *\~ account knocker*
-- 🌐 [snapchat.com](https://www.snapchat.com/) (nikname✉️📞->✅) *\~ account validator*
-- 🌐 [discord.com](https://discord.com/login/) (nikname✉️📞->✅) *\~ account validator*
+- 🌐 [snapchat.com](https://www.snapchat.com/) (nik✉️📞->✅) *\~ account validator*
+- 🌐 [discord.com](https://discord.com/login/) (nik✉️📞->✅) *\~ account validator*
 - 🌐 [identity.flickr.com](https://identity.flickr.com/forgot-password) (✉️->✅) *\~ account validator*
-- 🌐 [pinterest.com](https://www.pinterest.com/password/reset/) (nikname->✅) *\~ account validator*
+- 🌐 [pinterest.com](https://www.pinterest.com/password/reset/) (nik->✅) *\~ account validator*
 - 🌐 [login.yahoo.com](https://login.yahoo.com/) (\*->✉️📞) *\~ account knocker*
-- 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (nikname->✉️📞) *\~ account knocker*
-- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nikname✉️📞SKYPEID->📞✉️) *\~ account knocker*
+- 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (nik->✉️📞) *\~ account knocker*
+- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nik✉️📞SKYPEID->📞✉️) *\~ account knocker*
 - 🌐 [paypal.com](https://www.paypal.com/authflow/email-recovery) (✉️->✅) *\~ account validator*
 
 ## Breaches 🏴‍☠️
 
-- 🌐 [databreach.com](https://databreach.com/) *\~ breach cheker*
-- 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) *\~ breach cheker*
-- 🌐 [dehashed.com](https://www.dehashed.com/search-guide) *\~ breach cheker*
+- 🌐 [databreach.com](https://databreach.com/) *\~ breach checker*
+- 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) *\~ breach checker*
+- 🌐 [dehashed.com](https://www.dehashed.com/search-guide) *\~ breach checker*
 - 🌐 [leak-lookup.com](https://leak-lookup.com/) *\~ breach searcher*
 - 🌐 [leakpeek.com](https://leakpeek.com/) *\~ breach searcher*
 - 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) ⚠️ **you assume all responsibility** *\~ breach torrents*
