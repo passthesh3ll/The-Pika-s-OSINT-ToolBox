@@ -30,7 +30,7 @@ maigret 'username' --html
 ## Email ✉️
 
 - 🌐 [metricsparrow.com](http://metricsparrow.com/toolkit/email-permutator) *\~ email permutator*
-- 💉 Email Finder by Domain ([top 100 email providers](https://rentry.co/top-100-email-providers)) *\~ email finder*
+- 💉 Email Finder by Domain Dork ([top 100 email providers](https://rentry.co/top-100-email-providers)) *\~ email finder*
 
 ```html
 "<NAME>" "<SURNAME>" (intext:"@gmail.com" | intext:"@yahoo.com" | intext:"@hotmail.com")
@@ -82,7 +82,7 @@ ignorant '<NUMBER>' --only-used
 
 ## Social 👥
 
-- 💉 Multisocial Search *\~ social profiles finder*
+- 💉 Multisocial Search Dork *\~ social profiles finder*
 
 ```html
 "<NAME>" "<SURNAME>" "<CITY>" (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com)
@@ -99,7 +99,7 @@ https://www.instagram.com/explore/search/keyword/?q=<PLACE>
 - 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) *\~ IG geotag+date ui*
 - 📜 [Instagram Threads Checker](https://greasyfork.org/en/scripts/526760) *\~ IG threads matcher*
 - 🌐 [sowsearch.info](https://sowsearch.info/) *\~ FB searcher*
-- 💉 Facebook Dorks *\~ FB info finder*
+- 💉 Facebook Search Dorks *\~ FB info finder*
 
 ```html
 "<NAME>" "<SURNAME>" ("lives in <PLACE>" | "from <PLACE>") site:facebook.com
@@ -174,7 +174,7 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 
 ## General 📂
 
-- 💉 Docs Info Gathering *\~ general info gathering*
+- 💉 Docs Search Dork *\~ general info gathering*
 
 ```html
 "<NAME>" "<SURNAME>" "<CITY>" (filetype:xls | filetype:xlsx | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:pdf)
