@@ -33,13 +33,13 @@ maigret 'username' --html
 - 💉 Email Finder by Domain ([top 100 email providers](https://rentry.co/top-100-email-providers)) *\~ email finder*
 
 ```html
-<NAME> <SURNAME> intext:"@gmail.com" | intext:"@yahoo.com" | intext:"@hotmail.com"
+"<NAME>" "<SURNAME>" (intext:"@gmail.com" | intext:"@yahoo.com" | intext:"@hotmail.com")
 ```
 
 - 💉 Email Finder by Website *\~ email finder*
 
 ```html
- site:<WEBSITE> intitle:"email" | intitle:"contact" | intitle:"about"
+ site:<WEBSITE> (intitle:"email" | intitle:"contact" | intitle:"about")
 ```
 
 - 🌐 [account.samsung.com](https://account.samsung.com/accounts/v1/SAMSUNGCA/findId) *\~ email finder*
@@ -57,6 +57,7 @@ holehe 'email@provider.com'
 
 ## Phone 📞
 
+- 🌐 [smsc.ru](https://smsc.ru/testhlr/) *\~ phone checker/parser*
 - ⚙️ [phoneinfoga](https://github.com/sundowndev/phoneinfoga) *\~ phone parser*
 
 ```bash
@@ -84,7 +85,7 @@ ignorant '<NUMBER>' --only-used
 - 💉 Multisocial Search *\~ social profiles finder*
 
 ```html
-<NAME> <SURNAME> <CITY> site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com
+"<NAME>" "<SURNAME>" "<CITY>" (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com)
 ```
 
 - 💉 Instagram Place Search *\~ ig place finder*
@@ -95,15 +96,28 @@ https://www.instagram.com/explore/search/keyword/?q=<PLACE>
 
 - ⚙️ [instaloader](https://github.com/instaloader/instaloader) *\~ IG backup*
 - 📜 [Instagram Followers/Following Scraper](https://greasyfork.org/en/scripts/527647) *\~ IG followe/rs*
-- 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) *\~ IG ui enrich*
+- 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) *\~ IG geotag+date ui*
 - 📜 [Instagram Threads Checker](https://greasyfork.org/en/scripts/526760) *\~ IG threads matcher*
+- 🌐 [sowsearch.info](https://sowsearch.info/) *\~ FB searcher*
+- 💉 Facebook Dorks *\~ facebook info finder*
+
+```html
+"<NAME>" "<SURNAME>" ("lives in <PLACE>" | "from <PLACE>") site:facebook.com
+"<NAME>" "<SURNAME>" ("studied at <SCHOOL>" | "went to <SCHOOL>") site:facebook.com
+"<NAME>" "<SURNAME>" ("worked at <COMPANY>" | "works at <COMPANY>") site:facebook.com
+```
+
+- 🌐 [facebook.com/ads/library](https://www.facebook.com/ads/library/) *\~ FB/IG ads library*
+- 🌐 [cse.google.com](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0) *\~ FB published images by keyword*
 - 📜 [Facebook Profile ID Extractor](https://greasyfork.org/en/scripts/527377) *\~ FB id finder*
 
 ```html
 https://www.facebook.com/profile.php?id=<PROFILEID>
 ```
 
+- 🌐 [onlysearch.co](https://onlysearch.co/) *\~ OF searcher*
 - 🌐 [ytcomment.kmcat.uk](https://ytcomment.kmcat.uk) *\~ YT comments search*
+- 🌐 [twitch-tools.rootonline.de](https://twitch-tools.rootonline.de/) *\~ TW followers/ing viewer*
 - 🌐 [badoo-archive-collection](https://web.archive.org/collection-search/badoo.com) *\~ badoo wayback db*
 - 💉 Last 3months Strava History *\~ strava info*
 
@@ -132,10 +146,8 @@ python telegram_phone_number_checker/main.py --phone-numbers '<NUMBER>' --downlo
 telepathy -t '<NIKNAME>' -c
 ```
 
-- 🌐 [telegra.ph](https://telegra.ph/How-to-find-the-owner-and-administrator-of-a-Telegram-channel-11-02) *\~ TG invite link lookup*
 - 🌐 [@creationdatebot](https://t.me/creationdatebot) *\~ TG registration lookup*
 - 🌐 [@SangMata_beta_bot](https://t.me/SangMata_beta_bot) *\~ TG nik lookup*
-- 🌐 [@usinfobot](https://t.me/usinfobot) *\~ TG id resolver*
 
 ## Gaming 🎮️
 
@@ -165,7 +177,7 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 - 💉 Docs Info Gathering *\~ general info gathering*
 
 ```html
-<NAME> <SURNAME> <CITY> filetype:xls | filetype:xlsx | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:pdf
+"<NAME>" "<SURNAME>" "<CITY>" (filetype:xls | filetype:xlsx | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:pdf)
 ```
 
 - 🌐 [cybdetective.com/pastebin](https://cybdetective.com/pastebin.html) *\~ pastebin search*
@@ -204,17 +216,17 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 
 ## Knocking 🚪
 
-- 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (nk->✉️📞) *\~ account knocker*
+- 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (nik->✉️📞) *\~ account knocker*
 - 🌐 [facebook.com](https://www.facebook.com/login/identify/?ctx=recover) (nik->✉️📞) *\~ account knocker*
 - 🌐 [x.com](https://x.com/account/begin_password_reset) (nik->✅) *\~ account validator*
-- 🌐 [accounts.google.com](https://accounts.google.com/v3/signin/identifier/) (nikname->✉️) *\~ account knocker*
+- 🌐 [accounts.google.com](https://accounts.google.com/v3/signin/identifier/) (nik->✉️) *\~ account knocker*
 - 🌐 [snapchat.com](https://www.snapchat.com/) (nik✉️📞->✅) *\~ account validator*
 - 🌐 [discord.com](https://discord.com/login/) (nik✉️📞->✅) *\~ account validator*
 - 🌐 [identity.flickr.com](https://identity.flickr.com/forgot-password) (✉️->✅) *\~ account validator*
 - 🌐 [pinterest.com](https://www.pinterest.com/password/reset/) (nik->✅) *\~ account validator*
 - 🌐 [login.yahoo.com](https://login.yahoo.com/) (\*->✉️📞) *\~ account knocker*
 - 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (nik->✉️📞) *\~ account knocker*
-- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nik✉️📞SKYPEID->📞✉️) *\~ account knocker*
+- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nik✉️📞skypeid->📞✉️) *\~ account knocker*
 - 🌐 [paypal.com](https://www.paypal.com/authflow/email-recovery) (✉️->✅) *\~ account validator*
 
 ## Breaches 🏴‍☠️
