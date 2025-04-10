@@ -25,7 +25,7 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 maigret 'username' --html
 ```
 
-- 🌐 [whatsmyname.app](https://whatsmyname.app) *\~ username scraper*
+- 🌐 [whatsmyname.app](https://whatsmyname.app) *\~ username/accounts scraper*
 
 ## Email ✉️
 
@@ -88,7 +88,7 @@ ignorant '<NUMBER>' --only-used
 "<NAME>" "<SURNAME>" "<CITY>" (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com)
 ```
 
-- 💉 Instagram Place Search *\~ ig place finder*
+- 💉 Instagram Place Search *\~ IG place finder*
 
 ```html
 https://www.instagram.com/explore/search/keyword/?q=<PLACE>
@@ -99,7 +99,7 @@ https://www.instagram.com/explore/search/keyword/?q=<PLACE>
 - 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) *\~ IG geotag+date ui*
 - 📜 [Instagram Threads Checker](https://greasyfork.org/en/scripts/526760) *\~ IG threads matcher*
 - 🌐 [sowsearch.info](https://sowsearch.info/) *\~ FB searcher*
-- 💉 Facebook Dorks *\~ facebook info finder*
+- 💉 Facebook Dorks *\~ FB info finder*
 
 ```html
 "<NAME>" "<SURNAME>" ("lives in <PLACE>" | "from <PLACE>") site:facebook.com
