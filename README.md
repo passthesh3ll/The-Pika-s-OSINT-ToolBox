@@ -174,8 +174,12 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 
 ## General 📂
 
-- 💉 Docs Search Dork *\~ general info gathering*
+- 💉 Localized Google Search ([ISO 3166-1 alpha-2 Table](https://gist.github.com/tadast/8827699)) *\~ search by country switching*
+```html
+https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<ALPHA-2-COUNTRY-CODE>
+```
 
+- 💉 Docs Search Dork *\~ general info gathering*
 ```html
 "<NAME>" "<SURNAME>" "<CITY>" (filetype:xls | filetype:xlsx | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:pdf)
 ```
@@ -247,3 +251,4 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 📚️ [Cyber Detective's Dorks-collection-list](https://github.com/cipher387/Dorks-collections-list?tab=readme-ov-file)
 - 📚️ [IntelTechniques Search Tools](https://inteltechniques.com/tools/)
 - 📚️ [Awesome OSINT](https://github.com/jivoi/awesome-osint)
+- 📚️ [Awesome Google Dorks](https://github.com/Tobee1406/Awesome-Google-Dorks)
