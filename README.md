@@ -91,6 +91,7 @@ ignorant '<NUMBER>' --only-used
 - 💉 Instagram Place Search *\~ IG place finder*
 
 ```html
+inurl:"<PLACE>" site:instagram.com
 https://www.instagram.com/explore/search/keyword/?q=<PLACE>
 ```
 
@@ -175,11 +176,13 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 ## General 📂
 
 - 💉 Localized Google Search ([ISO 3166-1 alpha-2 Table](https://gist.github.com/tadast/8827699)) *\~ search by country switching*
+
 ```html
 https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<ALPHA-2-COUNTRY-CODE>
 ```
 
 - 💉 Docs Search Dork *\~ general info gathering*
+
 ```html
 "<NAME>" "<SURNAME>" "<CITY>" (filetype:xls | filetype:xlsx | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:pdf | filetype:csv | filetype:epub | filetype:odp | filetype:ods | filetype:odt)
 ```
