@@ -7,7 +7,7 @@
 Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence)) is the collection and analysis of data gathered from open sources to produce actionable intelligence. This carefully edited OSINT list won't be an endless list of links, but priority will be given to highly effective content (quality over quantity) and only services that can be used for free.
 
 > \[!WARNING\]  
-> While OSINT itself is not illegal, it is crucial to understand that the legality of specific OSINT activities depends heavily on how the information is obtained and used. You assume full and sole responsibility for all consequences of your actions. This includes, but is not limited to, any direct, indirect, incidental, or consequential damages.
+> While OSINT itself is not illegal, it is crucial to understand that the legality of specific OSINT activities heavily depends on how the information is obtained and used. You assume full and sole responsibility for all consequences of your actions. This includes, but is not limited to, any direct, indirect, incidental, or consequential damages.
 
 #### Symbols
 
@@ -98,6 +98,10 @@ https://www.instagram.com/explore/search/keyword/?q=<PLACE>
 - ⚙️ [instaloader](https://github.com/instaloader/instaloader) *\~ IG backup*
 - 📜 [Instagram Followers/Following Scraper](https://greasyfork.org/en/scripts/527647) *\~ IG followe/rs*
 - 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) *\~ IG geotag+date ui*
+- ⚙️ [instagram-location-search](https://github.com/bellingcat/instagram-location-search) *\~ IG location scraper*
+```bash
+instagram-location-search --cookies "<ig-cookie>" --lat "<lat>" --lng "<lng>" --json locs.json --map map.html
+```
 - 📜 [Instagram Threads Checker](https://greasyfork.org/en/scripts/526760) *\~ IG threads matcher*
 - 🌐 [sowsearch.info](https://sowsearch.info/) *\~ FB searcher*
 - 💉 Facebook Search Dorks *\~ FB info finder*
