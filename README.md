@@ -190,7 +190,7 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 - 💉 Docs Search Dork *\~ general info gathering*
 
 ```html
-"<NAME>" "<SURNAME>" "<CITY>" (filetype:xls | filetype:xlsx | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:pdf | filetype:csv | filetype:epub | filetype:odp | filetype:ods | filetype:odt)
+"<NAME>" "<SURNAME>" "<CITY>" (filetype:pdf | filetype:doc | filetype:docx | filetype:odt | filetype:ods | filetype:odp | filetype:xls | filetype:xlsx | filetype:csv | filetype:txt | filetype:rtf | filetype:xml | filetype:ppt | filetype:pptx | filetype:key | filetype:zip | filetype:rar | filetype:7z | filetype:gz | filetype:log | filetype:json | filetype:audit | filetype:trace | filetype:debug | filetype:out | filetype:err)
 ```
 
 - 🌐 [cybdetective.com/pastebin](https://cybdetective.com/pastebin.html) *\~ pastebin search*
