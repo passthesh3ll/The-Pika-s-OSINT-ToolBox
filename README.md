@@ -125,12 +125,15 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 - 🌐 [onlysearch.co](https://onlysearch.co/) *\~ OF searcher*
 - 🌐 [ytcomment.kmcat.uk](https://ytcomment.kmcat.uk) *\~ YT comments search*
 - 🌐 [twitch-tools.rootonline.de](https://twitch-tools.rootonline.de/) *\~ TW followers/ing viewer*
+- 🌐 [r00m101.com](https://r00m101.com/) *\~ Reddit profile analyzer*
 - 🌐 [badoo-archive-collection](https://web.archive.org/collection-search/badoo.com) *\~ badoo wayback db*
-- 💉 Last 3months Strava History *\~ strava info*
+- 💉 Last 3months Strava History *\~ Strava info*
 
 ```html
-https://www.strava.com/athletes/<NIKNAME>
+https://www.strava.com/athletes/search?text=<NAME>+<SURNAME>
+https://www.strava.com/athletes/<ID>
 ```
+- 🌐 [strava.com/maps](https://www.strava.com/maps/) *\~ Stava global heatmap*
 
 ## Chat 💬
 
@@ -232,15 +235,16 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (nik->✉️📞) *\~ account knocker*
 - 🌐 [facebook.com](https://www.facebook.com/login/identify/?ctx=recover) (nik->✉️📞) *\~ account knocker*
 - 🌐 [x.com](https://x.com/account/begin_password_reset) (nik->✅) *\~ account validator*
-- 🌐 [accounts.google.com](https://accounts.google.com/v3/signin/identifier/) (nik->✉️) *\~ account knocker*
+- 🌐 [accounts.google.com](https://accounts.google.com/v3/signin/identifier) (nik->✉️) *\~ account knocker*
 - 🌐 [snapchat.com](https://www.snapchat.com/) (nik✉️📞->✅) *\~ account validator*
 - 🌐 [discord.com](https://discord.com/login/) (nik✉️📞->✅) *\~ account validator*
 - 🌐 [identity.flickr.com](https://identity.flickr.com/forgot-password) (✉️->✅) *\~ account validator*
-- 🌐 [pinterest.com](https://www.pinterest.com/password/reset/) (nik->✅) *\~ account validator*
+- 🌐 [pinterest.com](https://www.pinterest.com/password/reset) (nik->✅) *\~ account validator*
 - 🌐 [login.yahoo.com](https://login.yahoo.com/) (\*->✉️📞) *\~ account knocker*
 - 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (nik->✉️📞) *\~ account knocker*
 - 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nik✉️📞skypeid->📞✉️) *\~ account knocker*
 - 🌐 [paypal.com](https://www.paypal.com/authflow/email-recovery) (✉️->✅) *\~ account validator*
+- 🌐 [accounts.binance.com](https://accounts.binance.com/en/security/user/reset-password) (📞✉️->✅) *\~ account validator*
 
 ## Breaches 🏴‍☠️
 
