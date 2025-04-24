@@ -26,14 +26,16 @@ maigret 'username' --html
 ```
 
 - 🌐 [whatsmyname.app](https://whatsmyname.app) *\~ username/accounts scraper*
+- 🌐 [user-searcher.com](https://www.user-searcher.com/) *\~ accounts finder*
 
 ## Email ✉️
 
 - 🌐 [metricsparrow.com](http://metricsparrow.com/toolkit/email-permutator) *\~ email permutator*
+- 🌐 [seintpl.github.io/NAMINT](https://seintpl.github.io/NAMINT) *\~ gravatar email bruteforcer*
 - 💉 Email Finder by Domain Dork ([top 100 email providers](https://rentry.co/top-100-email-providers)) *\~ email finder*
 
 ```html
-"<NAME>" "<SURNAME>" (intext:"@gmail.com" | intext:"@yahoo.com" | intext:"@hotmail.com")
+"<NAME>" "<SURNAME>" (intext:"@gmail.com" | intext:"@yahoo.com" | intext:"@hotmail.com" | intext:"@outlook.com"| intext:"@icloud.com")
 ```
 
 - 💉 Email Finder by Website *\~ email finder*
@@ -245,8 +247,9 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [databreach.com](https://databreach.com/) *\~ breach checker*
 - 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) *\~ breach checker*
 - 🌐 [dehashed.com](https://www.dehashed.com/search-guide) *\~ breach checker*
-- 🌐 [leak-lookup.com](https://leak-lookup.com/) *\~ breach searcher*
+- 🌐 [intelbase.is](https://intelbase.is/) *\~ breach searcher*
 - 🌐 [leakpeek.com](https://leakpeek.com/) *\~ breach searcher*
+- 🌐 [leak-lookup.com](https://leak-lookup.com/) *\~ breach searcher*
 - 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) ⚠️ **you assume all responsibility** *\~ breach torrents*
 
 ## Resources 📚️
