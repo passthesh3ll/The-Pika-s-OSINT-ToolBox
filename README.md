@@ -127,12 +127,6 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 - 🌐 [twitch-tools.rootonline.de](https://twitch-tools.rootonline.de/) *\~ TW followers/ing viewer*
 - 🌐 [r00m101.com](https://r00m101.com/) *\~ Reddit profile analyzer*
 - 🌐 [badoo-archive-collection](https://web.archive.org/collection-search/badoo.com) *\~ badoo wayback db*
-- 💉 Last 3months Strava History *\~ Strava info*
-
-```html
-https://www.strava.com/athletes/search?text=<NAME>+<SURNAME>
-https://www.strava.com/athletes/<ID>
-```
 - 🌐 [strava.com/maps](https://www.strava.com/maps/) *\~ Stava global heatmap*
 
 ## Chat 💬
