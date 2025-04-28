@@ -177,7 +177,7 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 - 🌐 [cipher387.github.io](https://cipher387.github.io/venicle_number_search_toolbox/) *\~ car plate info*
 
 ## General 📂
-
+- 🌐 [intelx.io](https://intelx.io/tools?tab=general) *\~ multi-engine search*
 - 💉 Localized Google Search ([ISO 3166-1 alpha-2 Table](https://gist.github.com/tadast/8827699)) *\~ search by country switching*
 
 ```html
