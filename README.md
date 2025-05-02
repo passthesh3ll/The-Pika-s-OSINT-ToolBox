@@ -199,6 +199,8 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 
 - 🌐 [companyresearcher.exa.ai](https://companyresearcher.exa.ai/) *\~ general company info*
 - 🌐 [skymem.info](https://www.skymem.info/) *\~ company emails*
+- 🌐 [lei.info](https://lei.info/) *\~ global company list*
+- 🌐 [opencorporates.com](https://opencorporates.com/) *\~ global company list*
 
 ## Hosting 🕸️
 
