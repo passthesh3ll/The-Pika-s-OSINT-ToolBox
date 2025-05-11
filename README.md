@@ -52,6 +52,7 @@ maigret 'username' --html
 holehe 'email@provider.com'
 ```
 
+- 🌐 [minervaosint.com](https://minervaosint.com/) *\~ email registered accounts*
 - 🌐 [intelbase.is](https://intelbase.is/) *\~ email registered accounts*
 - ⚙️ [ghunt](https://github.com/mxrch/GHunt) (🌐 [osint.rocks](https://osint.rocks/), 🌐 [gmail-osint](https://gmail-osint.activetk.jp/)) *\~ gmail parser*
 - 🌐 [epieos.com](https://epieos.com/) *\~ email parser*
