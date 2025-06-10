@@ -194,6 +194,10 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 
 - 🌐 [cybdetective.com/pastebin](https://cybdetective.com/pastebin.html) *\~ pastebin search*
 - 🌐 [cybdetective.com/codesearch](https://cybdetective.com/codesearch.html) *\~ repos search*
+- 💉 Hidden Metadata In Local Github Repo *\~ github email/nikname finder*
+```bash
+git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]"
+```
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) *\~ world institutions directory*
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) *\~ world institutions directory*
 
