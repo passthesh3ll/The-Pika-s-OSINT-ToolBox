@@ -75,6 +75,7 @@ ignorant '<NUMBER>' --only-used
 
 ## Image 🖼️
 
+- 🌐 [exifeditor.io](https://exifeditor.io) *\~ exif viewer, editor and analysis tool with guides to image metadata*
 - 🌐 [f💉aceonlive.com](https://faceonlive.com/face-search-online/#search-panel) *\~ reverse face search \[AI\]*
 - 🌐 [pimeyes.com](https://pimeyes.com/en) (📜 [unblur](https://greasyfork.org/en/scripts/531501)) *\~ reverse face search \[AI\]*
 - 🌐 [facecheck.id](https://facecheck.id/) *\~ reverse face search \[AI\]*
