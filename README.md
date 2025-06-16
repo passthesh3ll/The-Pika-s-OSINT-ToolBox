@@ -38,7 +38,7 @@ maigret 'username' --html
 "<NAME>" "<SURNAME>" (intext:"@gmail.com" | intext:"@yahoo.com" | intext:"@hotmail.com" | intext:"@outlook.com"| intext:"@icloud.com")
 ```
 
-- 💉 Email Finder by Website *\~ email finder*
+- 💉 Email Finder by Website Dork *\~ email finder*
 
 ```html
  site:<WEBSITE> (intitle:"email" | intitle:"contact" | intitle:"about")
@@ -75,7 +75,7 @@ ignorant '<NUMBER>' --only-used
 
 ## Image 🖼️
 
-- 🌐 [f💉aceonlive.com](https://faceonlive.com/face-search-online/#search-panel) *\~ reverse face search \[AI\]*
+- 🌐 [faceonlive.com](https://faceonlive.com/face-search-online/#search-panel) *\~ reverse face search \[AI\]*
 - 🌐 [pimeyes.com](https://pimeyes.com/en) (📜 [unblur](https://greasyfork.org/en/scripts/531501)) *\~ reverse face search \[AI\]*
 - 🌐 [facecheck.id](https://facecheck.id/) *\~ reverse face search \[AI\]*
 - 🌐 [images.google.com](https://images.google.com/) (🌐 [yandex.com](https://yandex.com/images "https://yandex.com/images?")) *\~ reverse image search*
