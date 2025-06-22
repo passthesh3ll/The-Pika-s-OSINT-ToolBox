@@ -174,6 +174,7 @@ https://www.google.com/maps/contrib/<GOOGLEID>
 ```
 
 - 🌐 [pleper.com](https://pleper.com/index.php?do=tools&sdo=cid_converter) *\~ gmaps spots info*
+- 🌐 [wigle.net](https://wigle.net/) *\~ wifi wardriving map*
 - 🌐 [plonkit.net](https://www.plonkit.net/guide) *\~ geoguesser guide*
 - 🌐 [geotips.net](https://geotips.net/) *\~ geoguesser guide*
 - 🌐 [cipher387.github.io](https://cipher387.github.io/venicle_number_search_toolbox/) *\~ car plate info*
