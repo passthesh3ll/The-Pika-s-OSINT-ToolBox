@@ -172,7 +172,7 @@ telepathy -t '<NIKNAME>' -c
 ```html
 https://www.google.com/maps/contrib/<GOOGLEID>
 ```
-- ⚙️ [Weather2Geo](https://github.com/elliott-diy/Weather2Geo) *\~ city finder by wather and date*
+- ⚙️ [Weather2Geo](https://github.com/elliott-diy/Weather2Geo) *\~ city finder by weather and date*
 ```bash
 python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 --tolerance 1.0
 ```
