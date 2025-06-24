@@ -172,7 +172,10 @@ telepathy -t '<NIKNAME>' -c
 ```html
 https://www.google.com/maps/contrib/<GOOGLEID>
 ```
-
+- ⚙️ [Weather2Geo](https://github.com/elliott-diy/Weather2Geo) *\~ city finder by wather and date*
+```bash
+python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 --tolerance 1.0
+```
 - 🌐 [pleper.com](https://pleper.com/index.php?do=tools&sdo=cid_converter) *\~ gmaps spots info*
 - 🌐 [wigle.net](https://wigle.net/) *\~ wifi wardriving map*
 - 🌐 [plonkit.net](https://www.plonkit.net/guide) *\~ geoguesser guide*
