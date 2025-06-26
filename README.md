@@ -223,14 +223,24 @@ git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%
 - 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) *\~ websites associated to dns*
 - 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) *\~ all websites registered by ip*
 - 🌐 [osint.sh/adsense](https://osint.sh/adsense/) *\~ all websites registered by adsense*
+- 🌐 [crt.sh](https://crt.sh/) *\~ certificate analysis*
 - 💉 Subdomains Finder *\~ subdomains finder*
-
 ```html
 https://api.hackertarget.com/hostsearch/?q=<WEBSITE>
 https://www.virustotal.com/gui/domain/<WEBSITE>/relations
 ```
-
-- 🌐 [crt.sh](https://crt.sh/) *\~ certificate analysis*
+- 💉 Wayback Pages Finder (CDX API) *\~ wayback pages enumerator*
+```html
+https://web.archive.org/cdx/search/cdx?url=<WEBSITE>/path/page.php?<PARAMETER>=*  [&to=<YYYYMMDD>&from=<YYYYMMDD>]
+```
+- 💉 Wayback Hidden Domains/Files (CDX API) *\~ wayback pages enumerator*
+```html
+https://web.archive.org/cdx/search/cdx?url=*.<WEBSITE>&collapse=urlkey  [&to=<YYYYMMDD>&from=<YYYYMMDD>]
+```
+- 💉 Wayback Files Filer (CDX API) *\~ wayback mimetype filter*
+```html
+https://web.archive.org/cdx/search/cdx?url=<WEBSITE>&filter=mimetype:text/javascript&collapse=urlkey  [&to=<YYYYMMDD>&from=<YYYYMMDD>]
+```
 - 💉 Gravatar API *\~ get gravatar info*
 
 ```html
