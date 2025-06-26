@@ -224,6 +224,14 @@ git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%
 - 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) *\~ all websites registered by ip*
 - 🌐 [osint.sh/adsense](https://osint.sh/adsense/) *\~ all websites registered by adsense*
 - 🌐 [crt.sh](https://crt.sh/) *\~ certificate analysis*
+- ⚙️ [wayBackLister](https://github.com/anmolksachan/wayBackLister) *\~ wayback directory bruteforcer*
+```bash
+python waybacklister.py -d <SITE> -t 50
+```
+- ⚙️ [robofinder](https://github.com/Spix0r/robofinder) *\~ wayback robots.txt parser*
+```bash
+robofinder -u <SITE> -t 50 -c
+```
 - 💉 Subdomains Finder *\~ subdomains finder*
 ```html
 https://api.hackertarget.com/hostsearch/?q=<WEBSITE>
