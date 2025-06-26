@@ -215,12 +215,13 @@ git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%
 ## Hosting 🕸️
 
 - 🌐 [sitereport.netcraft.com](https://sitereport.netcraft.com/) *\~ website general info*
-- 🌐 [centralops.net](https://centralops.net/) *\~ whois*
+- 🌐 [centralops.net](https://centralops.net/) *\~ instant whois*
+- 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) *\~ whois DB history+email/name* 
+- 🌐 [whois.easycounter.com](http://whois.easycounter.com/) *\~ whois DB history*
 - 🌐 [dnsdumpster.com](https://dnsdumpster.com/) *\~ reverse website location*
-- 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) *\~ ip website history*
+- 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) *\~ ip hosting history*
 - 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) *\~ websites associated to dns*
 - 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) *\~ all websites registered by ip*
-- 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) *\~ all websites registered by name/email*
 - 🌐 [osint.sh/adsense](https://osint.sh/adsense/) *\~ all websites registered by adsense*
 - 💉 Subdomains Finder *\~ subdomains finder*
 
