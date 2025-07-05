@@ -218,6 +218,7 @@ git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%
 - 🌐 [centralops.net](https://centralops.net/) *\~ instant whois*
 - 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) *\~ whois DB history+email/name* 
 - 🌐 [whois.easycounter.com](http://whois.easycounter.com/) *\~ whois DB history*
+- 📜 [Reverse Whoxy Domain Status](https://greasyfork.org/en/scripts/541732)
 - 🌐 [dnsdumpster.com](https://dnsdumpster.com/) *\~ reverse website location*
 - 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) *\~ ip hosting history*
 - 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) *\~ websites associated to dns*
