@@ -125,7 +125,9 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 ```
 
 - 🌐 [onlysearch.co](https://onlysearch.co/) *\~ OF searcher*
+- 🌐 [mattw.io/youtube-metadata](https://mattw.io/youtube-metadata/) *\~ YT metadata parser*
 - 🌐 [ytcomment.kmcat.uk](https://ytcomment.kmcat.uk) *\~ YT comments search*
+- 🌐 [filmot.com](https://filmot.com/?searchManualSubs=0) *\~ YT global subtitles search*
 - 🌐 [twitch-tools.rootonline.de](https://twitch-tools.rootonline.de/) *\~ TW followers/ing viewer*
 - 🌐 [r00m101.com](https://r00m101.com/) *\~ Reddit profile analyzer*
 - 🌐 [badoo-archive-collection](https://web.archive.org/collection-search/badoo.com) *\~ Badoo wayback db*
