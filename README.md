@@ -205,6 +205,10 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 ```bash
 git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]"
 ```
+- 💉 Github User Info *\~ github user info parser*
+```html
+https://api.github.com/user/<USER-ID>
+```
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) *\~ world institutions directory*
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) *\~ world institutions directory*
 
