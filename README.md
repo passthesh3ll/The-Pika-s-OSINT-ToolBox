@@ -57,6 +57,7 @@ holehe 'email@provider.com'
 - 🌐 [epieos.com](https://epieos.com/) *\~ email parser*
 - 🌐 [castrickclues.com](https://castrickclues.com/) *\~ email parser*
 - 🌐 [protonintel.profiler.me](https://protonintel.profiler.me/) *\~ protonmail parser*
+- 🌐 [spotthem.com](https://spotthem.com/) *\~ reverse email lookup*
 
 ## Phone 📞
 
@@ -72,6 +73,7 @@ phoneinfoga scan -n '<XX> <NUMBER>'
 ```bash
 ignorant '<NUMBER>' --only-used
 ```
+- 🌐 [spotthem.com](https://spotthem.com/) *\~ reverse email lookup*
 
 ## Image 🖼️
 
