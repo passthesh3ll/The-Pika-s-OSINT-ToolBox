@@ -283,6 +283,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 
 - 🌐 [databreach.com](https://databreach.com/) *\~ breach checker*
 - 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) *\~ breach checker*
+- 🌐 [hudsonrock.com](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools) *\~ infostealer checker*
 - 🌐 [dehashed.com](https://www.dehashed.com/search-guide) *\~ breach checker*
 - 🌐 [infostealer.profiler.me](https://infostealer.profiler.me/) *\~ infostealer checker*
 - 🌐 [intelbase.is](https://intelbase.is/) *\~ breach searcher*
