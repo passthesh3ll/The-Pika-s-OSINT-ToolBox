@@ -300,3 +300,13 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 📚️ [IntelTechniques Search Tools](https://inteltechniques.com/tools/)
 - 📚️ [Awesome OSINT](https://github.com/jivoi/awesome-osint)
 - 📚️ [Awesome Google Dorks](https://github.com/Tobee1406/Awesome-Google-Dorks)
+
+## Donation 💛
+If you want to support my research you can donate **Monero** (XMR).  
+All donations will be used to buy new OSINT learning materials and tools to improve this project.  
+Thank you!  
+
+<img width="200" height="200" alt="image" src="https://i.postimg.cc/SNwMj0qM/image.png" />  
+
+XMR: **87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb**
+
