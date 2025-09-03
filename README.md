@@ -235,6 +235,7 @@ https://api.github.com/user/<USER-ID>
 - 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) *\~ ip hosting history*
 - 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) *\~ websites associated to dns*
 - 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) *\~ all websites registered by ip*
+- 🌐 [host.io](https://host.io/) *\~ all websites linked/redirect to a website*
 - 🌐 [osint.sh/adsense](https://osint.sh/adsense/) *\~ reverse adsense lookup*
 - 🌐 [osint.sh/analytics](https://osint.sh/analytics/) *\~ reverse google analytics lookup*
 - 🌐 [crt.sh](https://crt.sh/) *\~ certificate analysis*
