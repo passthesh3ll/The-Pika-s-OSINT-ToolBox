@@ -78,6 +78,7 @@ ignorant '<NUMBER>' --only-used
 - 🌐 [faceonlive.com](https://faceonlive.com/face-search-online/#search-panel) *\~ reverse face search \[AI\]*
 - 🌐 [pimeyes.com](https://pimeyes.com/en) (📜 [unblur](https://greasyfork.org/en/scripts/531501)) *\~ reverse face search \[AI\]*
 - 🌐 [facecheck.id](https://facecheck.id/) *\~ reverse face search \[AI\]*
+- 🌐 [tattoodo.com](https://www.tattoodo.com/tattoos) *\~ tattoo location lookup*
 - 🌐 [images.google.com](https://images.google.com/) (🌐 [yandex.com](https://yandex.com/images "https://yandex.com/images?")) *\~ reverse image search*
 - 🌐 [lenso.ai](https://lenso.ai/) (📜 [unblur](https://greasyfork.org/en/scripts/531499)) *\~ reverse image search \[AI\]*
 - 🌐 [exifinfo.org](https://exifinfo.org) *\~ exif parser*
