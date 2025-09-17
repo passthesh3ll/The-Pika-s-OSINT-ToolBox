@@ -184,12 +184,13 @@ python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 -
 - 🌐 [pleper.com](https://pleper.com/index.php?do=tools&sdo=cid_converter) *\~ gmaps spots info*
 - 🌐 [cse.google.com](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0) *\~ webcam finder*
 - 🌐 [wigle.net](https://wigle.net/) *\~ wifi wardriving map*
-- 🌐 [globe.airplanes.live](https://globe.airplanes.live/) *\~ airplane tracking map*
 - 🌐 [plonkit.net](https://www.plonkit.net/guide) *\~ geoguesser wiki*
 - 🌐 [geotips.net](https://geotips.net/) *\~ geoguesser wiki*
 - 🌐 [geohints.com](https://geohints.com/) *\~ geoguesser objects wiki*
 - 🌐 [cipher387.github.io](https://cipher387.github.io/venicle_number_search_toolbox/) *\~ car plate info*
 - 🌐 [flightmapper.net](https://flightmapper.net/) *\~ flight tracking map*
+- 🌐 [globe.airplanes.live](https://globe.airplanes.live/) *\~ live ship map*
+- 🌐 [marinetraffic.com](https://www.marinetraffic.com/) *\~ live airplane map*
 - 🌐 [aerobasegroup.com](https://aerobasegroup.com/tail-number-lookup) *\~ flight number lookup*
 
 ## General 📂
