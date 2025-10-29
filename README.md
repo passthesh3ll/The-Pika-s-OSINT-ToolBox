@@ -304,7 +304,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [intelbase.is](https://intelbase.is/) *\~ breach searcher*
 - 🌐 [leakpeek.com](https://leakpeek.com/) *\~ breach searcher*
 - 🌐 [leak-lookup.com](https://leak-lookup.com/) *\~ breach searcher*
-- 🌐 [sizeof.cat](https://archive.is/eddPK) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** *\~ breach torrents*
+- 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** *\~ breach torrents*
 
 ## Resources 📚️
 
