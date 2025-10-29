@@ -226,8 +226,12 @@ https://api.github.com/user/<USER-ID>
 
 - 🌐 [companyresearcher.exa.ai](https://companyresearcher.exa.ai/) *\~ general company info*
 - 🌐 [skymem.info](https://www.skymem.info/) *\~ company emails*
-- 🌐 [lei.info](https://lei.info/) *\~ global company list*
-- 🌐 [opencorporates.com](https://opencorporates.com/) *\~ global company list*
+- 🌐 [lei.info](https://lei.info/) *\~ legal company identifier*
+- 🌐 [opencorporates.com](https://opencorporates.com/) *\~ open corporate database*
+- 💉 Company Employee Dork *\~ linkedin company users*
+```html
+site:linkedin.com inurl:in “<Company Name>”
+```
 
 ## Hosting 🕸️
 
