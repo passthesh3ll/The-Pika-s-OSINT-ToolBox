@@ -128,6 +128,7 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 
 - 🌐 [onlysearch.co](https://onlysearch.co/) *\~ OF searcher*
 - 🌐 [mattw.io/youtube-metadata](https://mattw.io/youtube-metadata/) *\~ YT metadata parser*
+- 🌐 [findyoutubevideo.thetechrobo.ca](https://findyoutubevideo.thetechrobo.ca/) *\~ YT private/removed parser*
 - 🌐 [ytcomment.kmcat.uk](https://ytcomment.kmcat.uk) *\~ YT comments search*
 - 🌐 [filmot.com](https://filmot.com/?searchManualSubs=0) *\~ YT global subtitles search*
 - 🌐 [twitch-tools.rootonline.de](https://twitch-tools.rootonline.de/) *\~ TW followers/ing viewer*
