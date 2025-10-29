@@ -230,7 +230,7 @@ https://api.github.com/user/<USER-ID>
 - 🌐 [opencorporates.com](https://opencorporates.com/) *\~ open corporate database*
 - 💉 Company Employee Dork *\~ linkedin company users*
 ```html
-site:linkedin.com inurl:in “<Company Name>”
+site:linkedin.com inurl:in “<COMPANY>”
 ```
 
 ## Hosting 🕸️
