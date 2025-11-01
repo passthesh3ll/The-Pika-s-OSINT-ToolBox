@@ -116,7 +116,7 @@ instagram-location-search --cookies "<ig-cookie>" --lat "<lat>" --lng "<lng>" --
 - 📜 [Facebook Profile ID Extractor](https://greasyfork.org/en/scripts/527377) _\~ FB id finder_
 
 ```html
-https://www.facebook.com/profile.php?id=<PROFILEID></PROFILEID>
+https://www.facebook.com/profile.php?id=<PROFILEID>
 ```
 
 - 🌐 [onlysearch.co](https://onlysearch.co/) _\~ OF searcher_
@@ -168,7 +168,7 @@ telepathy -t '<NIKNAME>' -c
 - 💉 Gmaps Tracker by Google ID _\~ gmap tracker_
 
 ```html
-https://www.google.com/maps/contrib/<GOOGLEID></GOOGLEID>
+https://www.google.com/maps/contrib/<GOOGLEID>
 ```
 
 - ⚙️ [Weather2Geo](https://github.com/elliott-diy/Weather2Geo) _\~ city finder by weather and date_
@@ -216,7 +216,7 @@ git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%
 - 💉 Github User Info _\~ github user info parser_
 
 ```html
-https://api.github.com/user/<USER-ID></USER-ID>
+https://api.github.com/user/<USER-ID>
 ```
 
 - 🌐 [ispyconnect.com](https://www.ispyconnect.com/docs/ispy/default-camera-passwords) _\~ ipcam passwords_
@@ -232,7 +232,7 @@ https://api.github.com/user/<USER-ID></USER-ID>
 - 💉 Company Employee Dork _\~ linkedin company users_
 
 ```html
-site:linkedin.com inurl:in “<COMPANY>”</COMPANY>
+site:linkedin.com inurl:in “<COMPANY>”
 ```
 
 ## Hosting 🕸️
@@ -285,7 +285,7 @@ https://web.archive.org/cdx/search/cdx?url=<WEBSITE>&filter=mimetype:text/javasc
 - 💉 Gravatar API _\~ get gravatar info_
 
 ```html
-https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json</MD5_HASH_OF_EMAIL>
+https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 ```
 
 ## Knocking 🚪
