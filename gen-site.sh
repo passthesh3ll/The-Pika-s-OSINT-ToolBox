@@ -39,6 +39,7 @@ cat > "$OUTPUT_HTML" <<EOF
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Pika's OSINT ToolBox ⚡️</title>
+    <link rel="icon" href="https://i.postimg.cc/9MT9v12s/ydetective.jpeg" type="image/x-icon">
     <link href="$BOOTSTRAP_CSS" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="$ICONS_CSS" rel="stylesheet">
     <style>
