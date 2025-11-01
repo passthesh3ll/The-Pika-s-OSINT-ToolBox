@@ -114,7 +114,6 @@ instagram-location-search --cookies "<ig-cookie>" --lat "<lat>" --lng "<lng>" --
 - 🌐 [facebook.com/ads/library](https://www.facebook.com/ads/library/) _\~ FB/IG ads library_
 - 🌐 [cse.google.com](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0) _\~ FB published images by keyword_
 - 📜 [Facebook Profile ID Extractor](https://greasyfork.org/en/scripts/527377) _\~ FB id finder_
-- 🌐 [tiktokerfinder.profiler.me](https://tiktokerfinder.profiler.me/) _\~ TK parser_
 
 ```html
 https://www.facebook.com/profile.php?id=<PROFILEID></PROFILEID>
@@ -134,7 +133,7 @@ https://www.facebook.com/profile.php?id=<PROFILEID></PROFILEID>
 
 - 🌐 [vedbex.com](https://www.vedbex.com/) _\~ SKYPE mail/phone/ip_
 - 🌐 [discordlookup.com](https://discordlookup.com/) _\~ DISCORD lookup_
-- 🌐 [hugonun.github.io](https://hugonun.github.io/discordid2date/) (🌐 [chloethesis.github.io](https://chloethesis.github.io/tools/discord-date/)) _\~ DISCORD creation time_
+- 🌐 [hugonun.github.io](https://hugonun.github.io/discordid2date/) _\~ DISCORD creation time_
 - 🌐 [discord.com](https://discord.com/servers) (🌐 [discord.me](https://discord.me/servers), 🌐 [disboard.org](https://disboard.org/) ) _\~ DISCORD server search_
 - 🌐 [intelx.io](https://intelx.io/tools?tab=telegram) _\~ TG search_
 - 🌐 [tgfind.org](https://tgfind.org/) _\~ TG channel search_
@@ -294,7 +293,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json</MD5_HASH_OF_EMAIL>
 - 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (nik->✉️📞) _\~ account knocker_
 - 🌐 [facebook.com](https://www.facebook.com/login/identify/?ctx=recover) (nik->✉️📞) _\~ account knocker_
 - 🌐 [x.com](https://x.com/account/begin_password_reset) (nik->✅) _\~ account validator_
-- 🌐 [accounts.google.com](https://accounts.google.com/v3/signin/identifier) (nik->✉️) _\~ account knocker_
+- 🌐 [accounts.google.com](https://accounts.google.com/) (nik->✉️) _\~ account knocker_
 - 🌐 [snapchat.com](https://www.snapchat.com/) (nik✉️📞->✅) _\~ account validator_
 - 🌐 [discord.com](https://discord.com/login/) (nik✉️📞->✅) _\~ account validator_
 - 🌐 [identity.flickr.com](https://identity.flickr.com/forgot-password) (✉️->✅) _\~ account validator_
@@ -310,8 +309,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json</MD5_HASH_OF_EMAIL>
 
 - 🌐 [databreach.com](https://databreach.com/) _\~ breach checker_
 - 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) _\~ breach checker_
-- 🌐 [dehashed.com](https://www.dehashed.com/search-guide) _\~ breach checker_
-- 🌐 [infostealer.profiler.me](https://infostealer.profiler.me/) _\~ infostealer checker_
+- 🌐 [dehashed.com](https://www.dehashed.com/) _\~ breach checker_
 - 🌐 [intelbase.is](https://intelbase.is/) _\~ breach searcher_
 - 🌐 [leakpeek.com](https://leakpeek.com/) _\~ breach searcher_
 - 🌐 [leak-lookup.com](https://leak-lookup.com/) _\~ breach searcher_
