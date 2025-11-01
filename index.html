@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Pika's OSINT ToolBox ⚡️</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body { background:#121212; color:#e0e0e0; padding:2rem 1rem; font-family:system-ui,-apple-system,sans-serif; display:flex; justify-content:center; }
+        .container { max-width:none; width:70%; }
+        h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
+        h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+        img.logo { display:block; margin:1rem auto 2rem; max-width:200px; border-radius:50%; border:3px solid #e6b800; }
+        pre { background:#1e1e1e; border:1px solid #333; border-radius:.5rem; padding:1rem; overflow-x:auto; font-size:.9rem; margin:1.5rem auto; max-width:90%; }
+        code { padding:.2rem .4rem; border-radius:.3rem; font-size:.9em; }
+        blockquote { border-left:4px solid #e6b800; padding:1rem; font-style:italic; color:#e6b800; background:#1a1a1a; border-radius:.4rem; margin:1.5rem auto; max-width:90%; text-align:left; }
+        ul, ol { padding-left:1.5rem; margin:1rem auto; max-width:90%; }
+        li { margin-bottom:.75rem; }
+        a { color:#42a5f5; text-decoration:none; }
+        a:hover { text-decoration:underline; }
+        img[alt="image"] { display:block !important; margin:2rem auto !important; max-width:200px !important; border:2px solid #444 !important; border-radius:.5rem !important; }
+		#description + p {max-width: calc(90% - 5px); margin-left: auto; margin-right: auto; box-sizing: border-box; }
+        .container > * { text-align:center; }
+        .container > ul, .container > ol, .container > pre, .container > blockquote { text-align:left; }
+		/* Syntax Highlighting */
+		.sourceCode {overflow-x: auto; font-family: 'Fira Code', 'Consolas', monospace; font-size: .9rem; line-height: 1.4;}
+		.sourceCode.bash code,
+		.sourceCode.html code,
+		.sourceCode.css code,
+		.sourceCode.js code,
+		.sourceCode.python code {color: #e6e6e6;}
+		.sourceCode .ex { color: #50fa7b; font-weight: bold; }
+		.sourceCode .st { color: #f1fa8c; }
+		.sourceCode .at { color: #ffb86c; }
+		.sourceCode .kw { color: #ff79c6; font-weight: bold; }
+		.sourceCode .dt { color: #8be9fd; }
+		.sourceCode .dv { color: #bd93f9; }
+		.sourceCode .er { color: #ff5555; }
+		.sourceCode .co { color: #6272a4; font-style: italic; }
+		.sourceCode .op { color: #ff79c6; }
+		.sourceCode .va { color: #50fa7b; }
+		.sourceCode .nu { color: #bd93f9; }
+		.sourceCode .cf,.sourceCode .ot { color: #ff79c6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Pika's OSINT ToolBox ⚡️</h1>
+        <img src="https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png" alt="Pika OSINT Logo" class="logo">
+        
+<header id="title-block-header">
+</header>
+<p></p>
+<h2 id="description">Description</h2>
+<p>Open Source Intelligence (<a href="https://en.wikipedia.org/wiki/Open-source_intelligence">OSINT</a>) is the collection and analysis of data gathered from open sources to produce actionable intelligence. This carefully edited OSINT list won't be an endless list of links, but priority will be given to highly effective content (quality over quantity) and only services that can be used for free.</p>
+<blockquote>
+<p>⚠️ <b>WARNING</b><br />
+While OSINT itself is not illegal, it is crucial to understand that the legality of specific OSINT activities heavily depends on how the information is obtained and used. You assume full and sole responsibility for all consequences of your actions. This includes, but is not limited to, any direct, indirect, incidental, or consequential damages.</p>
+</blockquote>
+<h4 id="symbols">Symbols</h4>
+<ul>
+<li>⚙️ <em>Executable Program</em></li>
+<li>🌐 <em>Website Tool</em></li>
+<li>💉 <em>Exploitable Dork/Page/API</em></li>
+<li>📜 <em>Userscript</em></li>
+<li>📚️ <em>Wiki/List Resource</em></li>
+</ul>
+<h2 id="username-label">Username 🏷️</h2>
+<ul>
+<li>⚙️ <a href="https://github.com/soxoj/maigret">maigret</a> (🌐 <a href="https://osint.rocks/">osint.rocks</a>) <em>~ username reverse lookup</em></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">maigret</span> <span class="st">&#39;username&#39;</span> <span class="at">--html</span></span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://whatsmyname.app">whatsmyname.app</a> <em>~ username scraper</em></li>
+<li>🌐 <a href="https://www.user-searcher.com/">user-searcher.com</a> <em>~ username reverse lookup</em></li>
+</ul>
+<h2 id="email-envelope">Email ✉️</h2>
+<ul>
+<li>🌐 <a href="http://metricsparrow.com/toolkit/email-permutator">metricsparrow.com</a> <em>~ email permutator</em></li>
+<li>🌐 <a href="https://seintpl.github.io/NAMINT">seintpl.github.io/NAMINT</a> <em>~ email checker</em></li>
+<li>💉 Email Finder by Domain Dork (<a href="https://rentry.co/top-100-email-providers">top 100 email providers</a>) <em>~ email searcher</em></li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (intext:&quot;@gmail.com&quot; | intext:&quot;@yahoo.com&quot; | intext:&quot;@hotmail.com&quot; | intext:&quot;@outlook.com&quot;| intext:&quot;@icloud.com&quot;)</span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://tools.emailhippo.com">emailhippo.com</a> <em>~ email checker</em></li>
+<li>🌐 <a href="https://minervaosint.com/">minervaosint.com</a> <em>~ email reverse lookup</em></li>
+<li>⚙️ <a href="https://github.com/megadose/holehe">holehe</a> (🌐 <a href="https://osint.rocks/">osint.rocks</a>) <em>~ email reverse lookup</em></li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">holehe</span> <span class="st">&#39;email@provider.com&#39;</span></span></code></pre></div>
+<ul>
+<li>⚙️ <a href="https://github.com/mxrch/GHunt">ghunt</a> (🌐 <a href="https://osint.rocks/">osint.rocks</a>, 🌐 <a href="https://gmail-osint.activetk.jp/">gmail-osint</a>) <em>~ gmail parser</em></li>
+<li>🌐 <a href="https://epieos.com/">epieos.com</a> <em>~ email reverse lookup</em></li>
+<li>🌐 <a href="https://castrickclues.com/">castrickclues.com</a> <em>~ email reverse lookup</em></li>
+</ul>
+<h2 id="phone-telephone_receiver">Phone 📞</h2>
+<ul>
+<li>🌐 <a href="https://smsc.ru/testhlr/">smsc.ru</a> <em>~ phone lookup</em></li>
+<li>⚙️ <a href="https://github.com/sundowndev/phoneinfoga">phoneinfoga</a> <em>~ phone lookup</em></li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">phoneinfoga</span> scan <span class="at">-n</span> <span class="st">&#39;&lt;XX&gt; &lt;NUMBER&gt;&#39;</span></span></code></pre></div>
+<ul>
+<li>⚙️ <a href="https://github.com/megadose/ignorant">ignorant</a> (🌐 <a href="https://osint.rocks/">osint.rocks</a>) <em>~ phone reverse lookup</em></li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ignorant</span> <span class="st">&#39;&lt;NUMBER&gt;&#39;</span> <span class="at">--only-used</span></span></code></pre></div>
+<h2 id="image-framed_picture">Image 🖼️</h2>
+<ul>
+<li>🌐 <a href="https://pimeyes.com/en">pimeyes.com</a> (📜 <a href="https://greasyfork.org/en/scripts/531501">unblur</a>) <em>~ reverse face search [AI]</em></li>
+<li>🌐 <a href="https://huggingface.co/FaceOnLive/spaces">huggingface.co/FaceOnLive</a> <em>~ reverse face search [AI]</em></li>
+<li>🌐 <a href="https://facecheck.id/">facecheck.id</a> <em>~ reverse face search [AI]</em></li>
+<li>🌐 <a href="https://www.tattoodo.com/tattoos">tattoodo.com</a> <em>~ tattoo location lookup</em></li>
+<li>🌐 <a href="https://images.google.com/">images.google.com</a> (🌐 <a href="https://yandex.com/images" title="https://yandex.com/images?">yandex.com</a>) <em>~ reverse image search</em></li>
+<li>🌐 <a href="https://lenso.ai/">lenso.ai</a> (📜 <a href="https://greasyfork.org/en/scripts/531499">unblur</a>) <em>~ reverse image search [AI]</em></li>
+<li>🌐 <a href="https://exifinfo.org">exifinfo.org</a> <em>~ exif lookup</em></li>
+<li>🌐 <a href="https://29a.ch/photo-forensics/#forensic-magnifier">29a.ch</a> <em>~ image forensic</em></li>
+</ul>
+<h2 id="social-busts_in_silhouette">Social 👥</h2>
+<ul>
+<li>🌐 <a href="https://cse.google.com/cse?cx=029ffbc44aa3946cb">cse.google.com</a> <em>~ multi-social search</em></li>
+<li>💉 Multisocial Search Dork <em>~ multi-social search</em></li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">CITY</span><span class="dt">&gt;</span>&quot; (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com)</span></code></pre></div>
+<ul>
+<li>💉 Instagram Place Search <em>~ IG place finder</em></li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>inurl:&quot;<span class="dt">&lt;</span><span class="kw">PLACE</span><span class="dt">&gt;</span>&quot; site:instagram.com</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>https://www.instagram.com/explore/search/keyword/?q=<span class="dt">&lt;</span><span class="kw">PLACE</span><span class="dt">&gt;</span></span></code></pre></div>
+<ul>
+<li>⚙️ <a href="https://github.com/instaloader/instaloader">instaloader</a> <em>~ IG backup</em></li>
+<li>📜 <a href="https://greasyfork.org/en/scripts/527647">Instagram Followers/Following Scraper</a> <em>~ IG followe/rs</em></li>
+<li>📜 <a href="https://greasyfork.org/en/scripts/527757">Instagram Post Date and Location</a> <em>~ IG geotag+date ui</em></li>
+<li>⚙️ <a href="https://github.com/bellingcat/instagram-location-search">instagram-location-search</a> <em>~ IG location scraper</em></li>
+</ul>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">instagram-location-search</span> <span class="at">--cookies</span> <span class="st">&quot;&lt;ig-cookie&gt;&quot;</span> <span class="at">--lat</span> <span class="st">&quot;&lt;lat&gt;&quot;</span> <span class="at">--lng</span> <span class="st">&quot;&lt;lng&gt;&quot;</span> <span class="at">--json</span> locs.json <span class="at">--map</span> map.html</span></code></pre></div>
+<ul>
+<li>📜 <a href="https://greasyfork.org/en/scripts/526760">Instagram Threads Checker</a> <em>~ IG threads matcher</em></li>
+<li>🌐 <a href="https://sowsearch.info/">sowsearch.info</a> <em>~ FB searcher</em></li>
+<li>💉 Facebook Search Dorks <em>~ FB info finder</em></li>
+</ul>
+<div class="sourceCode" id="cb9"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (&quot;lives in <span class="dt">&lt;</span><span class="kw">PLACE</span><span class="dt">&gt;</span>&quot; | &quot;from <span class="dt">&lt;</span><span class="kw">PLACE</span><span class="dt">&gt;</span>&quot;) site:facebook.com</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (&quot;studied at <span class="dt">&lt;</span><span class="kw">SCHOOL</span><span class="dt">&gt;</span>&quot; | &quot;went to <span class="dt">&lt;</span><span class="kw">SCHOOL</span><span class="dt">&gt;</span>&quot;) site:facebook.com</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (&quot;worked at <span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>&quot; | &quot;works at <span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>&quot;) site:facebook.com</span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://www.facebook.com/ads/library/">facebook.com/ads/library</a> <em>~ FB/IG ads library</em></li>
+<li>🌐 <a href="https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0">cse.google.com</a> <em>~ FB published images by keyword</em></li>
+<li>📜 <a href="https://greasyfork.org/en/scripts/527377">Facebook Profile ID Extractor</a> <em>~ FB id finder</em></li>
+<li>🌐 <a href="https://tiktokerfinder.profiler.me/">tiktokerfinder.profiler.me</a> <em>~ TK parser</em></li>
+</ul>
+<div class="sourceCode" id="cb10"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>https://www.facebook.com/profile.php?id=<span class="dt">&lt;</span><span class="kw">PROFILEID</span><span class="dt">&gt;&lt;/</span><span class="kw">PROFILEID</span><span class="dt">&gt;</span></span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://onlysearch.co/">onlysearch.co</a> <em>~ OF searcher</em></li>
+<li>🌐 <a href="https://mattw.io/youtube-metadata/">mattw.io/youtube-metadata</a> <em>~ YT metadata parser</em></li>
+<li>🌐 <a href="https://findyoutubevideo.thetechrobo.ca/">findyoutubevideo.thetechrobo.ca</a> <em>~ YT private/removed parser</em></li>
+<li>🌐 <a href="https://ytcomment.kmcat.uk">ytcomment.kmcat.uk</a> <em>~ YT comments search</em></li>
+<li>🌐 <a href="https://filmot.com/?searchManualSubs=0">filmot.com</a> <em>~ YT global subtitles search</em></li>
+<li>🌐 <a href="https://twitch-tools.rootonline.de/">twitch-tools.rootonline.de</a> <em>~ TW followers/ing viewer</em></li>
+<li>🌐 <a href="https://r00m101.com/">r00m101.com</a> <em>~ Reddit profile analyzer</em></li>
+<li>🌐 <a href="https://web.archive.org/collection-search/badoo.com">badoo-archive-collection</a> <em>~ Badoo wayback db</em></li>
+<li>🌐 <a href="https://www.strava.com/maps/">strava.com/maps</a> <em>~ Stava global heatmap</em></li>
+</ul>
+<h2 id="chat-speech_balloon">Chat 💬</h2>
+<ul>
+<li>🌐 <a href="https://www.vedbex.com/">vedbex.com</a> <em>~ SKYPE mail/phone/ip</em></li>
+<li>🌐 <a href="https://discordlookup.com/">discordlookup.com</a> <em>~ DISCORD lookup</em></li>
+<li>🌐 <a href="https://hugonun.github.io/discordid2date/">hugonun.github.io</a> (🌐 <a href="https://chloethesis.github.io/tools/discord-date/">chloethesis.github.io</a>) <em>~ DISCORD creation time</em></li>
+<li>🌐 <a href="https://discord.com/servers">discord.com</a> (🌐 <a href="https://discord.me/servers">discord.me</a>, 🌐 <a href="https://disboard.org/">disboard.org</a> ) <em>~ DISCORD server search</em></li>
+<li>🌐 <a href="https://intelx.io/tools?tab=telegram">intelx.io</a> <em>~ TG search</em></li>
+<li>🌐 <a href="https://tgfind.org/">tgfind.org</a> <em>~ TG channel search</em></li>
+<li>🌐 <a href="https://web.archive.org/collection-search/telegram">telegram-archive-collection</a> <em>~ TG wayback db</em></li>
+<li>⚙️ <a href="https://github.com/bellingcat/telegram-phone-number-checker">telegram-phone-number-checker</a> <em>~ TG lookup</em></li>
+</ul>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> telegram_phone_number_checker/main.py <span class="at">--phone-numbers</span> <span class="st">&#39;&lt;NUMBER&gt;&#39;</span> <span class="at">--download-profile-photos</span></span></code></pre></div>
+<ul>
+<li>⚙️ <a href="https://github.com/proseltd/Telepathy-Community">telepathy</a> <em>~ TG groups/channels lookup</em></li>
+</ul>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">telepathy</span> <span class="at">-t</span> <span class="st">&#39;&lt;NIKNAME&gt;&#39;</span> <span class="at">-c</span></span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://t.me/creationdatebot">@creationdatebot</a> <em>~ TG registration lookup</em></li>
+<li>🌐 <a href="https://t.me/SangMata_beta_bot">@SangMata_beta_bot</a> <em>~ TG nik lookup</em></li>
+</ul>
+<h2 id="gaming-video_game️">Gaming 🎮️</h2>
+<ul>
+<li>🌐 <a href="https://xresolver.com/">xresolver.com</a> <em>~ XBOX/PSN/GTA resolver</em></li>
+<li>🌐 <a href="https://psnprofiles.com/">psnprofiles.com</a> <em>~ PSN parser</em></li>
+<li>🌐 <a href="https://xboxgamertag.com/">xboxgamertag.com</a> <em>~ XBOX parser</em></li>
+<li>🌐 <a href="https://epic-lookup.com/">epic-lookup.com</a> <em>~ EPICGAMES parser</em></li>
+</ul>
+<h2 id="location-world_map">Location 🗺️</h2>
+<ul>
+<li>🌐 <a href="https://geospy.net/en/geospy">geospy.net</a> (🌐 <a href="https://picarta.ai/">picarta.ai</a>) <em>~ place finder [AI]</em></li>
+<li>🌐 <a href="https://huggingface.co/spaces/visheratin/mc-llava-3b">huggingface.co/mc-llava-3b</a> <em>~ place finder [AI]</em></li>
+<li>🌐 <a href="https://overpass-ultra.trailsta.sh/">overpass-ultra.trailsta.sh</a> <em>~ place parser</em></li>
+<li>💉 Gmaps Tracker by Google ID <em>~ gmap tracker</em></li>
+</ul>
+<div class="sourceCode" id="cb13"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>https://www.google.com/maps/contrib/<span class="dt">&lt;</span><span class="kw">GOOGLEID</span><span class="dt">&gt;&lt;/</span><span class="kw">GOOGLEID</span><span class="dt">&gt;</span></span></code></pre></div>
+<ul>
+<li>⚙️ <a href="https://github.com/elliott-diy/Weather2Geo">Weather2Geo</a> <em>~ city finder by weather and date</em></li>
+</ul>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> main.py <span class="at">--time</span> <span class="st">&quot;2025-05-22 14:00&quot;</span> <span class="at">--condition</span> <span class="st">&quot;Mostly cloudy&quot;</span> <span class="at">--temp</span> 18 <span class="at">--tolerance</span> 1.0</span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://colab.research.google.com/github/GalenReich/ShadowFinder/blob/main/ShadowFinderColab.ipynb">colab.research.google.com</a> <em>~ place finder by sun shadow</em></li>
+<li>🌐 <a href="https://pleper.com/index.php?do=tools&amp;sdo=cid_converter">pleper.com</a> <em>~ gmaps spots info</em></li>
+<li>🌐 <a href="https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0">cse.google.com</a> <em>~ webcam finder</em></li>
+<li>🌐 <a href="https://wigle.net/">wigle.net</a> <em>~ wifi wardriving map</em></li>
+<li>🌐 <a href="https://www.plonkit.net/guide">plonkit.net</a> <em>~ geoguesser wiki</em></li>
+<li>🌐 <a href="https://geotips.net/">geotips.net</a> <em>~ geoguesser wiki</em></li>
+<li>🌐 <a href="https://geohints.com/">geohints.com</a> <em>~ geoguesser objects wiki</em></li>
+<li>🌐 <a href="https://cipher387.github.io/venicle_number_search_toolbox/">cipher387.github.io</a> <em>~ car plate info</em></li>
+<li>🌐 <a href="https://flightmapper.net/">flightmapper.net</a> <em>~ flight tracking map</em></li>
+<li>🌐 <a href="https://globe.airplanes.live/">globe.airplanes.live</a> <em>~ live ship map</em></li>
+<li>🌐 <a href="https://www.marinetraffic.com/">marinetraffic.com</a> <em>~ live airplane map</em></li>
+<li>🌐 <a href="https://aerobasegroup.com/tail-number-lookup">aerobasegroup.com</a> <em>~ flight number lookup</em></li>
+</ul>
+<h2 id="general-open_file_folder">General 📂</h2>
+<ul>
+<li>🌐 <a href="https://intelx.io/tools?tab=general">intelx.io</a> <em>~ multi-engine search</em></li>
+<li>💉 Localized Google Search (<a href="https://gist.github.com/tadast/8827699">ISO 3166-1 alpha-2 Table</a>) <em>~ search by country switching</em></li>
+</ul>
+<div class="sourceCode" id="cb15"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>https://www.google.com/search?q=<span class="dt">&lt;</span><span class="kw">ANY</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">DORK</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">OR</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">CUSTOM</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">SEARCH</span><span class="dt">&gt;</span><span class="er">&amp;</span>cr=country<span class="dt">&lt;</span><span class="kw">ALPHA-2-COUNTRY-CODE</span><span class="dt">&gt;</span></span></code></pre></div>
+<ul>
+<li>💉 Docs Search Dork <em>~ general info gathering</em></li>
+</ul>
+<div class="sourceCode" id="cb16"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">CITY</span><span class="dt">&gt;</span>&quot; (filetype:pdf | filetype:doc | filetype:docx | filetype:odt | filetype:ods | filetype:odp | filetype:xls | filetype:xlsx | filetype:csv | filetype:txt | filetype:rtf | filetype:xml | filetype:ppt | filetype:pptx | filetype:key | filetype:zip | filetype:rar | filetype:7z | filetype:gz | filetype:log | filetype:json | filetype:audit | filetype:trace | filetype:debug | filetype:out | filetype:err)</span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://cybdetective.com/pastebin.html">cybdetective.com/pastebin</a> <em>~ pastebin search</em></li>
+<li>🌐 <a href="https://cybdetective.com/codesearch.html">cybdetective.com/codesearch</a> <em>~ repos search</em></li>
+<li>⚙️ Hidden Metadata In Local Repos <em>~ repos email/nikname finder</em></li>
+</ul>
+<div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--pretty</span><span class="op">=</span>format:<span class="st">&quot;[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]&quot;</span></span></code></pre></div>
+<ul>
+<li>💉 Github User Info <em>~ github user info parser</em></li>
+</ul>
+<div class="sourceCode" id="cb18"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>https://api.github.com/user/<span class="dt">&lt;</span><span class="kw">USER-ID</span><span class="dt">&gt;&lt;/</span><span class="kw">USER-ID</span><span class="dt">&gt;</span></span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://www.ispyconnect.com/docs/ispy/default-camera-passwords">ispyconnect.com</a> <em>~ ipcam passwords</em></li>
+<li>🌐 <a href="https://cybdetective.com/osintmap/">cybdetective.com/osintmap</a> <em>~ world institutions directory</em></li>
+<li>🌐 <a href="https://osintguru.azurewebsites.net/countries/">osintguru.azurewebsites.net</a> <em>~ world institutions directory</em></li>
+</ul>
+<h2 id="corporate-briefcase">Corporate 💼</h2>
+<ul>
+<li>🌐 <a href="https://companyresearcher.exa.ai/">companyresearcher.exa.ai</a> <em>~ general company info</em></li>
+<li>🌐 <a href="https://www.skymem.info/">skymem.info</a> <em>~ company emails</em></li>
+<li>🌐 <a href="https://lei.info/">lei.info</a> <em>~ legal company identifier</em></li>
+<li>🌐 <a href="https://opencorporates.com/">opencorporates.com</a> <em>~ open corporate database</em></li>
+<li>💉 Company Employee Dork <em>~ linkedin company users</em></li>
+</ul>
+<div class="sourceCode" id="cb19"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>site:linkedin.com inurl:in “<span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>”<span class="dt">&lt;/</span><span class="kw">COMPANY</span><span class="dt">&gt;</span></span></code></pre></div>
+<h2 id="hosting-spider_web">Hosting 🕸️</h2>
+<ul>
+<li>🌐 <a href="https://sitereport.netcraft.com/">sitereport.netcraft.com</a> <em>~ website general info</em></li>
+<li>🌐 <a href="https://centralops.net/">centralops.net</a> <em>~ instant whois</em></li>
+<li>🌐 <a href="https://www.whoxy.com/archive.php">whoxy.com/archive</a> <em>~ whois DB history+email/name</em></li>
+<li>🌐 <a href="http://whois.easycounter.com/">whois.easycounter.com</a> <em>~ whois DB history</em></li>
+<li>📜 <a href="https://greasyfork.org/en/scripts/541732">Reverse Whoxy Domain Status</a> <em>~ whois website checker</em></li>
+<li>🌐 <a href="https://dnsdumpster.com/">dnsdumpster.com</a> <em>~ reverse website location</em></li>
+<li>🌐 <a href="https://viewdns.info/iphistory/?domain">viewdns.info/iphistory</a> <em>~ ip hosting history</em></li>
+<li>🌐 <a href="https://viewdns.info/reversens/?ns">viewdns.info/reversens</a> <em>~ websites associated to dns</em></li>
+<li>🌐 <a href="https://viewdns.info/reverseip/">viewdns.info/reverseip</a> <em>~ all websites registered by ip</em></li>
+<li>🌐 <a href="https://host.io/">host.io</a> <em>~ all websites linked/redirect to a website</em></li>
+<li>🌐 <a href="https://osint.sh/adsense/">osint.sh/adsense</a> <em>~ reverse adsense lookup</em></li>
+<li>🌐 <a href="https://osint.sh/analytics/">osint.sh/analytics</a> <em>~ reverse google analytics lookup</em></li>
+<li>🌐 <a href="https://crt.sh/">crt.sh</a> <em>~ certificate analysis</em></li>
+<li>⚙️ <a href="https://github.com/anmolksachan/wayBackLister">wayBackLister</a> <em>~ wayback directory bruteforcer</em></li>
+</ul>
+<div class="sourceCode" id="cb20"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> waybacklister.py <span class="at">-d</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50</span></code></pre></div>
+<ul>
+<li>⚙️ <a href="https://github.com/Spix0r/robofinder">robofinder</a> <em>~ wayback robots.txt parser</em></li>
+</ul>
+<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">robofinder</span> <span class="at">-u</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50 <span class="at">-c</span></span></code></pre></div>
+<ul>
+<li>💉 Subdomains Finder <em>~ subdomains finder</em></li>
+</ul>
+<div class="sourceCode" id="cb22"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>https://api.hackertarget.com/hostsearch/?q=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>https://www.virustotal.com/gui/domain/<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/relations</span></code></pre></div>
+<ul>
+<li>💉 Wayback Pages Finder (CDX API) <em>~ wayback pages enumerator</em></li>
+</ul>
+<div class="sourceCode" id="cb23"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/path/page.php?<span class="dt">&lt;</span><span class="kw">PARAMETER</span><span class="dt">&gt;</span>=*  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
+<ul>
+<li>💉 Wayback Hidden Domains/Files (CDX API) <em>~ wayback pages enumerator</em></li>
+</ul>
+<div class="sourceCode" id="cb24"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=*.<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>collapse=urlkey  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
+<ul>
+<li>💉 Wayback Files Filer (CDX API) <em>~ wayback mimetype filter</em></li>
+</ul>
+<div class="sourceCode" id="cb25"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>filter=mimetype:text/javascript<span class="er">&amp;</span>collapse=urlkey  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
+<ul>
+<li>💉 Gravatar API <em>~ get gravatar info</em></li>
+</ul>
+<div class="sourceCode" id="cb26"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>https://en.gravatar.com/<span class="dt">&lt;</span><span class="kw">MD5_HASH_OF_EMAIL</span><span class="dt">&gt;</span>.json<span class="dt">&lt;/</span><span class="kw">MD5_HASH_OF_EMAIL</span><span class="dt">&gt;</span></span></code></pre></div>
+<h2 id="knocking-door">Knocking 🚪</h2>
+<ul>
+<li>🌐 <a href="https://www.instagram.com/accounts/password/reset/">instagram.com</a> (nik-&gt;✉️📞) <em>~ account knocker</em></li>
+<li>🌐 <a href="https://www.facebook.com/login/identify/?ctx=recover">facebook.com</a> (nik-&gt;✉️📞) <em>~ account knocker</em></li>
+<li>🌐 <a href="https://x.com/account/begin_password_reset">x.com</a> (nik-&gt;✅) <em>~ account validator</em></li>
+<li>🌐 <a href="https://accounts.google.com/v3/signin/identifier">accounts.google.com</a> (nik-&gt;✉️) <em>~ account knocker</em></li>
+<li>🌐 <a href="https://www.snapchat.com/">snapchat.com</a> (nik✉️📞-&gt;✅) <em>~ account validator</em></li>
+<li>🌐 <a href="https://discord.com/login/">discord.com</a> (nik✉️📞-&gt;✅) <em>~ account validator</em></li>
+<li>🌐 <a href="https://identity.flickr.com/forgot-password">identity.flickr.com</a> (✉️-&gt;✅) <em>~ account validator</em></li>
+<li>🌐 <a href="https://www.pinterest.com/password/reset">pinterest.com</a> (nik-&gt;✅) <em>~ account validator</em></li>
+<li>🌐 <a href="https://login.yahoo.com/">login.yahoo.com</a> (*-&gt;✉️📞) <em>~ account knocker</em></li>
+<li>🌐 <a href="https://iforgot.apple.com/password/verify/appleid">iforgot.apple.com</a> (nik-&gt;✉️📞) <em>~ account knocker</em></li>
+<li>🌐 <a href="https://account.samsung.com/accounts/v1/SAMSUNGCA/findId">account.samsung.com</a> (nik-&gt;✉️) <em>~ account knocker</em></li>
+<li>🌐 <a href="https://account.live.com/ResetPassword.aspx">account.live.com</a> (nik✉️📞skypeid-&gt;📞✉️) <em>~ account knocker</em></li>
+<li>🌐 <a href="https://www.paypal.com/authflow/email-recovery">paypal.com</a> (✉️-&gt;✅) <em>~ account validator</em></li>
+<li>🌐 <a href="https://accounts.binance.com/en/security/user/reset-password">accounts.binance.com</a> (📞✉️-&gt;✅) <em>~ account validator</em></li>
+</ul>
+<h2 id="breaches-pirate_flag">Breaches 🏴‍☠️</h2>
+<ul>
+<li>🌐 <a href="https://databreach.com/">databreach.com</a> <em>~ breach checker</em></li>
+<li>🌐 <a href="https://haveibeenpwned.com/">haveibeenpwned.com</a> <em>~ breach checker</em></li>
+<li>🌐 <a href="https://www.dehashed.com/search-guide">dehashed.com</a> <em>~ breach checker</em></li>
+<li>🌐 <a href="https://infostealer.profiler.me/">infostealer.profiler.me</a> <em>~ infostealer checker</em></li>
+<li>🌐 <a href="https://intelbase.is/">intelbase.is</a> <em>~ breach searcher</em></li>
+<li>🌐 <a href="https://leakpeek.com/">leakpeek.com</a> <em>~ breach searcher</em></li>
+<li>🌐 <a href="https://leak-lookup.com/">leak-lookup.com</a> <em>~ breach searcher</em></li>
+<li>🌐 <a href="https://sizeof.cat/post/data-leaks/">sizeof.cat</a> (🌐 <a href="https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=">zerobin.net</a>) ⚠️ <strong>your responsibility</strong> <em>~ breach torrents</em></li>
+</ul>
+<h2 id="resources-books️">Resources 📚️</h2>
+<ul>
+<li>📚️ <a href="https://bellingcat.gitbook.io/toolkit">Bellingcat's Online Investigation Toolkit</a></li>
+<li>📚️ <a href="https://map.malfrats.industries/">Malfrat's OSINT Map</a></li>
+<li>📚️ <a href="https://osintframework.com/">OSINT Framework</a></li>
+<li>📚️ <a href="https://cipher387.github.io/osint_stuff_tool_collection/">Cyber Detective's OSINT tools collection</a></li>
+<li>📚️ <a href="https://github.com/cipher387/Dorks-collections-list?tab=readme-ov-file">Cyber Detective's Dorks-collection-list</a></li>
+<li>📚️ <a href="https://inteltechniques.com/tools/">IntelTechniques Search Tools</a></li>
+<li>📚️ <a href="https://github.com/jivoi/awesome-osint">Awesome OSINT</a></li>
+<li>📚️ <a href="https://github.com/Tobee1406/Awesome-Google-Dorks">Awesome Google Dorks</a></li>
+</ul>
+<h2 id="donation-yellow_heart">Donation 💛</h2>
+<p>If you want to support my research you can donate <strong>Monero</strong> (XMR).<br />
+All donations will be used to buy new OSINT learning materials and tools to improve this project.<br />
+Thank you!</p>
+<img width="200" height="200" alt="image" src="https://i.postimg.cc/SNwMj0qM/image.png" />
+
+<p>XMR: <strong>87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb</strong></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
