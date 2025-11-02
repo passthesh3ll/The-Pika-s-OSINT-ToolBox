@@ -282,7 +282,7 @@ https://web.archive.org/cdx/search/cdx?url=*.<WEBSITE>&collapse=urlkey  [&to=<YY
 https://web.archive.org/cdx/search/cdx?url=<WEBSITE>&filter=mimetype:text/javascript&collapse=urlkey  [&to=<YYYYMMDD>&from=<YYYYMMDD>]
 ```
 
-- 💉 Gravatar API _\~ get gravatar info_
+- 💉 Gravatar API _\~ gravatar lookup_
 
 ```html
 https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
