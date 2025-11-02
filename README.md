@@ -25,7 +25,12 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 maigret 'username' --html
 ```
 
-- 🌐 [whatsmyname.app](https://whatsmyname.app) _\~ username scraper_
+- ⚙️ [WhatsMyName](https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python) (🌐 [whatsmyname.app](https://whatsmyname.app)) _\~ username scraper_
+
+```bash
+python3 whatsmyname.py -u 'username'
+```
+
 - 🌐 [user-searcher.com](https://www.user-searcher.com/) _\~ username reverse lookup_
 
 ## Email ✉️
@@ -222,6 +227,7 @@ https://api.github.com/users/<NIKNAME>
 - 🌐 [ispyconnect.com](https://www.ispyconnect.com/docs/ispy/default-camera-passwords) _\~ ipcam passwords_
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) _\~ world institutions directory_
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) _\~ world institutions directory_
+- 🌐 [ean-search.org](https://www.ean-search.org/) _\~ multi-barcode lookup_
 
 ## Corporate 💼
 
