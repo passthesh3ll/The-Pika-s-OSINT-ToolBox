@@ -28,7 +28,7 @@ maigret 'username' --html
 - ⚙️ [WhatsMyName](https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python) (🌐 [whatsmyname.app](https://whatsmyname.app)) _\~ username scraper_
 
 ```bash
-python3 whatsmyname.py -u 'username'
+python whatsmyname.py -u 'username'
 ```
 
 - 🌐 [user-searcher.com](https://www.user-searcher.com/) _\~ username reverse lookup_
