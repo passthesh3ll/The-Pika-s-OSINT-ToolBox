@@ -63,6 +63,7 @@ cat > "$OUTPUT_HTML" <<EOF
         a:hover { text-decoration:underline; }
         img[alt="image"] { display:block !important; margin:2rem auto !important; max-width:200px !important; border:2px solid #444 !important; border-radius:.5rem !important; }
 		#description + p {max-width: calc(90% - 5px); margin-left: auto; margin-right: auto; box-sizing: border-box; }
+		pre, .sourceCode {margin-top: 0px;margin-bottom: 0px;}
         .container > * { text-align:center; }
         .container > ul, .container > ol, .container > pre, .container > blockquote { text-align:left; }
         /*Dark scrollbars Firefox*/
