@@ -86,19 +86,19 @@ cat > "$OUTPUT_HTML" <<EOF
 		.sourceCode.html code,
 		.sourceCode.css code,
 		.sourceCode.js code,
-		.sourceCode.python code {color: #e6e6e6;}
-		.sourceCode .ex { color: #50fa7b; font-weight: bold; }
-		.sourceCode .st { color: #f1fa8c; }
-		.sourceCode .at { color: #ffb86c; }
-		.sourceCode .kw { color: #ff79c6; font-weight: bold; }
-		.sourceCode .dt { color: #8be9fd; }
-		.sourceCode .dv { color: #bd93f9; }
-		.sourceCode .er { color: #ff5555; }
-		.sourceCode .co { color: #6272a4; font-style: italic; }
-		.sourceCode .op { color: #ff79c6; }
-		.sourceCode .va { color: #50fa7b; }
-		.sourceCode .nu { color: #bd93f9; }
-		.sourceCode .cf,.sourceCode .ot { color: #ff79c6; }		
+		.sourceCode.python code { color: #d0d0d0; }
+		.sourceCode .ex { color: #88d4a0; }
+		.sourceCode .st { color: #e6e89e; }
+		.sourceCode .at { color: #f0b387; }
+		.sourceCode .kw { color: #e89eb8; }
+		.sourceCode .dt { color: #a0d8e8; }
+		.sourceCode .dv { color: #c7a8e0; }
+		.sourceCode .er { color: #e88c8c; }
+		.sourceCode .co { color: #9a9fb8; }
+		.sourceCode .op { color: #e89eb8; }
+		.sourceCode .va { color: #88d4a0; }
+		.sourceCode .nu { color: #c7a8e0; }
+		.sourceCode .cf, .sourceCode .ot { color: #e89eb8; }	
     </style>
 </head>
 <body>
