@@ -213,10 +213,10 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]"
 ```
 
-- 💉 Github User Info _\~ github user info parser_
+- 💉 Github User Info _\~ github user lookup_
 
 ```html
-https://api.github.com/user/<USER-ID>
+https://api.github.com/users/<NIKNAME>
 ```
 
 - 🌐 [ispyconnect.com](https://www.ispyconnect.com/docs/ispy/default-camera-passwords) _\~ ipcam passwords_
