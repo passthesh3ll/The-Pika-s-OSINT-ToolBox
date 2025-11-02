@@ -30,6 +30,20 @@
 		#description + p {max-width: calc(90% - 5px); margin-left: auto; margin-right: auto; box-sizing: border-box; }
         .container > * { text-align:center; }
         .container > ul, .container > ol, .container > pre, .container > blockquote { text-align:left; }
+        /*Dark scrollbars Firefox*/
+        * {
+		  scrollbar-width: thin;
+		  scrollbar-color: #555 #2a2a2a;
+		}
+		/*Dark scrollbars Chrome, Edge, Safari */
+		::-webkit-scrollbar {
+		  width: 8px;
+		  height: 8px;
+		}
+		::-webkit-scrollbar-track {
+		  background: #2a2a2a;
+		  border-radius: 4px;
+		}
 		/* Syntax Highlighting */
 		.sourceCode {overflow-x: auto; font-family: 'Fira Code', 'Consolas', monospace; font-size: .9rem; line-height: 1.4;}
 		.sourceCode.bash code,
