@@ -42,12 +42,6 @@ cat > "$OUTPUT_HTML" <<EOF
     <link rel="icon" href="https://i.postimg.cc/nrBLxLCX/image.png" type="image/x-icon">
     <link href="$BOOTSTRAP_CSS" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="$ICONS_CSS" rel="stylesheet">
-    <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox" target="_blank">
-	  <img
-		style="position: fixed; top: 0; right: 0; box-sizing: border-box; z-index: 1000;"
-		src="https://i.postimg.cc/9Q5Nwggj/image.png"
-		alt="GitHub">
-	</a>
     <style>
         body { background:#121212; color:#e0e0e0; padding:2rem 1rem; font-family:system-ui,-apple-system,sans-serif; display:flex; justify-content:center; }
         .container { max-width:none; width:70%; }
@@ -105,6 +99,19 @@ cat > "$OUTPUT_HTML" <<EOF
     <div class="container">
         <h1>The Pika's OSINT ToolBox ⚡️</h1>
         <img src="https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png" alt="Pika OSINT Logo" class="logo">
+        <p>
+		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox/commits" target="_blank">
+			<img src="https://badgen.net/github/last-commit/passthesh3ll/The-Pika-s-OSINT-ToolBox?color=yellow&icon=github&label=Last%20update" alt="Last Update">
+		  </a>
+		  <br>
+		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox" target="_blank">
+			<img src="https://badgen.net/badge/GitHub/passthesh3ll/The-Pika-s-OSINT-ToolBox?icon=github&color=yellow" alt="GitHub repo">
+		  </a>
+		  <br>
+		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox/stargazers" target="_blank">
+			<img src="https://badgen.net/github/stars/passthesh3ll/The-Pika-s-OSINT-ToolBox?color=yellow&icon=github&label=Stars" alt="GitHub stars">
+		  </a>
+		</p>
         $CLEAN_BODY
     </div>
     <script src="$BOOTSTRAP_JS" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
