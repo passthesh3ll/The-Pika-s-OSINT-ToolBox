@@ -15,6 +15,7 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 - 🌐 _Website Tool_
 - 💉 _Exploitable Dork/Page/API_
 - 📜 _Userscript_
+- 🤖 _AI Powered_
 - 📚️ _Wiki/List Resource_
 
 ## Username 🏷️
@@ -72,12 +73,12 @@ ignorant '<NUMBER>' --only-used
 
 ## Image 🖼️
 
-- 🌐 [pimeyes.com](https://pimeyes.com/en) (📜 [unblur](https://greasyfork.org/en/scripts/531501)) _\~ reverse face search \[AI\]_
-- 🌐 [huggingface.co/FaceOnLive](https://huggingface.co/FaceOnLive/spaces) _\~ reverse face search \[AI\]_
-- 🌐 [facecheck.id](https://facecheck.id/) _\~ reverse face search \[AI\]_
+- 🌐 [pimeyes.com](https://pimeyes.com/en) (📜 [unblur](https://greasyfork.org/en/scripts/531501)) _\~ reverse face search_ 🤖
+- 🌐 [huggingface.co/FaceOnLive](https://huggingface.co/FaceOnLive/spaces) _\~ reverse face search_ 🤖
+- 🌐 [facecheck.id](https://facecheck.id/) _\~ reverse face search_ 🤖
 - 🌐 [tattoodo.com](https://www.tattoodo.com/tattoos) _\~ tattoo location lookup_
 - 🌐 [images.google.com](https://images.google.com/) (🌐 [yandex.com](https://yandex.com/images "https://yandex.com/images?")) _\~ reverse image search_
-- 🌐 [lenso.ai](https://lenso.ai/) (📜 [unblur](https://greasyfork.org/en/scripts/531499)) _\~ reverse image search \[AI\]_
+- 🌐 [lenso.ai](https://lenso.ai/) (📜 [unblur](https://greasyfork.org/en/scripts/531499)) _\~ reverse image search_ 🤖
 - 🌐 [exifinfo.org](https://exifinfo.org) _\~ exif lookup_
 - 🌐 [29a.ch](https://29a.ch/photo-forensics/#forensic-magnifier) _\~ image forensic_
 
@@ -167,8 +168,8 @@ telepathy -t '<NIKNAME>' -c
 
 ## Location 🗺️
 
-- 🌐 [geospy.net](https://geospy.net/en/geospy) (🌐 [picarta.ai](https://picarta.ai/)) _\~ place finder \[AI\]_
-- 🌐 [huggingface.co/mc-llava-3b](https://huggingface.co/spaces/visheratin/mc-llava-3b) _\~ place finder \[AI\]_
+- 🌐 [geospy.net](https://geospy.net/en/geospy) (🌐 [picarta.ai](https://picarta.ai/)) _\~ place finder_ 🤖
+- 🌐 [huggingface.co/mc-llava-3b](https://huggingface.co/spaces/visheratin/mc-llava-3b) _\~ place finder_ 🤖
 - 🌐 [overpass-ultra.trailsta.sh](https://overpass-ultra.trailsta.sh/) _\~ place parser_
 - 💉 Gmaps Tracker by Google ID _\~ gmap tracker_
 
