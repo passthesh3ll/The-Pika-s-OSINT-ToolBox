@@ -318,7 +318,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) _\~ breach checker_
 - 🌐 [dehashed.com](https://www.dehashed.com/) _\~ breach checker_
 - 🌐 [intelbase.is](https://intelbase.is/) (🌐 [oathnet.org](https://oathnet.org/)) _\~ breach/account searcher_
-- 🌐 [leak-lookup.com](https://leak-lookup.com/) (🌐 [breach.vip](https://breach.vip/)) _\~ breach searcher_
+- 🌐 [breach.vip](https://breach.vip/) _\~ breach searcher_
 - 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _\~ breach torrents_
 
 ## Resources 📚️
