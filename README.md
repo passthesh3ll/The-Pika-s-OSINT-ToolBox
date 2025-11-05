@@ -169,7 +169,6 @@ telepathy -t '<NIKNAME>' -c
 ## Location 🗺️
 
 - 🌐 [geospy.net](https://geospy.net/en/geospy) (🌐 [picarta.ai](https://picarta.ai/)) _\~ place finder_ 🤖
-- 🌐 [huggingface.co/mc-llava-3b](https://huggingface.co/spaces/visheratin/mc-llava-3b) _\~ place finder_ 🤖
 - 🌐 [overpass-ultra.trailsta.sh](https://overpass-ultra.trailsta.sh/) _\~ place parser_
 - 💉 Gmaps Tracker by Google ID _\~ gmap tracker_
 
