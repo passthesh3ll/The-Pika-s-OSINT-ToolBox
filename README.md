@@ -332,6 +332,9 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 📚️ [Awesome OSINT](https://github.com/jivoi/awesome-osint)
 - 📚️ [Awesome Google Dorks](https://github.com/Tobee1406/Awesome-Google-Dorks)
 
+## Contact 📨
+For contributions and reports: **pikaosint@proton.me**
+
 ## Donation 💛
 
 If you want to support my research you can donate **Monero** (XMR).  
