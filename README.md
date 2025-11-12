@@ -320,6 +320,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [breach.vip](https://breach.vip/) _\~ breach searcher_
 - 🌐 [bf.based.re](https://bf.based.re//) _\~ breachforums lookup_
 - 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _\~ breach torrents_
+- 🌐 [hudsonrock.com](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools) _\~ infostealer infection checker_
 
 ## Resources 📚️
 
