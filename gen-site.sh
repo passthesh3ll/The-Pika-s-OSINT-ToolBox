@@ -100,16 +100,16 @@ cat > "$OUTPUT_HTML" <<EOF
         <h1>The Pika's OSINT ToolBox ⚡️</h1>
         <img src="https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png" alt="Pika OSINT Logo" class="logo">
         <p>
-		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox/commits" target="_blank">
-			<img src="https://badgen.net/github/last-commit/passthesh3ll/The-Pika-s-OSINT-ToolBox?color=yellow&icon=github&label=Last%20update" alt="Last Update">
+		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox" target="_blank">
+		   <img src="https://img.shields.io/badge/Repo-⁠The--Pika--s--OSINT--ToolBox-yellow?logo=github" alt="GitHub repo">
 		  </a>
 		  <br>
-		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox" target="_blank">
-			<img src="https://badgen.net/badge/GitHub/passthesh3ll/The-Pika-s-OSINT-ToolBox?icon=github&color=yellow" alt="GitHub repo">
+		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox/commits" target="_blank">
+			<img src="https://img.shields.io/github/last-commit/passthesh3ll/The-Pika-s-OSINT-ToolBox?color=yellow&label=Last%20update&logo=github" alt="Last Update">
 		  </a>
 		  <br>
 		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox/stargazers" target="_blank">
-			<img src="https://badgen.net/github/stars/passthesh3ll/The-Pika-s-OSINT-ToolBox?color=yellow&icon=github&label=Stars" alt="GitHub stars">
+			<img src="https://img.shields.io/github/stars/passthesh3ll/The-Pika-s-OSINT-ToolBox?color=yellow&label=Stars&logo=github" alt="GitHub stars">
 		  </a>
 		</p>
         $CLEAN_BODY
