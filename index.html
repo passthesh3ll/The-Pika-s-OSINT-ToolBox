@@ -260,9 +260,13 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 </ul>
 <div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--pretty</span><span class="op">=</span>format:<span class="st">&quot;[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]&quot;</span></span></code></pre></div>
 <ul>
+<li>⚙️ <a href="https://github.com/trufflesecurity/trufflehog">trufflehog</a> <em>~ repo secret finder</em></li>
+</ul>
+<div class="sourceCode" id="cb19"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="ex">trufflehog</span> git <span class="st">&quot;https://github.com/&lt;USER&gt;/&lt;REPO&gt;&quot;</span></span></code></pre></div>
+<ul>
 <li>💉 Github User Info <em>~ github user lookup</em></li>
 </ul>
-<div class="sourceCode" id="cb19"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>https://api.github.com/users/<span class="dt">&lt;</span><span class="kw">NIKNAME</span><span class="dt">&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>https://api.github.com/users/<span class="dt">&lt;</span><span class="kw">NIKNAME</span><span class="dt">&gt;</span></span></code></pre></div>
 <ul>
 <li>🌐 <a href="https://www.ispyconnect.com/docs/ispy/default-camera-passwords">ispyconnect.com</a> <em>~ ipcam passwords</em></li>
 <li>🌐 <a href="https://cybdetective.com/osintmap/">cybdetective.com/osintmap</a> <em>~ world institutions directory</em></li>
@@ -277,7 +281,7 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 <li>🌐 <a href="https://opencorporates.com/">opencorporates.com</a> <em>~ open corporate database</em></li>
 <li>💉 Company Employee Dork <em>~ linkedin company users</em></li>
 </ul>
-<div class="sourceCode" id="cb20"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>site:linkedin.com inurl:in “<span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>”</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>site:linkedin.com inurl:in “<span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>”</span></code></pre></div>
 <h2 id="hosting-spider_web">Hosting 🕸️</h2>
 <ul>
 <li>🌐 <a href="https://sitereport.netcraft.com/">sitereport.netcraft.com</a> <em>~ website general info</em></li>
@@ -295,32 +299,32 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 <li>🌐 <a href="https://crt.sh/">crt.sh</a> <em>~ certificate analysis</em></li>
 <li>⚙️ <a href="https://github.com/anmolksachan/wayBackLister">wayBackLister</a> <em>~ wayback directory bruteforcer</em></li>
 </ul>
-<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> waybacklister.py <span class="at">-d</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50</span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> waybacklister.py <span class="at">-d</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50</span></code></pre></div>
 <ul>
 <li>⚙️ <a href="https://github.com/Spix0r/robofinder">robofinder</a> <em>~ wayback robots.txt parser</em></li>
 </ul>
-<div class="sourceCode" id="cb22"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="ex">robofinder</span> <span class="at">-u</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50 <span class="at">-c</span></span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">robofinder</span> <span class="at">-u</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50 <span class="at">-c</span></span></code></pre></div>
 <ul>
 <li>💉 Subdomains Finder <em>~ subdomains finder</em></li>
 </ul>
-<div class="sourceCode" id="cb23"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>https://api.hackertarget.com/hostsearch/?q=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>https://www.virustotal.com/gui/domain/<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/relations</span></code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>https://api.hackertarget.com/hostsearch/?q=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>https://www.virustotal.com/gui/domain/<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/relations</span></code></pre></div>
 <ul>
 <li>💉 Wayback Pages Finder (CDX API) <em>~ wayback pages enumerator</em></li>
 </ul>
-<div class="sourceCode" id="cb24"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/path/page.php?<span class="dt">&lt;</span><span class="kw">PARAMETER</span><span class="dt">&gt;</span>=*  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/path/page.php?<span class="dt">&lt;</span><span class="kw">PARAMETER</span><span class="dt">&gt;</span>=*  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
 <ul>
 <li>💉 Wayback Hidden Domains/Files (CDX API) <em>~ wayback pages enumerator</em></li>
 </ul>
-<div class="sourceCode" id="cb25"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=*.<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>collapse=urlkey  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=*.<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>collapse=urlkey  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
 <ul>
 <li>💉 Wayback Files Filer (CDX API) <em>~ wayback mimetype filter</em></li>
 </ul>
-<div class="sourceCode" id="cb26"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>filter=mimetype:text/javascript<span class="er">&amp;</span>collapse=urlkey  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>filter=mimetype:text/javascript<span class="er">&amp;</span>collapse=urlkey  [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
 <ul>
 <li>💉 Gravatar API <em>~ gravatar lookup</em></li>
 </ul>
-<div class="sourceCode" id="cb27"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>https://en.gravatar.com/<span class="dt">&lt;</span><span class="kw">MD5_HASH_OF_EMAIL</span><span class="dt">&gt;</span>.json</span></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>https://en.gravatar.com/<span class="dt">&lt;</span><span class="kw">MD5_HASH_OF_EMAIL</span><span class="dt">&gt;</span>.json</span></code></pre></div>
 <h2 id="knocking-door">Knocking 🚪</h2>
 <ul>
 <li>🌐 <a href="https://www.instagram.com/accounts/password/reset/">instagram.com</a> (nik-&gt;✉️📞) <em>~ account knocker</em></li>

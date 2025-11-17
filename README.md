@@ -218,6 +218,11 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 ```bash
 git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]"
 ```
+- ⚙️ [trufflehog](https://github.com/trufflesecurity/trufflehog) _\~ repo secret finder_
+
+```bash
+trufflehog git "https://github.com/<USER>/<REPO>"
+```
 
 - 💉 Github User Info _\~ github user lookup_
 
