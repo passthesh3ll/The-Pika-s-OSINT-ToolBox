@@ -109,7 +109,7 @@ cat > "$OUTPUT_HTML" <<EOF
 		  </a>
 		  <br>
 		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox/stargazers" target="_blank">
-			<img src="https://img.shields.io/github/stars/passthesh3ll/The-Pika-s-OSINT-ToolBox?color=yellow&label=Stars&logo=github" alt="GitHub stars">
+  			<img src="https://img.shields.io/github/stars/passthesh3ll/The-Pika-s-OSINT-ToolBox?style=flat&color=yellow&label=Stars&logo=github" alt="GitHub stars">
 		  </a>
 		</p>
         $CLEAN_BODY
