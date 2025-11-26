@@ -170,10 +170,10 @@ telepathy -t '<NIKNAME>' -c
 
 - 🌐 [geospy.net](https://geospy.net/en/geospy) (🌐 [whereisthisphoto.com](https://www.whereisthisphoto.com/), 🌐 [picarta.ai](https://picarta.ai/)) _\~ place finder_ 🤖
 - 🌐 [overpass-ultra.trailsta.sh](https://overpass-ultra.trailsta.sh/) _\~ map advanced scripting_
-- 💉 Gmaps Tracker by Google ID _\~ gmap tracker_
+- 💉 Gmaps Tracker by Gaia ID _\~ gmap tracker_
 
 ```html
-https://www.google.com/maps/contrib/<GOOGLEID>
+https://www.google.com/maps/contrib/<GAIA-ID>
 ```
 
 - ⚙️ [Weather2Geo](https://github.com/elliott-diy/Weather2Geo) _\~ reverse city finder by weather_
