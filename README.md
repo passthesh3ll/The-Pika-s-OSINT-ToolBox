@@ -70,6 +70,8 @@ phoneinfoga scan -n '<XX> <NUMBER>'
 ```bash
 ignorant '<NUMBER>' --only-used
 ```
+- 🌐 [wayp.com](https://www.wayp.com/) _\~ world white/yellow pages_
+
 
 ## Image 🖼️
 
