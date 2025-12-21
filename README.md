@@ -185,6 +185,7 @@ python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 -
 ```
 
 - 🌐 [colab.research.google.com](https://colab.research.google.com/github/GalenReich/ShadowFinder/blob/main/ShadowFinderColab.ipynb) _\~ place finder by sun shadow_
+- 🌐 [tubvsig-so2sat-vm1.srv.mwn.de](https://tubvsig-so2sat-vm1.srv.mwn.de/) _\~ global building info_
 - 🌐 [pleper.com](https://pleper.com/index.php?do=tools&sdo=cid_converter) _\~ gmaps spots info_
 - 🌐 [cse.google.com](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0) (🌐 [cybdetective.com/webcamcse](https://cybdetective.com/webcamcse.html)) _\~ webcam finder_
 - 🌐 [wigle.net](https://wigle.net/) _\~ wifi wardriving map_
