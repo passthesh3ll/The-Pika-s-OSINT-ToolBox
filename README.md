@@ -140,7 +140,7 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 ## Chat 💬
 
 - 🌐 [vedbex.com](https://www.vedbex.com/) _\~ SKYPE mail/phone/ip_
-- 🌐 [discordlookup.com](https://discordlookup.com/) _\~ DISCORD lookup_
+- 🌐 [gatecord.com](https://gatecord.com/discord-id-lookup/) _\~ DISCORD lookup_
 - 🌐 [hugonun.github.io](https://hugonun.github.io/discordid2date/) _\~ DISCORD creation time_
 - 🌐 [discord.com](https://discord.com/servers) (🌐 [discord.me](https://discord.me/servers), 🌐 [disboard.org](https://disboard.org/) ) _\~ DISCORD server search_
 - 🌐 [intelx.io](https://intelx.io/tools?tab=telegram) _\~ TG search_
