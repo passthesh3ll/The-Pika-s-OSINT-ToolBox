@@ -66,9 +66,21 @@
 		.fc-item.active { border-color:#ffca28; background:#252525; }
 		.fc-item.active img { max-width:800px !important; max-height:900px !important; }
 		.fc-label { display:block; color:#ffca28; font-weight:600; margin-bottom:0.3rem; font-size:0.85rem; }
+		/* Navigation Sidebar */
+		.nav-sidebar { position:fixed; left:0; top:50%; transform:translateY(-50%); background:rgba(26,26,26,0.95); backdrop-filter:blur(10px); border-radius:0 0.5rem 0.5rem 0; padding:0.5rem 0.3rem; max-height:80vh; overflow-y:auto; z-index:1000; border:1px solid #333; border-left:3px solid #ffca28; width:max-content; }
+		.nav-sidebar a { display:block; padding:0.4rem 0.5rem; color:#888; font-size:0.72rem; text-decoration:none !important; white-space:nowrap; border-radius:0.25rem; transition:all 0.2s; }
+		.nav-sidebar a:hover { color:#ffca28; background:rgba(255,202,40,0.1); }
+		.nav-sidebar a.active { color:#ffca28; background:rgba(255,202,40,0.15); border-left:2px solid #ffca28; }
+		.nav-sidebar::-webkit-scrollbar { width:3px; }
+		.nav-sidebar::-webkit-scrollbar-thumb { background:#444; border-radius:2px; }
+		@media (max-width:992px) { .nav-sidebar { display:none; } }
     </style>
 </head>
 <body>
+	<!-- Navigation Sidebar -->
+	<nav class="nav-sidebar">
+		<a href="#about-information_source" data-section="about-information_source">About ℹ️</a><a href="#username-label" data-section="username-label">Username 🏷️</a><a href="#email-envelope" data-section="email-envelope">Email ✉️</a><a href="#phone-telephone_receiver" data-section="phone-telephone_receiver">Phone 📞</a><a href="#image-framed_picture" data-section="image-framed_picture">Image 🖼️</a><a href="#social-busts_in_silhouette" data-section="social-busts_in_silhouette">Social 👥</a><a href="#chat-speech_balloon" data-section="chat-speech_balloon">Chat 💬</a><a href="#gaming-video_game️" data-section="gaming-video_game️">Gaming 🎮️</a><a href="#location-world_map" data-section="location-world_map">Location 🗺️</a><a href="#general-open_file_folder" data-section="general-open_file_folder">General 📂</a><a href="#corporate-briefcase" data-section="corporate-briefcase">Corporate 💼</a><a href="#hosting-spider_web" data-section="hosting-spider_web">Hosting 🕸️</a><a href="#knocking-door" data-section="knocking-door">Knocking 🚪</a><a href="#breaches-pirate_flag" data-section="breaches-pirate_flag">Breaches 🏴‍☠️</a><a href="#flowcharts-bulb" data-section="flowcharts-bulb">FlowCharts 💡</a><a href="#resources-books️" data-section="resources-books️">Resources 📚️</a><a href="#contact-incoming_envelope" data-section="contact-incoming_envelope">Contact 📨</a><a href="#donation-yellow_heart" data-section="donation-yellow_heart">Donation 💛</a>
+	</nav>
     <div class="container">
         <h1>The Pika's OSINT ToolBox ⚡️</h1>
         <img src="https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png" alt="Pika OSINT Logo" class="logo">
@@ -89,7 +101,7 @@
 <header id="title-block-header">
 </header>
 <p></p>
-<h2 id="description">Description</h2>
+<h2 id="about-information_source">About ℹ️</h2>
 <p>Open Source Intelligence (<a href="https://en.wikipedia.org/wiki/Open-source_intelligence">OSINT</a>) is the collection and analysis of data gathered from open sources to produce actionable intelligence. This carefully edited OSINT list won't be an endless list of links, but priority will be given to highly effective content (quality over quantity) and only services that can be used for free.</p>
 <blockquote>
 <p>⚠️ <b>WARNING</b><br />
@@ -391,12 +403,45 @@ Thank you!</p>
 <p>XMR: <strong>87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb</strong></p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-	<script>
-    function toggleFC(el) {
-        const wasActive = el.classList.contains('active');
-        document.querySelectorAll('.fc-item.active').forEach(i => i.classList.remove('active'));
-        if (!wasActive) el.classList.add('active');
-    }
-    </script>
+    <script>
+    /* Slideshow Animation*/
+	function toggleFC(el) {
+		const wasActive = el.classList.contains('active');
+		document.querySelectorAll('.fc-item.active').forEach(i => i.classList.remove('active'));
+		if (!wasActive) el.classList.add('active');
+	}
+    /* Navigation Sidebar */
+	document.addEventListener('DOMContentLoaded', function() {
+		const navLinks = document.querySelectorAll('.nav-sidebar a');
+		const sections = [];
+		
+		navLinks.forEach(link => {
+		    const id = link.getAttribute('href').substring(1);
+		    const section = document.getElementById(id);
+		    if (section) sections.push({ id, el: section, link });
+		});
+
+		function updateActiveNav() {
+		    const scrollPos = window.scrollY + 150;
+		    let current = sections[0];
+		    for (const section of sections) {
+		        if (section.el.offsetTop <= scrollPos) current = section;
+		    }
+		    navLinks.forEach(l => l.classList.remove('active'));
+		    if (current) current.link.classList.add('active');
+		}
+
+		window.addEventListener('scroll', updateActiveNav);
+		updateActiveNav();
+
+		navLinks.forEach(link => {
+		    link.addEventListener('click', function(e) {
+		        e.preventDefault();
+		        const target = document.getElementById(this.getAttribute('href').substring(1));
+		        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		    });
+		});
+	});
+	</script>
 </body>
 </html>

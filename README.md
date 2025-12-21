@@ -2,7 +2,7 @@
 
 ![image](https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png)
 
-## Description
+## About ℹ️
 
 Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence)) is the collection and analysis of data gathered from open sources to produce actionable intelligence. This carefully edited OSINT list won't be an endless list of links, but priority will be given to highly effective content (quality over quantity) and only services that can be used for free.
 

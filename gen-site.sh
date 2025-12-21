@@ -32,6 +32,15 @@ s|<h4[^>]*>([^<]+)</h4>\s*<p>(<img[^>]+>)</p>|<div class="fc-item" onclick="togg
 s|(<h2[^>]*>FlowCharts[^<]*</h2>)\s*((?:<div class="fc-item"[^>]*>.*?</div>\s*)+)|$1<div class="fc-grid">$2</div>|s;
 ')
 
+# Extract h2 sections for Nav Menu
+NAV_MENU=$(echo "$CLEAN_BODY" | perl -ne '
+    if (/<h2[^>]*id="([^"]*)"[^>]*>([^<]*)<\/h2>/) {
+        my ($id, $text) = ($1, $2);
+        $text =~ s/^\s+|\s+$//g;
+        print "<a href=\"#$id\" data-section=\"$id\">$text</a>";
+    }
+')
+
 # Bootstrap CDN
 BOOTSTRAP_CSS="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 BOOTSTRAP_JS="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -107,9 +116,21 @@ cat > "$OUTPUT_HTML" <<EOF
 		.fc-item.active { border-color:#ffca28; background:#252525; }
 		.fc-item.active img { max-width:800px !important; max-height:900px !important; }
 		.fc-label { display:block; color:#ffca28; font-weight:600; margin-bottom:0.3rem; font-size:0.85rem; }
+		/* Navigation Sidebar */
+		.nav-sidebar { position:fixed; left:0; top:50%; transform:translateY(-50%); background:rgba(26,26,26,0.95); backdrop-filter:blur(10px); border-radius:0 0.5rem 0.5rem 0; padding:0.5rem 0.3rem; max-height:80vh; overflow-y:auto; z-index:1000; border:1px solid #333; border-left:3px solid #ffca28; width:max-content; }
+		.nav-sidebar a { display:block; padding:0.4rem 0.5rem; color:#888; font-size:0.72rem; text-decoration:none !important; white-space:nowrap; border-radius:0.25rem; transition:all 0.2s; }
+		.nav-sidebar a:hover { color:#ffca28; background:rgba(255,202,40,0.1); }
+		.nav-sidebar a.active { color:#ffca28; background:rgba(255,202,40,0.15); border-left:2px solid #ffca28; }
+		.nav-sidebar::-webkit-scrollbar { width:3px; }
+		.nav-sidebar::-webkit-scrollbar-thumb { background:#444; border-radius:2px; }
+		@media (max-width:992px) { .nav-sidebar { display:none; } }
     </style>
 </head>
 <body>
+	<!-- Navigation Sidebar -->
+	<nav class="nav-sidebar">
+		$NAV_MENU
+	</nav>
     <div class="container">
         <h1>The Pika's OSINT ToolBox ⚡️</h1>
         <img src="https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png" alt="Pika OSINT Logo" class="logo">
@@ -129,13 +150,46 @@ cat > "$OUTPUT_HTML" <<EOF
         $CLEAN_BODY
     </div>
     <script src="$BOOTSTRAP_JS" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-	<script>
-    function toggleFC(el) {
-        const wasActive = el.classList.contains('active');
-        document.querySelectorAll('.fc-item.active').forEach(i => i.classList.remove('active'));
-        if (!wasActive) el.classList.add('active');
-    }
-    </script>
+    <script>
+    /* Slideshow Animation*/
+	function toggleFC(el) {
+		const wasActive = el.classList.contains('active');
+		document.querySelectorAll('.fc-item.active').forEach(i => i.classList.remove('active'));
+		if (!wasActive) el.classList.add('active');
+	}
+    /* Navigation Sidebar */
+	document.addEventListener('DOMContentLoaded', function() {
+		const navLinks = document.querySelectorAll('.nav-sidebar a');
+		const sections = [];
+		
+		navLinks.forEach(link => {
+		    const id = link.getAttribute('href').substring(1);
+		    const section = document.getElementById(id);
+		    if (section) sections.push({ id, el: section, link });
+		});
+
+		function updateActiveNav() {
+		    const scrollPos = window.scrollY + 150;
+		    let current = sections[0];
+		    for (const section of sections) {
+		        if (section.el.offsetTop <= scrollPos) current = section;
+		    }
+		    navLinks.forEach(l => l.classList.remove('active'));
+		    if (current) current.link.classList.add('active');
+		}
+
+		window.addEventListener('scroll', updateActiveNav);
+		updateActiveNav();
+
+		navLinks.forEach(link => {
+		    link.addEventListener('click', function(e) {
+		        e.preventDefault();
+		        const target = document.getElementById(this.getAttribute('href').substring(1));
+		        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		    });
+		});
+	});
+	</script>
 </body>
 </html>
 EOF
