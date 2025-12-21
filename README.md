@@ -329,6 +329,21 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [bf.based.re](https://bf.based.re/) _\~ breachforums lookup_
 - 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _\~ breach torrents_
 
+## FlowCharts 💡
+
+#### Name
+![Name](https://i.postimg.cc/Y21bJC2C/image.png)
+#### Username
+![Username](https://i.postimg.cc/YqdfH45S/image.png)
+#### Email
+![Email](https://i.postimg.cc/MKpVd6v5/image.png)
+#### Phone
+![Phone](https://i.postimg.cc/KzQ4MTr3/image.png)
+#### Domain
+![Domain](https://i.postimg.cc/C10fDSy0/image.png)
+#### Location
+![Location](https://i.postimg.cc/QdWByHhD/image.png)
+
 ## Resources 📚️
 
 - 📚️ [Bellingcat's Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit)

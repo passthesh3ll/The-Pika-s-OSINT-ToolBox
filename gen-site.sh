@@ -26,6 +26,12 @@ CLEAN_BODY=$(echo "$BODY_NO_TITLE" | sed -E ':a; N; $!ba; s/<img[^>]*src="https:
 # Replace Warning
 CLEAN_BODY=$(echo "$CLEAN_BODY" | sed 's/\[!WARNING\]/⚠️ <b>WARNING<\/b>/g')
 
+# Transform FlowCharts section into horizontal clickable grid
+CLEAN_BODY=$(echo "$CLEAN_BODY" | perl -0777 -pe '
+s|<h4[^>]*>([^<]+)</h4>\s*<p>(<img[^>]+>)</p>|<div class="fc-item" onclick="toggleFC(this)"><span class="fc-label">$1</span>$2</div>|gs;
+s|(<h2[^>]*>FlowCharts[^<]*</h2>)\s*((?:<div class="fc-item"[^>]*>.*?</div>\s*)+)|$1<div class="fc-grid">$2</div>|s;
+')
+
 # Bootstrap CDN
 BOOTSTRAP_CSS="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 BOOTSTRAP_JS="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -44,7 +50,7 @@ cat > "$OUTPUT_HTML" <<EOF
     <link href="$ICONS_CSS" rel="stylesheet">
     <style>
         body { background:#121212; color:#e0e0e0; padding:2rem 1rem; font-family:system-ui,-apple-system,sans-serif; display:flex; justify-content:center; }
-        .container { max-width:none; width:70%; }
+        .container { max-width:none; width:80%; }
         h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
         h1 { font-size:2.5rem; margin-bottom:0.5rem; }
         img.logo { display:block; margin:1rem auto 2rem; max-width:200px; border-radius:50%; border:3px solid #e6b800; }
@@ -92,7 +98,15 @@ cat > "$OUTPUT_HTML" <<EOF
 		.sourceCode .op { color: #e89eb8; }
 		.sourceCode .va { color: #88d4a0; }
 		.sourceCode .nu { color: #c7a8e0; }
-		.sourceCode .cf, .sourceCode .ot { color: #e89eb8; }	
+		.sourceCode .cf, .sourceCode .ot { color: #e89eb8; }
+		/* FlowCharts Grid */
+		.fc-grid { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:2rem auto; max-width:95%; align-items:flex-start; }
+		.fc-item { flex:0 0 auto; width:auto; text-align:center; cursor:pointer; transition:all 0.3s ease; padding:0.25rem; border-radius:0.5rem; background:#1a1a1a; border:2px solid #333; }
+		.fc-item:hover { border-color:#ffca28; box-shadow:0 0 10px rgba(255,202,40,0.3); }
+		.fc-item img { max-width:120px !important; max-height:80px !important; object-fit:contain; transition:all 0.3s ease; border-radius:0.3rem; display:block; margin:0 auto !important; }
+		.fc-item.active { border-color:#ffca28; background:#252525; }
+		.fc-item.active img { max-width:800px !important; max-height:900px !important; }
+		.fc-label { display:block; color:#ffca28; font-weight:600; margin-bottom:0.3rem; font-size:0.85rem; }
     </style>
 </head>
 <body>
@@ -115,6 +129,13 @@ cat > "$OUTPUT_HTML" <<EOF
         $CLEAN_BODY
     </div>
     <script src="$BOOTSTRAP_JS" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script>
+    function toggleFC(el) {
+        const wasActive = el.classList.contains('active');
+        document.querySelectorAll('.fc-item.active').forEach(i => i.classList.remove('active'));
+        if (!wasActive) el.classList.add('active');
+    }
+    </script>
 </body>
 </html>
 EOF

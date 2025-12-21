@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <style>
         body { background:#121212; color:#e0e0e0; padding:2rem 1rem; font-family:system-ui,-apple-system,sans-serif; display:flex; justify-content:center; }
-        .container { max-width:none; width:70%; }
+        .container { max-width:none; width:80%; }
         h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
         h1 { font-size:2.5rem; margin-bottom:0.5rem; }
         img.logo { display:block; margin:1rem auto 2rem; max-width:200px; border-radius:50%; border:3px solid #e6b800; }
@@ -57,7 +57,15 @@
 		.sourceCode .op { color: #e89eb8; }
 		.sourceCode .va { color: #88d4a0; }
 		.sourceCode .nu { color: #c7a8e0; }
-		.sourceCode .cf, .sourceCode .ot { color: #e89eb8; }	
+		.sourceCode .cf, .sourceCode .ot { color: #e89eb8; }
+		/* FlowCharts Grid */
+		.fc-grid { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:2rem auto; max-width:95%; align-items:flex-start; }
+		.fc-item { flex:0 0 auto; width:auto; text-align:center; cursor:pointer; transition:all 0.3s ease; padding:0.25rem; border-radius:0.5rem; background:#1a1a1a; border:2px solid #333; }
+		.fc-item:hover { border-color:#ffca28; box-shadow:0 0 10px rgba(255,202,40,0.3); }
+		.fc-item img { max-width:120px !important; max-height:80px !important; object-fit:contain; transition:all 0.3s ease; border-radius:0.3rem; display:block; margin:0 auto !important; }
+		.fc-item.active { border-color:#ffca28; background:#252525; }
+		.fc-item.active img { max-width:800px !important; max-height:900px !important; }
+		.fc-label { display:block; color:#ffca28; font-weight:600; margin-bottom:0.3rem; font-size:0.85rem; }
     </style>
 </head>
 <body>
@@ -355,7 +363,13 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 <li>🌐 <a href="https://bf.based.re/">bf.based.re</a> <em>~ breachforums lookup</em></li>
 <li>🌐 <a href="https://sizeof.cat/post/data-leaks/">sizeof.cat</a> (🌐 <a href="https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=">zerobin.net</a>) ⚠️ <strong>your responsibility</strong> <em>~ breach torrents</em></li>
 </ul>
-<h2 id="resources-books️">Resources 📚️</h2>
+<h2 id="flowcharts-bulb">FlowCharts 💡</h2><div class="fc-grid"><div class="fc-item" onclick="toggleFC(this)"><span class="fc-label">Name</span><img src="https://i.postimg.cc/Y21bJC2C/image.png" alt="Name" /></div>
+<div class="fc-item" onclick="toggleFC(this)"><span class="fc-label">Username</span><img src="https://i.postimg.cc/YqdfH45S/image.png" alt="Username" /></div>
+<div class="fc-item" onclick="toggleFC(this)"><span class="fc-label">Email</span><img src="https://i.postimg.cc/MKpVd6v5/image.png" alt="Email" /></div>
+<div class="fc-item" onclick="toggleFC(this)"><span class="fc-label">Phone</span><img src="https://i.postimg.cc/KzQ4MTr3/image.png" alt="Phone" /></div>
+<div class="fc-item" onclick="toggleFC(this)"><span class="fc-label">Domain</span><img src="https://i.postimg.cc/C10fDSy0/image.png" alt="Domain" /></div>
+<div class="fc-item" onclick="toggleFC(this)"><span class="fc-label">Location</span><img src="https://i.postimg.cc/QdWByHhD/image.png" alt="Location" /></div>
+</div><h2 id="resources-books️">Resources 📚️</h2>
 <ul>
 <li>📚️ <a href="https://bellingcat.gitbook.io/toolkit">Bellingcat's Online Investigation Toolkit</a></li>
 <li>📚️ <a href="https://map.malfrats.industries/">Malfrat's OSINT Map</a></li>
@@ -377,5 +391,12 @@ Thank you!</p>
 <p>XMR: <strong>87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb</strong></p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script>
+    function toggleFC(el) {
+        const wasActive = el.classList.contains('active');
+        document.querySelectorAll('.fc-item.active').forEach(i => i.classList.remove('active'));
+        if (!wasActive) el.classList.add('active');
+    }
+    </script>
 </body>
 </html>
