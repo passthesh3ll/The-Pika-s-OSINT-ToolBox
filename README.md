@@ -194,9 +194,9 @@ python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 -
 - 🌐 [geohints.com](https://geohints.com/) _\~ geoguesser objects wiki_
 - 🌐 [cipher387.github.io](https://cipher387.github.io/venicle_number_search_toolbox/) _\~ car plate info_
 - 🌐 [flightmapper.net](https://flightmapper.net/) _\~ flight tracking map_
-- 🌐 [globe.airplanes.live](https://globe.airplanes.live/) _\~ live ship map_
-- 🌐 [marinetraffic.com](https://www.marinetraffic.com/) _\~ live airplane map_
 - 🌐 [aerobasegroup.com](https://aerobasegroup.com/tail-number-lookup) _\~ flight number lookup_
+- 🌐 [globe.airplanes.live](https://globe.airplanes.live/) _\~ live airplane map_
+- 🌐 [marinetraffic.com](https://www.marinetraffic.com/) _\~ live ship map_
 
 ## General 📂
 
