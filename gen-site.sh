@@ -37,6 +37,16 @@ NAV_MENU=$(echo "$CLEAN_BODY" | perl -ne '
     if (/<h2[^>]*id="([^"]*)"[^>]*>([^<]*)<\/h2>/) {
         my ($id, $text) = ($1, $2);
         $text =~ s/^\s+|\s+$//g;
+        
+        # Move last word (emoji) to beginning
+        if ($text =~ /^(.+)\s+(\S+)$/) {
+            my ($words, $last) = ($1, $2);
+            # Check if last part looks like emoji (non-ASCII)
+            if ($last =~ /[^\x00-\x7F]/) {
+                $text = "$last $words";
+            }
+        }
+        
         print "<a href=\"#$id\" data-section=\"$id\">$text</a>";
     }
 ')
