@@ -355,6 +355,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 📚️ [IntelTechniques Search Tools](https://inteltechniques.com/tools/)
 - 📚️ [Awesome OSINT](https://github.com/jivoi/awesome-osint)
 - 📚️ [Awesome Google Dorks](https://github.com/Tobee1406/Awesome-Google-Dorks)
+- 📚️ [Google Hacking Database ExploitDB](https://www.exploit-db.com/google-hacking-database)
 
 ## Contact 📨
 For contributions and reports: **pikaosint@proton.me**
