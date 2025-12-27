@@ -1,6 +1,6 @@
 # The Pika's OSINT ToolBox ⚡️
 
-![image](https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png)
+![image](https://i.postimg.cc/Y0QYYG6h/detective-pika-dark.png)
 
 ## About ℹ️
 

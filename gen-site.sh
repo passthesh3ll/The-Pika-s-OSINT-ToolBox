@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# md2bootstrap.sh - Markdown to HTML bootstrap
-
+# gen-site.sh - Markdown to HTML
 set -euo pipefail
 
 [[ $# -ne 2 ]] && { echo "Usage: $0 <input.md> <output.html>"; exit 1; }
@@ -20,8 +19,14 @@ BODY_CONTENT=$(echo "$FULL_HTML" | sed -n '/<body[^>]*>/,/<\/body>/p' | sed '1s/
 # Remove first <h1> (duplicate title)
 BODY_NO_TITLE=$(echo "$BODY_CONTENT" | awk '/<h1[^>]*>.*<\/h1>/ {next} {print}')
 
-# Remove duplicate logo: <img src="...pika-osint-circle.png" alt="image" />
-CLEAN_BODY=$(echo "$BODY_NO_TITLE" | sed -E ':a; N; $!ba; s/<img[^>]*src="https:\/\/i\.postimg\.cc\/NfRjWRNj\/pika-osint-circle\.png"[^>]*alt="image"[^>]*\/>//g')
+# Extract logo image (first postimg/pika image)
+LOGO_IMG=$(echo "$BODY_NO_TITLE" | grep -oP '<img[^>]*src="https://[^"]*postimg\.cc/[^"]*pika[^"]*"[^>]*/?>' | head -1)
+# Remove logo and its <p> wrapper from body
+CLEAN_BODY=$(echo "$BODY_NO_TITLE" | perl -0777 -pe 's/<p>\s*<img[^>]*src="https:\/\/[^"]*postimg\.cc\/[^"]*pika[^"]*"[^>]*\/?>\s*<\/p>\s*//s')
+# Add class="logo" to extracted image
+if [[ -n "$LOGO_IMG" ]]; then
+    LOGO_IMG=$(echo "$LOGO_IMG" | sed -E 's/<img/<img class="logo"/; s/\s*\/?>$/>/')
+fi
 
 # Replace Warning
 CLEAN_BODY=$(echo "$CLEAN_BODY" | sed 's/\[!WARNING\]/⚠️ <b>WARNING<\/b>/g')
@@ -72,7 +77,7 @@ cat > "$OUTPUT_HTML" <<EOF
         .container { max-width:none; width:80%; }
         h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
         h1 { font-size:2.5rem; margin-bottom:0.5rem; }
-        img.logo { display:block; margin:1rem auto 2rem; max-width:200px; border-radius:50%; border:3px solid #e6b800; }
+        img.logo { display:block; margin:1rem auto 2rem; max-width:250px; border-radius:50%; border:3px solid #e6b800;}
         pre { background:#1e1e1e; border:1px solid #333; border-radius:.5rem; padding:1rem; overflow-x:auto; font-size:.9rem; margin:1.5rem auto; max-width:90%; }
         code { padding:.2rem .4rem; border-radius:.3rem; font-size:.9em; }
         blockquote { border-left:4px solid #e6b800; padding:1rem; font-style:italic; color:#e6b800; background:#1a1a1a; border-radius:.4rem; margin:1.5rem auto; max-width:90%; text-align:left; }
@@ -80,7 +85,6 @@ cat > "$OUTPUT_HTML" <<EOF
         li { margin-bottom:.75rem; }
         a { color:#42a5f5; text-decoration:none; }
         a:hover { text-decoration:underline; }
-        img[alt="image"] { display:block !important; margin:2rem auto !important; max-width:200px !important; border:2px solid #444 !important; border-radius:.5rem !important; }
 		#description + p {max-width: calc(90% - 5px); margin-left: auto; margin-right: auto; box-sizing: border-box; }
 		pre, .sourceCode {margin-top: 0px;margin-bottom: 0px;}
         .container > * { text-align:center; }
@@ -143,7 +147,7 @@ cat > "$OUTPUT_HTML" <<EOF
 	</nav>
     <div class="container">
         <h1>The Pika's OSINT ToolBox ⚡️</h1>
-        <img src="https://i.postimg.cc/NfRjWRNj/pika-osint-circle.png" alt="Pika OSINT Logo" class="logo">
+        $LOGO_IMG
         <p>
 		  <a href="https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox" target="_blank">
 		   <img src="https://img.shields.io/badge/Repo-⁠The--Pika--s--OSINT--ToolBox-yellow?logo=github" alt="GitHub repo">
