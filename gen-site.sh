@@ -77,7 +77,7 @@ cat > "$OUTPUT_HTML" <<EOF
         .container { max-width:none; width:80%; }
         h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
         h1 { font-size:2.5rem; margin-bottom:0.5rem; }
-        img.logo { display:block; margin:1rem auto 2rem; max-width:250px; border-radius:50%; border:3px solid #e6b800;}
+        img.logo { display:block; margin:1rem auto 2rem; max-width:250px;}
         pre { background:#1e1e1e; border:1px solid #333; border-radius:.5rem; padding:1rem; overflow-x:auto; font-size:.9rem; margin:1.5rem auto; max-width:90%; }
         code { padding:.2rem .4rem; border-radius:.3rem; font-size:.9em; }
         blockquote { border-left:4px solid #e6b800; padding:1rem; font-style:italic; color:#e6b800; background:#1a1a1a; border-radius:.4rem; margin:1.5rem auto; max-width:90%; text-align:left; }
