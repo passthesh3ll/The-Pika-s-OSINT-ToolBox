@@ -258,6 +258,7 @@ site:linkedin.com inurl:in “<COMPANY>”
 - 🌐 [whois.easycounter.com](http://whois.easycounter.com/) _\~ whois DB history_
 - 📜 [Reverse Whoxy Domain Status](https://greasyfork.org/en/scripts/541732) _\~ whois website checker_
 - 🌐 [dnsdumpster.com](https://dnsdumpster.com/) _\~ reverse website location_
+- 🌐 [informationlaundromat.com](https://informationlaundromat.com/url-search) _\~ website metadata correlation_
 - 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) _\~ ip hosting history_
 - 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) _\~ websites associated to dns_
 - 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) _\~ all websites registered by ip_
