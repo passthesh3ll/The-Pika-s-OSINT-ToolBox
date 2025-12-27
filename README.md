@@ -233,15 +233,15 @@ trufflehog git "https://github.com/<USER>/<REPO>"
 https://api.github.com/users/<NIKNAME>
 ```
 
-- 🌐 [ispyconnect.com](https://www.ispyconnect.com/docs/ispy/default-camera-passwords) _\~ ipcam passwords_
+- 🌐 [ispyconnect.com](https://www.ispyconnect.com/docs/ispy/default-camera-passwords) _\~ ipcam passwords list_
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) _\~ world institutions directory_
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) _\~ world institutions directory_
 - 🌐 [ean-search.org](https://www.ean-search.org/) _\~ multi-barcode lookup_
 
 ## Corporate 💼
 
-- 🌐 [companyresearcher.exa.ai](https://companyresearcher.exa.ai/) _\~ general company info_
-- 🌐 [skymem.info](https://www.skymem.info/) _\~ company emails_
+- 🌐 [companyresearcher.exa.ai](https://companyresearcher.exa.ai/) _\~ company lookup_
+- 🌐 [skymem.info](https://www.skymem.info/) _\~ company email lookup_
 - 🌐 [lei.info](https://lei.info/) _\~ legal company identifier_
 - 🌐 [opencorporates.com](https://opencorporates.com/) _\~ open corporate database_
 - 💉 Company Employee Dork _\~ linkedin company users_
@@ -252,17 +252,17 @@ site:linkedin.com inurl:in “<COMPANY>”
 
 ## Hosting 🕸️
 
-- 🌐 [sitereport.netcraft.com](https://sitereport.netcraft.com/) _\~ website general info_
-- 🌐 [centralops.net](https://centralops.net/) _\~ instant whois_
-- 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) _\~ whois DB history+email/name_
-- 🌐 [whois.easycounter.com](http://whois.easycounter.com/) _\~ whois DB history_
+- 🌐 [sitereport.netcraft.com](https://sitereport.netcraft.com/) _\~ website general lookup_
+- 🌐 [centralops.net](https://centralops.net/) _\~ whois lookup_
+- 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) _\~ whois DB history parser_
+- 🌐 [whois.easycounter.com](http://whois.easycounter.com/) _\~ whois DB history parser_
 - 📜 [Reverse Whoxy Domain Status](https://greasyfork.org/en/scripts/541732) _\~ whois website checker_
-- 🌐 [dnsdumpster.com](https://dnsdumpster.com/) _\~ reverse website location_
-- 🌐 [informationlaundromat.com](https://informationlaundromat.com/url-search) _\~ website metadata correlation_
-- 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) _\~ ip hosting history_
-- 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) _\~ websites associated to dns_
-- 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) _\~ all websites registered by ip_
-- 🌐 [host.io](https://host.io/) _\~ all websites linked/redirect to a website_
+- 🌐 [dnsdumpster.com](https://dnsdumpster.com/) _\~ reverse website location lookup_
+- 🌐 [informationlaundromat.com](https://informationlaundromat.com/url-search) _\~ website metadata correlator_
+- 🌐 [viewdns.info/iphistory](https://viewdns.info/iphistory/?domain) _\~ ip hosting history lookup_
+- 🌐 [viewdns.info/reversens](https://viewdns.info/reversens/?ns) _\~ reverse dns lookup_
+- 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) _\~ reverse ip lookup_
+- 🌐 [host.io](https://host.io/) _\~ website to website lookup_
 - 🌐 [osint.sh/adsense](https://osint.sh/adsense/) _\~ reverse adsense lookup_
 - 🌐 [osint.sh/analytics](https://osint.sh/analytics/) _\~ reverse google analytics lookup_
 - 🌐 [crt.sh](https://crt.sh/) _\~ certificate analysis_
