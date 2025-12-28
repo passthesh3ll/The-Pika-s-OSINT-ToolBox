@@ -219,7 +219,7 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 - ⚙️ Hidden Metadata In Local Repos _\~ repos email/nikname finder_
 
 ```bash
-git log --pretty=format:"[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]"
+git log --pretty=format:"[ AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]"
 ```
 - ⚙️ [trufflehog](https://github.com/trufflesecurity/trufflehog) _\~ repo secret finder_
 
@@ -369,4 +369,7 @@ Thank you!
 
 <img width="200" height="200" alt="image" src="https://i.postimg.cc/SNwMj0qM/image.png" />
 
-XMR: **87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb**
+**XMR**:
+```bash
+87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb
+```

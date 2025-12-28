@@ -13,7 +13,7 @@
         h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
         h1 { font-size:2.5rem; margin-bottom:0.5rem; }
         img.logo { display:block; margin:1rem auto 2rem; max-width:250px;}
-        pre { background:#1e1e1e; border:1px solid #333; border-radius:.5rem; padding:1rem; overflow-x:auto; font-size:.9rem; margin:1.5rem auto; max-width:90%; }
+        pre { background:#1e1e1e; border:1px solid #333; border-radius:.5rem; padding:0.5rem 1rem; overflow-x:auto; font-size:.9rem; margin:1.5rem auto; max-width:90%; }
         code { padding:.2rem .4rem; border-radius:.3rem; font-size:.9em; }
         blockquote { border-left:4px solid #e6b800; padding:1rem; font-style:italic; color:#e6b800; background:#1a1a1a; border-radius:.4rem; margin:1.5rem auto; max-width:90%; text-align:left; }
         ul, ol { padding-left:1.5rem; margin:1rem auto; max-width:90%; }
@@ -24,6 +24,7 @@
 		pre, .sourceCode {margin-top: 0px;margin-bottom: 0px;}
         .container > * { text-align:center; }
         .container > ul, .container > ol, .container > pre, .container > blockquote { text-align:left; }
+        .container > img { display:block; margin:1rem auto; }
         /*Dark scrollbars Firefox*/
         * {
 		  scrollbar-width: thin;
@@ -57,6 +58,11 @@
 		.sourceCode .va { color: #88d4a0; }
 		.sourceCode .nu { color: #c7a8e0; }
 		.sourceCode .cf, .sourceCode .ot { color: #e89eb8; }
+		/* Copy button */
+		.pre-wrap { position:relative; max-width:90%; margin:1rem auto; }
+		.pre-wrap pre { margin:0; max-width:100%; padding-right:2.5rem; }
+		.copy-btn { position:absolute; top:0; right:0; bottom:0; width:2.2rem; background:#252525; border:none; border-left:1px solid #444; color:#888; cursor:pointer; font-size:0.85rem; border-radius:0 0.5rem 0.5rem 0; }
+		.copy-btn:hover { color:#ffca28; background:#2a2a2a; }
 		/* FlowCharts Grid */
 		.fc-grid { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:2rem auto; max-width:95%; align-items:flex-start; }
 		.fc-item { flex:0 0 auto; width:auto; text-align:center; cursor:pointer; transition:all 0.3s ease; padding:0.25rem; border-radius:0.5rem; background:#1a1a1a; border:2px solid #333; }
@@ -280,7 +286,7 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 <li>🌐 <a href="https://cybdetective.com/codesearch.html">cybdetective.com/codesearch</a> <em>~ repos search</em></li>
 <li>⚙️ Hidden Metadata In Local Repos <em>~ repos email/nikname finder</em></li>
 </ul>
-<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--pretty</span><span class="op">=</span>format:<span class="st">&quot;[AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--pretty</span><span class="op">=</span>format:<span class="st">&quot;[ AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]&quot;</span></span></code></pre></div>
 <ul>
 <li>⚙️ <a href="https://github.com/trufflesecurity/trufflehog">trufflehog</a> <em>~ repo secret finder</em></li>
 </ul>
@@ -401,7 +407,8 @@ All donations will be used to buy new OSINT learning materials and tools to impr
 Thank you!</p>
 <img width="200" height="200" alt="image" src="https://i.postimg.cc/SNwMj0qM/image.png" />
 
-<p>XMR: <strong>87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb</strong></p>
+<p><strong>XMR</strong>:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="ex">87QKLLGi9nNc9G8K4Rg4aAVipmmixNywN4MgR3UzF3Z5YrgZn74UNFVRZpss4G63eHJbhD9N8tVKoZCKcKCGZyh8M6AUkSb</span></span></code></pre></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script>
@@ -443,6 +450,25 @@ Thank you!</p>
 		    });
 		});
 	});
+	/* Copy Buttons */
+	(function() {
+		document.querySelectorAll('.container > pre, .container > .sourceCode').forEach(el => {
+		    const wrap = document.createElement('div');
+		    wrap.className = 'pre-wrap';
+		    el.parentNode.insertBefore(wrap, el);
+		    wrap.appendChild(el);
+		    const btn = document.createElement('button');
+		    btn.className = 'copy-btn';
+		    btn.innerHTML = '<i class="bi bi-clipboard"></i>';
+		    btn.onclick = () => {
+		        navigator.clipboard.writeText((el.querySelector('code')||el).textContent).then(() => {
+		            btn.innerHTML = '<i class="bi bi-check-lg"></i>';
+		            setTimeout(() => btn.innerHTML = '<i class="bi bi-clipboard"></i>', 1500);
+		        });
+		    };
+		    wrap.appendChild(btn);
+		});
+	})();
 	</script>
 </body>
 </html>

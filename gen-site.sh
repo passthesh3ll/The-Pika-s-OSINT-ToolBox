@@ -78,7 +78,7 @@ cat > "$OUTPUT_HTML" <<EOF
         h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
         h1 { font-size:2.5rem; margin-bottom:0.5rem; }
         img.logo { display:block; margin:1rem auto 2rem; max-width:250px;}
-        pre { background:#1e1e1e; border:1px solid #333; border-radius:.5rem; padding:1rem; overflow-x:auto; font-size:.9rem; margin:1.5rem auto; max-width:90%; }
+        pre { background:#1e1e1e; border:1px solid #333; border-radius:.5rem; padding:0.5rem 1rem; overflow-x:auto; font-size:.9rem; margin:1.5rem auto; max-width:90%; }
         code { padding:.2rem .4rem; border-radius:.3rem; font-size:.9em; }
         blockquote { border-left:4px solid #e6b800; padding:1rem; font-style:italic; color:#e6b800; background:#1a1a1a; border-radius:.4rem; margin:1.5rem auto; max-width:90%; text-align:left; }
         ul, ol { padding-left:1.5rem; margin:1rem auto; max-width:90%; }
@@ -89,6 +89,7 @@ cat > "$OUTPUT_HTML" <<EOF
 		pre, .sourceCode {margin-top: 0px;margin-bottom: 0px;}
         .container > * { text-align:center; }
         .container > ul, .container > ol, .container > pre, .container > blockquote { text-align:left; }
+        .container > img { display:block; margin:1rem auto; }
         /*Dark scrollbars Firefox*/
         * {
 		  scrollbar-width: thin;
@@ -122,6 +123,11 @@ cat > "$OUTPUT_HTML" <<EOF
 		.sourceCode .va { color: #88d4a0; }
 		.sourceCode .nu { color: #c7a8e0; }
 		.sourceCode .cf, .sourceCode .ot { color: #e89eb8; }
+		/* Copy button */
+		.pre-wrap { position:relative; max-width:90%; margin:1rem auto; }
+		.pre-wrap pre { margin:0; max-width:100%; padding-right:2.5rem; }
+		.copy-btn { position:absolute; top:0; right:0; bottom:0; width:2.2rem; background:#252525; border:none; border-left:1px solid #444; color:#888; cursor:pointer; font-size:0.85rem; border-radius:0 0.5rem 0.5rem 0; }
+		.copy-btn:hover { color:#ffca28; background:#2a2a2a; }
 		/* FlowCharts Grid */
 		.fc-grid { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:2rem auto; max-width:95%; align-items:flex-start; }
 		.fc-item { flex:0 0 auto; width:auto; text-align:center; cursor:pointer; transition:all 0.3s ease; padding:0.25rem; border-radius:0.5rem; background:#1a1a1a; border:2px solid #333; }
@@ -203,6 +209,25 @@ cat > "$OUTPUT_HTML" <<EOF
 		    });
 		});
 	});
+	/* Copy Buttons */
+	(function() {
+		document.querySelectorAll('.container > pre, .container > .sourceCode').forEach(el => {
+		    const wrap = document.createElement('div');
+		    wrap.className = 'pre-wrap';
+		    el.parentNode.insertBefore(wrap, el);
+		    wrap.appendChild(el);
+		    const btn = document.createElement('button');
+		    btn.className = 'copy-btn';
+		    btn.innerHTML = '<i class="bi bi-clipboard"></i>';
+		    btn.onclick = () => {
+		        navigator.clipboard.writeText((el.querySelector('code')||el).textContent).then(() => {
+		            btn.innerHTML = '<i class="bi bi-check-lg"></i>';
+		            setTimeout(() => btn.innerHTML = '<i class="bi bi-clipboard"></i>', 1500);
+		        });
+		    };
+		    wrap.appendChild(btn);
+		});
+	})();
 	</script>
 </body>
 </html>
