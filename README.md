@@ -255,6 +255,7 @@ site:linkedin.com inurl:in “<COMPANY>”
 - 🌐 [centralops.net](https://centralops.net/) _\~ whois lookup_
 - 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) _\~ whois DB history parser_
 - 🌐 [whois.easycounter.com](http://whois.easycounter.com/) _\~ whois DB history parser_
+- 🌐 [whoisfreaks.com](https://whoisfreaks.com/tools/user/whois/reverse/search) _\~ whois DB history parser_
 - 📜 [Reverse Whoxy Domain Status](https://greasyfork.org/en/scripts/541732) _\~ whois website checker_
 - 🌐 [dnsdumpster.com](https://dnsdumpster.com/) _\~ reverse website location lookup_
 - 🌐 [informationlaundromat.com](https://informationlaundromat.com/url-search) _\~ website metadata correlator_
