@@ -125,6 +125,7 @@ instagram-location-search --cookies "<ig-cookie>" --lat "<lat>" --lng "<lng>" --
 ```html
 https://www.facebook.com/profile.php?id=<PROFILEID>
 ```
+- 📜 [X.com Profile Info Widget](https://greasyfork.org/en/scripts/562550) _\~ X advanced info_
 
 - 🌐 [onlysearch.co](https://onlysearch.co/) _\~ OF searcher_
 - 🌐 [mattw.io/youtube-metadata](https://mattw.io/youtube-metadata/) _\~ YT metadata parser_
