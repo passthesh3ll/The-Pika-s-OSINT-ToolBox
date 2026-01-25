@@ -65,6 +65,7 @@ holehe 'email@provider.com'
 phoneinfoga scan -n '<XX> <NUMBER>'
 ```
 
+- 🌐 [@TrueCalleRobot](https://t.me/TrueCalleRobot) _\~ phone caller lookup_
 - ⚙️ [ignorant](https://github.com/megadose/ignorant) (🌐 [osint.rocks](https://osint.rocks/)) _\~ phone reverse lookup_
 
 ```bash
