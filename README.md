@@ -57,7 +57,6 @@ mailsleuth -e 'email@provider.com'
 
 - ⚙️ [ghunt](https://github.com/mxrch/GHunt) (🌐 [osint.rocks](https://osint.rocks/), 🌐 [gmail-osint](https://gmail-osint.activetk.jp/)) _\~ gmail parser_
 - 🌐 [epieos.com](https://epieos.com/) _\~ reverse email lookup_
-- 🌐 [castrickclues.com](https://castrickclues.com/) _\~ reverse email lookup_
 
 ## Phone 📞
 
