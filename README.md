@@ -44,7 +44,7 @@ python whatsmyname.py -u 'username'
 "<NAME>" "<SURNAME>" (intext:"@gmail.com" | intext:"@yahoo.com" | intext:"@hotmail.com" | intext:"@outlook.com"| intext:"@icloud.com")
 ```
 
-- 🌐 [emailhippo.com](https://tools.emailhippo.com) _\~ email checker_
+- 🌐 [intelx.io](https://intelx.io/tools?tab=emailvalidate) _\~ email validator_
 - 🌐 [minervaosint.com](https://minervaosint.com/) _\~ email reverse lookup_
 - ⚙️ [holehe](https://github.com/megadose/holehe) (🌐 [osint.rocks](https://osint.rocks/)) _\~ email reverse lookup_
 
