@@ -47,10 +47,12 @@ python whatsmyname.py -u 'username'
 - 🌐 [intelx.io](https://intelx.io/tools?tab=emailvalidate) _\~ email validator_
 - 🌐 [minervaosint.com](https://minervaosint.com/) _\~ reverse email lookup_
 - ⚙️ [holehe](https://github.com/megadose/holehe) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse email lookup_
-- ⚙️ [mailsleuth](https://github.com/44za12/mailsleuth) (🌐 [osintcabal.org](https://osintcabal.org/livecenter/mailsleuth.html)) _\~ reverse email lookup_
-
 ```bash
 holehe 'email@provider.com'
+```
+- ⚙️ [mailsleuth](https://github.com/44za12/mailsleuth) (🌐 [osintcabal.org](https://osintcabal.org/livecenter/mailsleuth.html)) _\~ reverse email lookup_
+```bash
+mailsleuth -e 'email@provider.com'
 ```
 
 - ⚙️ [ghunt](https://github.com/mxrch/GHunt) (🌐 [osint.rocks](https://osint.rocks/), 🌐 [gmail-osint](https://gmail-osint.activetk.jp/)) _\~ gmail parser_
