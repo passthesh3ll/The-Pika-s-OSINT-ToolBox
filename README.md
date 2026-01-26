@@ -20,7 +20,7 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 
 ## Username 🏷️
 
-- ⚙️ [maigret](https://github.com/soxoj/maigret) (🌐 [osint.rocks](https://osint.rocks/)) _\~ username reverse lookup_
+- ⚙️ [maigret](https://github.com/soxoj/maigret) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse username lookup_
 
 ```bash
 maigret 'username' --html
@@ -32,7 +32,7 @@ maigret 'username' --html
 python whatsmyname.py -u 'username'
 ```
 
-- 🌐 [user-searcher.com](https://www.user-searcher.com/) _\~ username reverse lookup_
+- 🌐 [user-searcher.com](https://www.user-searcher.com/) _\~ reverse username lookup_
 
 ## Email ✉️
 
@@ -45,16 +45,17 @@ python whatsmyname.py -u 'username'
 ```
 
 - 🌐 [intelx.io](https://intelx.io/tools?tab=emailvalidate) _\~ email validator_
-- 🌐 [minervaosint.com](https://minervaosint.com/) _\~ email reverse lookup_
-- ⚙️ [holehe](https://github.com/megadose/holehe) (🌐 [osint.rocks](https://osint.rocks/)) _\~ email reverse lookup_
+- 🌐 [minervaosint.com](https://minervaosint.com/) _\~ reverse email lookup_
+- ⚙️ [holehe](https://github.com/megadose/holehe) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse email lookup_
+- ⚙️ [mailsleuth](https://github.com/44za12/mailsleuth) (🌐 [osintcabal.org](https://osintcabal.org/livecenter/mailsleuth.html)) _\~ reverse email lookup_
 
 ```bash
 holehe 'email@provider.com'
 ```
 
 - ⚙️ [ghunt](https://github.com/mxrch/GHunt) (🌐 [osint.rocks](https://osint.rocks/), 🌐 [gmail-osint](https://gmail-osint.activetk.jp/)) _\~ gmail parser_
-- 🌐 [epieos.com](https://epieos.com/) _\~ email reverse lookup_
-- 🌐 [castrickclues.com](https://castrickclues.com/) _\~ email reverse lookup_
+- 🌐 [epieos.com](https://epieos.com/) _\~ reverse email lookup_
+- 🌐 [castrickclues.com](https://castrickclues.com/) _\~ reverse email lookup_
 
 ## Phone 📞
 
@@ -66,7 +67,7 @@ phoneinfoga scan -n '<XX> <NUMBER>'
 ```
 
 - 🌐 [@TrueCalleRobot](https://t.me/TrueCalleRobot) _\~ phone caller lookup_
-- ⚙️ [ignorant](https://github.com/megadose/ignorant) (🌐 [osint.rocks](https://osint.rocks/)) _\~ phone reverse lookup_
+- ⚙️ [ignorant](https://github.com/megadose/ignorant) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse phone lookup_
 
 ```bash
 ignorant '<NUMBER>' --only-used
