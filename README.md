@@ -255,7 +255,7 @@ site:linkedin.com inurl:in “<COMPANY>”
 
 ## Hosting 🕸️
 
-- 🌐 [sitereport.netcraft.com](https://sitereport.netcraft.com/) _\~ website general lookup_
+- 🌐 [sitereport.netcraft.com](https://sitereport.netcraft.com/) _\~ website parser_
 - 🌐 [centralops.net](https://centralops.net/) _\~ whois lookup_
 - 🌐 [whoxy.com/archive](https://www.whoxy.com/archive.php) _\~ whois DB history parser_
 - 🌐 [whois.easycounter.com](http://whois.easycounter.com/) _\~ whois DB history parser_
