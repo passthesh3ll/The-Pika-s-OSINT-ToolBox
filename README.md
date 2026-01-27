@@ -333,7 +333,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [intelbase.is](https://intelbase.is/) (🌐 [oathnet.org](https://oathnet.org/)) _\~ breach/account searcher_
 - 🌐 [breach.vip](https://breach.vip/) _\~ breach searcher_
 - 🌐 [bf.based.re](https://bf.based.re/) _\~ breachforums lookup_
-- 🌐 [sizeof.cat](https://sizeof.cat/post/data-leaks/) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _\~ breach torrents_
+- 🌐 [sizeof.cat](https://archive.is/Rbz1Y) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _\~ breach torrents_
 
 ## FlowCharts 💡
 
