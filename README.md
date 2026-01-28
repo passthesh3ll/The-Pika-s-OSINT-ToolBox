@@ -336,6 +336,18 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [idleakcheck.com](https://idleakcheck.com/search) _\~ NPD searcher_
 - 🌐 [bf.based.re](https://bf.based.re/) _\~ breachforums lookup_
 - 🌐 [sizeof.cat](https://archive.is/Rbz1Y) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _\~ breach torrents_
+- 💉 Hudsonrock Cavalier API _\~ stealers email searcher_
+```html
+https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-email?email=<EXAMPLE@GMAIL.COM>
+```
+- 💉 Hudsonrock Cavalier API _\~ stealers username searcher_
+```html
+https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=<USERNAME>
+```
+- 💉 Hudsonrock Cavalier API _\~ stealers ip searcher_
+```html
+https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-ip?ip=<127.0.0.1>
+```
 
 ## FlowCharts 💡
 
