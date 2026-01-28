@@ -240,6 +240,7 @@ https://api.github.com/users/<NIKNAME>
 - 🌐 [ispyconnect.com](https://www.ispyconnect.com/docs/ispy/default-camera-passwords) _\~ ipcam passwords list_
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) _\~ world institutions directory_
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) _\~ world institutions directory_
+- 🌐 [aleph.occrp.org](https://aleph.occrp.org/) _\~ investigation documents dataset_
 - 🌐 [ean-search.org](https://www.ean-search.org/) _\~ multi-barcode lookup_
 - 🌐 [iknowwhatyoudownload.com](https://iknowwhatyoudownload.com/) _\~ reverse torrents lookup_
 
