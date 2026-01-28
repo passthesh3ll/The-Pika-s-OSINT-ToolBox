@@ -241,6 +241,7 @@ https://api.github.com/users/<NIKNAME>
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) _\~ world institutions directory_
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) _\~ world institutions directory_
 - 🌐 [ean-search.org](https://www.ean-search.org/) _\~ multi-barcode lookup_
+- 🌐 [iknowwhatyoudownload.com](https://iknowwhatyoudownload.com/) _\~ reverse torrents lookup_
 
 ## Corporate 💼
 
