@@ -272,6 +272,7 @@ site:linkedin.com inurl:in “<COMPANY>”
 - 🌐 [osint.sh/adsense](https://osint.sh/adsense/) _\~ reverse adsense lookup_
 - 🌐 [osint.sh/analytics](https://osint.sh/analytics/) _\~ reverse google analytics lookup_
 - 🌐 [crt.sh](https://crt.sh/) _\~ certificate analysis_
+- 🌐 [shodan.io](https://www.shodan.io/) (🌐 [fofa.info](https://en.fofa.info/), 🌐 [platform.censys.io](https://platform.censys.io/search)) _\~ host scanner_
 - ⚙️ [wayBackLister](https://github.com/anmolksachan/wayBackLister) _\~ wayback directory bruteforcer_
 
 ```bash
