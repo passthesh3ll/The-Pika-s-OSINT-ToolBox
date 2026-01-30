@@ -308,18 +308,22 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 
 ## Knocking 🚪
 
-- 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (nik->✉️📞) _\~ account knocker_
-- 🌐 [facebook.com](https://www.facebook.com/login/identify/?ctx=recover) (nik->✉️📞) _\~ account knocker_
-- 🌐 [x.com](https://x.com/account/begin_password_reset) (nik->✅) _\~ account validator_
-- 🌐 [accounts.google.com](https://accounts.google.com/) (nik->✉️) _\~ account knocker_
-- 🌐 [snapchat.com](https://www.snapchat.com/) (nik✉️📞->✅) _\~ account validator_
-- 🌐 [discord.com](https://discord.com/login/) (nik✉️📞->✅) _\~ account validator_
+- 🌐 [instagram.com](https://www.instagram.com/accounts/password/reset/) (🏷️->✉️📞) _\~ account knocker_
+- 🌐 [facebook.com](https://www.facebook.com/login/identify/?ctx=recover) (🏷️->✉️📞) _\~ account knocker_
+- 🌐 [x.com](https://x.com/account/begin_password_reset) (🏷️->✅) _\~ account validator_
+- 🌐 [accounts.google.com](https://accounts.google.com/) (🏷️->✉️) _\~ account knocker_
+- 🌐 [login.yahoo.com](https://login.yahoo.com/) (🏷️✉️📞->✉️📞) _\~ account knocker_
+- 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (🏷️->✉️📞) _\~ account knocker_
+- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (🏷️✉️📞->📞✉️) _\~ account knocker_
+- 🌐 [account.samsung.com](https://account.samsung.com/accounts/v1/SAMSUNGCA/findId) (🏷️->✉️) _\~ account knocker_
+- 🌐 [snapchat.com](https://www.snapchat.com/) (🏷️✉️📞->✅) _\~ account validator_
+- 🌐 [discord.com](https://discord.com/login/) (🏷️✉️📞->✅) _\~ account validator_
 - 🌐 [identity.flickr.com](https://identity.flickr.com/forgot-password) (✉️->✅) _\~ account validator_
-- 🌐 [pinterest.com](https://www.pinterest.com/password/reset) (nik->✅) _\~ account validator_
-- 🌐 [login.yahoo.com](https://login.yahoo.com/) (\*->✉️📞) _\~ account knocker_
-- 🌐 [iforgot.apple.com](https://iforgot.apple.com/password/verify/appleid) (nik->✉️📞) _\~ account knocker_
-- 🌐 [account.samsung.com](https://account.samsung.com/accounts/v1/SAMSUNGCA/findId) (nik->✉️) _\~ account knocker_
-- 🌐 [account.live.com](https://account.live.com/ResetPassword.aspx) (nik✉️📞skypeid->📞✉️) _\~ account knocker_
+- 🌐 [pinterest.com](https://www.pinterest.com/password/reset) (🏷️->✅) _\~ account validator_
+- 🌐 [accounts.spotify.com](https://accounts.spotify.com/it/login) (✉️->✅) _\~ account validator_
+- 🌐 [epicgames.com](https://www.epicgames.com/id/login/forgot-password) (✉️->✅) _\~ account validator_
+- 🌐 [github.com](https://github.com/password_reset) (✉️->✅) _\~ account validator_
+- 🌐 [lastpass.com](https://lastpass.com/recover.php) (✉️->✅) _\~ account validator_
 - 🌐 [paypal.com](https://www.paypal.com/authflow/email-recovery) (✉️->✅) _\~ account validator_
 - 🌐 [accounts.binance.com](https://accounts.binance.com/en/security/user/reset-password) (📞✉️->✅) _\~ account validator_
 
