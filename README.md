@@ -54,7 +54,7 @@ holehe 'email@provider.com'
 ```
 - ⚙️ [blackbird](https://github.com/p1ngul1n0/blackbird) (🌐 [osintcabal.org](https://osintcabal.org/livecenter/blackbird.html)) _\~ reverse email lookup_
 ```bash
-python blackbird.py -e 'email@provider.com'
+blackbird -e 'email@provider.com'
 ```
 
 - ⚙️ [ghunt](https://github.com/mxrch/GHunt) (🌐 [osint.rocks](https://osint.rocks/), 🌐 [gmail-osint](https://gmail-osint.activetk.jp/)) _\~ gmail parser_
@@ -62,12 +62,6 @@ python blackbird.py -e 'email@provider.com'
 ## Phone 📞
 
 - 🌐 [smsc.ru](https://smsc.ru/testhlr/) _\~ phone lookup_
-- ⚙️ [phoneinfoga](https://github.com/sundowndev/phoneinfoga) _\~ phone lookup_
-
-```bash
-phoneinfoga scan -n '<XX> <NUMBER>'
-```
-
 - 🌐 [@TrueCalleRobot](https://t.me/TrueCalleRobot) _\~ phone caller lookup_
 - ⚙️ [ignorant](https://github.com/megadose/ignorant) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse phone lookup_
 
