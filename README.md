@@ -52,9 +52,9 @@ python whatsmyname.py -u 'username'
 ```bash
 holehe 'email@provider.com'
 ```
-- ⚙️ [mailsleuth](https://github.com/44za12/mailsleuth) (🌐 [osintcabal.org](https://osintcabal.org/livecenter/mailsleuth.html)) _\~ reverse email lookup_
+- ⚙️ [blackbird](https://github.com/p1ngul1n0/blackbird) (🌐 [osintcabal.org](https://osintcabal.org/livecenter/blackbird.html)) _\~ reverse email lookup_
 ```bash
-mailsleuth -e 'email@provider.com'
+python blackbird.py -e 'email@provider.com'
 ```
 
 - ⚙️ [ghunt](https://github.com/mxrch/GHunt) (🌐 [osint.rocks](https://osint.rocks/), 🌐 [gmail-osint](https://gmail-osint.activetk.jp/)) _\~ gmail parser_
