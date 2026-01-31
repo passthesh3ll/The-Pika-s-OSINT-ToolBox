@@ -20,6 +20,10 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 
 ## Username 🏷️
 
+- 💉 Multisite Search Dork (social, gaming, chat, art, work, forum) _\~ multi-category search_
+```html
+"<USERNAME>" (site:x.com OR site:twitter.com OR site:instagram.com OR site:facebook.com OR site:tiktok.com OR site:youtube.com OR site:linkedin.com OR site:pinterest.com OR site:reddit.com OR site:tumblr.com OR site:linktr.ee OR site:carrd.co OR site:twitch.tv OR site:discord.com OR site:steamcommunity.com OR site:roblox.com OR site:kick.com OR site:tracker.gg OR site:ign.com OR site:gamespot.com OR site:epicgames.com OR site:xboxgamertag.com OR site:psnprofiles.com OR site:nintendo.com OR site:deviantart.com OR site:behance.net OR site:dribbble.com OR site:artstation.com OR site:soundcloud.com OR site:bandcamp.com OR site:vimeo.com OR site:flickr.com OR site:500px.com OR site:mixcloud.com OR site:github.com OR site:gitlab.com OR site:stackoverflow.com OR site:bitbucket.org OR site:npm.com OR site:kaggle.com OR site:producthunt.com OR site:fiverr.com OR site:upwork.com OR site:freelancer.com OR site:medium.com OR site:quora.com OR site:wattpad.com OR site:wordpress.com OR site:blogger.com OR site:patreon.com OR site:onlyfans.com OR site:fansly.com OR site:ko-fi.com OR site:buymeacoffee.com OR site:substack.com OR site:t.me OR site:telegram.me OR site:gravatar.com OR site:about.me OR site:keybase.io OR site:disqus.com OR site:skype.com OR site:slack.com)
+```
 - ⚙️ [sherlock](https://github.com/sherlock-project/sherlock) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse username lookup_
 
 ```bash
