@@ -281,6 +281,11 @@ python waybacklister.py -d <SITE> -t 50
 robofinder -u <SITE> -t 50 -c
 ```
 
+- ⚙️ [subcat](https://github.com/duty1g/subcat) (🌐 [osintcabal.org](https://osintcabal.org/livecenter/subcat.html)) _\~ subdomains finder_
+```bash
+subcat -d hackerone.com --sc --title --tech --up
+```
+
 - 💉 Subdomains Finder _\~ subdomains finder_
 ```html
 https://api.hackertarget.com/hostsearch/?q=<WEBSITE>
