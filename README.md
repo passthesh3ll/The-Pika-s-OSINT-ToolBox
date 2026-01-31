@@ -22,7 +22,7 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 
 - 💉 Multisite Nikname Search Dork _\~ multi-site nikname search_
 ```html
-inurl:"<USERNAME>" (site:facebook.com OR site:instagram.com OR site:x.com OR site:tiktok.com OR site:linkedin.com OR site:pinterest.com OR site:reddit.com OR site:tumblr.com OR site:youtube.com OR site:twitch.tv OR site:stackoverflow.com OR site:soundcloud.com) -inurl:videos -inurl:video -inurl:watch -inurl:status -inurl:post -inurl:posts -inurl:photo -inurl:/p/ -inurl:photos -inurl:reply -inurl:reel -inurl:reels -inurl:comment -inurl:comments -inurl:search -inurl:tag -inurl:?__d= -inurl:related_profiles -inurl:popular -inurl:hashtag -inurl:/?v=
+inurl:"<USERNAME>" (site:facebook.com | site:instagram.com | site:x.com | site:tiktok.com | site:linkedin.com | site:pinterest.com | site:reddit.com | site:tumblr.com | site:youtube.com | site:twitch.tv | site:stackoverflow.com | site:soundcloud.com) -inurl:videos -inurl:video -inurl:watch -inurl:status -inurl:post -inurl:posts -inurl:photo -inurl:/p/ -inurl:photos -inurl:reply -inurl:reel -inurl:reels -inurl:comment -inurl:comments -inurl:search -inurl:tag -inurl:?__d= -inurl:related_profiles -inurl:popular -inurl:hashtag -inurl:/?v=
 ```
 
 - ⚙️ [sherlock](https://github.com/sherlock-project/sherlock) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse username lookup_
