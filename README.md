@@ -90,13 +90,6 @@ ignorant '<NUMBER>' --only-used
 "<NAME>" "<SURNAME>" "<CITY>" (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com)
 ```
 
-- 💉 Instagram Place Search _\~ IG place finder_
-
-```html
-inurl:"<PLACE>" site:instagram.com
-https://www.instagram.com/explore/search/keyword/?q=<PLACE>
-```
-
 - ⚙️ [instaloader](https://github.com/instaloader/instaloader) _\~ IG backup_
 - 📜 [Instagram Followers/Following Scraper](https://greasyfork.org/en/scripts/527647) _\~ IG followe/rs_
 - 📜 [Instagram Post Date and Location](https://greasyfork.org/en/scripts/527757) _\~ IG geotag+date ui_
@@ -112,7 +105,11 @@ instagram-location-search --cookies "<ig-cookie>" --lat "<lat>" --lng "<lng>" --
 
 ```html
 "<NAME>" "<SURNAME>" ("lives in <PLACE>" | "from <PLACE>") site:facebook.com
+```
+```html
 "<NAME>" "<SURNAME>" ("studied at <SCHOOL>" | "went to <SCHOOL>") site:facebook.com
+```
+```html
 "<NAME>" "<SURNAME>" ("worked at <COMPANY>" | "works at <COMPANY>") site:facebook.com
 ```
 
@@ -287,17 +284,17 @@ https://www.virustotal.com/gui/domain/<WEBSITE>/relations
 
 - 💉 Wayback Pages Finder (CDX API) _\~ wayback pages enumerator_
 ```html
-https://web.archive.org/cdx/search/cdx?url=<WEBSITE>/path/page.php?<PARAMETER>=*  [&to=<YYYYMMDD>&from=<YYYYMMDD>]
+https://web.archive.org/cdx/search/cdx?url=<WEBSITE>/path/page.php?<PARAMETER>=* [&to=<YYYYMMDD>&from=<YYYYMMDD>]
 ```
 
 - 💉 Wayback Hidden Domains/Files (CDX API) _\~ wayback pages enumerator_
 ```html
-https://web.archive.org/cdx/search/cdx?url=*.<WEBSITE>&collapse=urlkey  [&to=<YYYYMMDD>&from=<YYYYMMDD>]
+https://web.archive.org/cdx/search/cdx?url=*.<WEBSITE>&collapse=urlkey [&to=<YYYYMMDD>&from=<YYYYMMDD>]
 ```
 
 - 💉 Wayback Files Filer (CDX API) _\~ wayback mimetype filter_
 ```html
-https://web.archive.org/cdx/search/cdx?url=<WEBSITE>&filter=mimetype:text/javascript&collapse=urlkey  [&to=<YYYYMMDD>&from=<YYYYMMDD>]
+https://web.archive.org/cdx/search/cdx?url=<WEBSITE>&filter=mimetype:text/javascript&collapse=urlkey [&to=<YYYYMMDD>&from=<YYYYMMDD>]
 ```
 
 - 💉 Gravatar API _\~ gravatar lookup_
