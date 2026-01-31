@@ -284,6 +284,8 @@ robofinder -u <SITE> -t 50 -c
 - 💉 Subdomains Finder _\~ subdomains finder_
 ```html
 https://api.hackertarget.com/hostsearch/?q=<WEBSITE>
+```
+```html
 https://www.virustotal.com/gui/domain/<WEBSITE>/relations
 ```
 
