@@ -92,7 +92,7 @@ ignorant '<NUMBER>' --only-used
 - 💉 Multisocial Search Dork _\~ multi-social search_
 
 ```html
-"<NAME>" "<SURNAME>" "<CITY>" (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com)
+"<NAME>" "<SURNAME>" (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com) -inurl:videos -inurl:video -inurl:watch -inurl:status -inurl:post -inurl:posts -inurl:photo -inurl:/p/ -inurl:photos -inurl:reply -inurl:reel -inurl:reels -inurl:comment -inurl:comments -inurl:search -inurl:tag -inurl:?__d= -inurl:related_profiles -inurl:popular -inurl:hashtag -inurl:/?v= -inurl:public
 ```
 
 - ⚙️ [instaloader](https://github.com/instaloader/instaloader) _\~ IG backup_
