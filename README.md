@@ -324,6 +324,7 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [pinterest.com](https://www.pinterest.com/password/reset) (🏷️->✅) _\~ account validator_
 - 🌐 [accounts.spotify.com](https://accounts.spotify.com/it/login) (✉️->✅) _\~ account validator_
 - 🌐 [epicgames.com](https://www.epicgames.com/id/login/forgot-password) (✉️->✅) _\~ account validator_
+- 🌐 [airbnb.it](https://www.airbnb.it/) (✉️📞->✅) _\~ account validator_
 - 🌐 [github.com](https://github.com/password_reset) (✉️->✅) _\~ account validator_
 - 🌐 [lastpass.com](https://lastpass.com/recover.php) (✉️->✅) _\~ account validator_
 - 🌐 [paypal.com](https://www.paypal.com/authflow/email-recovery) (✉️->✅) _\~ account validator_
