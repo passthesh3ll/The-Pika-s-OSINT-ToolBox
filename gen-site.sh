@@ -23,6 +23,7 @@ BODY_NO_TITLE=$(echo "$BODY_CONTENT" | awk '/<h1[^>]*>.*<\/h1>/ {next} {print}')
 LOGO_IMG=$(echo "$BODY_NO_TITLE" | grep -oP '<img[^>]*src="https://[^"]*postimg\.cc/[^"]*pika[^"]*"[^>]*/?>' | head -1)
 # Remove logo and its <p> wrapper from body
 CLEAN_BODY=$(echo "$BODY_NO_TITLE" | perl -0777 -pe 's/<p>\s*<img[^>]*src="https:\/\/[^"]*postimg\.cc\/[^"]*pika[^"]*"[^>]*\/?>\s*<\/p>\s*//s')
+
 # Add class="logo" to extracted image
 if [[ -n "$LOGO_IMG" ]]; then
     LOGO_IMG=$(echo "$LOGO_IMG" | sed -E 's/<img/<img class="logo"/; s/\s*\/?>$/>/')
@@ -74,7 +75,8 @@ cat > "$OUTPUT_HTML" <<EOF
     <link href="$ICONS_CSS" rel="stylesheet">
     <style>
         body { background:#121212; color:#e0e0e0; padding:2rem 1rem; font-family:system-ui,-apple-system,sans-serif; display:flex; justify-content:center; }
-        .container { max-width:none; width:80%; }
+        .container { max-width:none; width:85%; }
+		.container > p { max-width: 90%; margin: 1rem auto; }
         h1, h2, h3, h4 { margin-top:2rem; color:#ffca28; text-align:center; }
         h1 { font-size:2.5rem; margin-bottom:0.5rem; }
         img.logo { display:block; margin:1rem auto 2rem; max-width:250px;}
@@ -85,7 +87,6 @@ cat > "$OUTPUT_HTML" <<EOF
         li { margin-bottom:.75rem; }
         a { color:#42a5f5; text-decoration:none; }
         a:hover { text-decoration:underline; }
-		#description + p {max-width: calc(90% - 5px); margin-left: auto; margin-right: auto; box-sizing: border-box; }
 		pre, .sourceCode {margin-top: 0px;margin-bottom: 0px;}
         .container > * { text-align:center; }
         .container > ul, .container > ol, .container > pre, .container > blockquote { text-align:left; }
