@@ -387,6 +387,8 @@ https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-ip?ip=<127.0.0
 - 📚️ [Awesome Google Dorks](https://github.com/Tobee1406/Awesome-Google-Dorks)
 - 📚️ [Google Hacking Database ExploitDB](https://www.exploit-db.com/google-hacking-database)
 
+![image](https://api.star-history.com/svg?repos=passthesh3ll/The-Pika-s-OSINT-ToolBox&theme=dark)
+
 ## Contact 📨
 For contributions and reports: **pikaosint@proton.me**
 
