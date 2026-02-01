@@ -279,19 +279,20 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 </ul>
 <div class="sourceCode" id="cb19"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">CITY</span><span class="dt">&gt;</span>&quot; (filetype:pdf | filetype:doc | filetype:docx | filetype:odt | filetype:ods | filetype:odp | filetype:xls | filetype:xlsx | filetype:csv | filetype:txt | filetype:rtf | filetype:xml | filetype:ppt | filetype:pptx | filetype:key | filetype:zip | filetype:rar | filetype:7z | filetype:gz | filetype:log | filetype:json | filetype:audit | filetype:trace | filetype:debug | filetype:out | filetype:err)</span></code></pre></div>
 <ul>
-<li>🌐 <a href="https://cybdetective.com/pastebin.html">cybdetective.com/pastebin</a> <em>~ pastebin search</em></li>
-<li>🌐 <a href="https://cybdetective.com/codesearch.html">cybdetective.com/codesearch</a> <em>~ repos search</em></li>
+<li><p>🌐 <a href="https://cybdetective.com/pastebin.html">cybdetective.com/pastebin</a> <em>~ pastebin search</em></p></li>
+<li><p>🌐 <a href="https://cybdetective.com/codesearch.html">cybdetective.com/codesearch</a> <em>~ repos search</em></p></li>
+<li><p>💉 Github User Info <em>~ github user lookup</em></p></li>
+</ul>
+<div class="sourceCode" id="cb20"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>https://api.github.com/users/<span class="dt">&lt;</span><span class="kw">NIKNAME</span><span class="dt">&gt;</span></span></code></pre></div>
+<ul>
+<li>🌐 <a href="https://ghintel.secrets.ninja/">ghintel.secrets.ninja</a> <em>~ github email commits finder</em></li>
 <li>⚙️ Hidden Metadata In Local Repos <em>~ repos email/nikname finder</em></li>
 </ul>
-<div class="sourceCode" id="cb20"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--pretty</span><span class="op">=</span>format:<span class="st">&quot;[ AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--pretty</span><span class="op">=</span>format:<span class="st">&quot;[ AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]&quot;</span></span></code></pre></div>
 <ul>
 <li>⚙️ <a href="https://github.com/trufflesecurity/trufflehog">trufflehog</a> <em>~ repo secret finder</em></li>
 </ul>
-<div class="sourceCode" id="cb21"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="ex">trufflehog</span> git <span class="st">&quot;https://github.com/&lt;USER&gt;/&lt;REPO&gt;&quot;</span></span></code></pre></div>
-<ul>
-<li>💉 Github User Info <em>~ github user lookup</em></li>
-</ul>
-<div class="sourceCode" id="cb22"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>https://api.github.com/users/<span class="dt">&lt;</span><span class="kw">NIKNAME</span><span class="dt">&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="ex">trufflehog</span> git <span class="st">&quot;https://github.com/&lt;USER&gt;/&lt;REPO&gt;&quot;</span></span></code></pre></div>
 <ul>
 <li>🌐 <a href="https://www.ispyconnect.com/docs/ispy/default-camera-passwords">ispyconnect.com</a> <em>~ ipcam passwords list</em></li>
 <li>🌐 <a href="https://cybdetective.com/osintmap/">cybdetective.com/osintmap</a> <em>~ world institutions directory</em></li>

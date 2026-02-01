@@ -214,6 +214,13 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 
 - 🌐 [cybdetective.com/pastebin](https://cybdetective.com/pastebin.html) _\~ pastebin search_
 - 🌐 [cybdetective.com/codesearch](https://cybdetective.com/codesearch.html) _\~ repos search_
+
+- 💉 Github User Info _\~ github user lookup_
+
+```html
+https://api.github.com/users/<NIKNAME>
+```
+- 🌐 [ghintel.secrets.ninja](https://ghintel.secrets.ninja/) _\~ github email commits finder_
 - ⚙️ Hidden Metadata In Local Repos _\~ repos email/nikname finder_
 
 ```bash
@@ -225,11 +232,6 @@ git log --pretty=format:"[ AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:
 trufflehog git "https://github.com/<USER>/<REPO>"
 ```
 
-- 💉 Github User Info _\~ github user lookup_
-
-```html
-https://api.github.com/users/<NIKNAME>
-```
 
 - 🌐 [ispyconnect.com](https://www.ispyconnect.com/docs/ispy/default-camera-passwords) _\~ ipcam passwords list_
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) _\~ world institutions directory_
