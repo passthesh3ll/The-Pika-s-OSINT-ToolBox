@@ -37,8 +37,6 @@ sherlock 'username' --timeout 2
 python whatsmyname.py -u 'username'
 ```
 
-- 🌐 [user-searcher.com](https://www.user-searcher.com/) _\~ reverse username lookup_
-
 ## Email ✉️
 
 - 🌐 [metricsparrow.com](http://metricsparrow.com/toolkit/email-permutator) _\~ email permutator_
