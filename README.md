@@ -247,6 +247,7 @@ trufflehog git "https://github.com/<USER>/<REPO>"
 - 🌐 [skymem.info](https://www.skymem.info/) _\~ company email lookup_
 - 🌐 [lei.info](https://lei.info/) _\~ legal company identifier_
 - 🌐 [opencorporates.com](https://opencorporates.com/) _\~ open corporate database_
+- 🌐 [apollo.io](https://www.apollo.io/) _\~ email/phone linkedin database_
 - 💉 Company Employee Dork _\~ linkedin company users_
 
 ```html
