@@ -20,7 +20,7 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 
 ## Username 🏷️
 
-- 💉 Multisite Nikname Search Dork _\~ multi-site nikname search_
+- 💉 Multisite Nickname Search Dork _\~ multi-site nickname search_
 ```html
 inurl:"<USERNAME>" (site:facebook.com | site:instagram.com | site:x.com | site:tiktok.com | site:linkedin.com | site:pinterest.com | site:reddit.com | site:tumblr.com | site:youtube.com | site:twitch.tv | site:stackoverflow.com | site:soundcloud.com) -inurl:videos -inurl:video -inurl:watch -inurl:status -inurl:post -inurl:posts -inurl:photo -inurl:/p/ -inurl:photos -inurl:reply -inurl:reel -inurl:reels -inurl:comment -inurl:comments -inurl:search -inurl:tag -inurl:?__d= -inurl:related_profiles -inurl:popular -inurl:hashtag -inurl:/?v=
 ```
@@ -154,11 +154,11 @@ python telegram_phone_number_checker/main.py --phone-numbers '<NUMBER>' --downlo
 - ⚙️ [telepathy](https://github.com/proseltd/Telepathy-Community) _\~ TG groups/channels lookup_
 
 ```bash
-telepathy -t '<NIKNAME>' -c
+telepathy -t '<NICKNAME>' -c
 ```
 
 - 🌐 [@creationdatebot](https://t.me/creationdatebot) _\~ TG registration lookup_
-- 🌐 [@SangMata_beta_bot](https://t.me/SangMata_beta_bot) _\~ TG nik lookup_
+- 🌐 [@SangMata_beta_bot](https://t.me/SangMata_beta_bot) _\~ TG nick lookup_
 
 ## Gaming 🎮️
 
@@ -219,13 +219,13 @@ https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<A
 - 💉 Github User Info _\~ github user lookup_
 
 ```html
-https://api.github.com/users/<NIKNAME>
+https://api.github.com/users/<NICKNAME>
 ```
 - 🌐 [ghintel.secrets.ninja](https://ghintel.secrets.ninja/) _\~ github email commits finder_
-- ⚙️ Hidden Metadata In Local Repos _\~ repos email/nikname finder_
+- ⚙️ Hidden Metadata In Local Repos _\~ repos email/nickname finder_
 
 ```bash
-git log --pretty=format:"[ AUTHOR-EMAIL:%ae | AUTHOR-NIK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NIK:%cn ][ DATE:%aD ]"
+git log --pretty=format:"[ AUTHOR-EMAIL:%ae | AUTHOR-NICK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NICK:%cn ][ DATE:%aD ]"
 ```
 - ⚙️ [trufflehog](https://github.com/trufflesecurity/trufflehog) _\~ repo secret finder_
 
