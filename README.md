@@ -157,7 +157,7 @@ python telegram_phone_number_checker/main.py --phone-numbers '<NUMBER>' --downlo
 telepathy -t '<NICKNAME>' -c
 ```
 
-- 🌐 [@CyberUz_osint_bot1bot](https://t.me/CyberUz_osint_bot1bot?start=010814D5EF7674617466) _\~ TG telelog parser_
+- 🌐 [@infotelosintrobot](https://t.me/infotelosintrobot?start=010814D5EF7674617466) _\~ TG telelog parser_
 - 🌐 [@creationdatebot](https://t.me/creationdatebot) _\~ TG registration lookup_
 - 🌐 [@SangMata_beta_bot](https://t.me/SangMata_beta_bot) _\~ TG nick lookup_
 
