@@ -205,7 +205,7 @@ python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 -
 - 💉 Localized Google Search ([ISO 3166-1 alpha-2 Table](https://gist.github.com/tadast/8827699)) _\~ search by country switching_
 
 ```html
-https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=country<ALPHA-2-COUNTRY-CODE>
+https://www.google.com/search?q=<ANY>+<DORK>+<OR>+<CUSTOM>+<SEARCH>&cr=<ALPHA-2-COUNTRY-CODE>
 ```
 
 - 💉 Docs Search Dork _\~ general info gathering_
