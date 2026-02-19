@@ -36,6 +36,7 @@ sherlock 'username' --timeout 2
 ```bash
 python whatsmyname.py -u 'username'
 ```
+- 🌐 [whatsmynameapp.net](https://whatsmynameapp.net/) _\~ username scraper_
 
 ## Email ✉️
 
