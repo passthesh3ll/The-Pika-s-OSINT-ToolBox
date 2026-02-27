@@ -189,7 +189,7 @@ python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 -
 - 🌐 [tubvsig-so2sat-vm1.srv.mwn.de](https://tubvsig-so2sat-vm1.srv.mwn.de/) _\~ global building info_
 - 🌐 [pleper.com](https://pleper.com/index.php?do=tools&sdo=cid_converter) _\~ gmaps spots info_
 - 🌐 [cse.google.com](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0) (🌐 [cybdetective.com/webcamcse](https://cybdetective.com/webcamcse.html)) _\~ webcam finder_
-- 🌐 [wigle.net](https://wigle.net/) _\~ wifi wardriving map_
+- 🌐 [3wifi.dev](https://3wifi.dev/map.html) (🌐 [wigle.net](https://wigle.net/)) _\~ wifi wardriving map_
 - 🌐 [firms.modaps.eosdis.nasa.gov](https://firms.modaps.eosdis.nasa.gov/map/) _\~ nasa fire map_
 - 🌐 [plonkit.net](https://www.plonkit.net/guide) _\~ geoguesser wiki_
 - 🌐 [geotips.net](https://geotips.net/) _\~ geoguesser wiki_
