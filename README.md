@@ -160,7 +160,6 @@ telepathy -t '<NICKNAME>' -c
 ```
 
 - 🌐 [@fsta_bot_of_bot](https://t.me/fsta_bot_of_bot?start=010814D5EF7674617466) _\~ TG groups lookup_
-- 🌐 [@poiskpoinfo2026_bot](https://t.me/poiskpoinfo2026_bo?start=_ref_g41lRklcY_9PkDtkJcs) _\~ TG phone lookup_
 - 🌐 [@creationdatebot](https://t.me/creationdatebot) _\~ TG registration lookup_
 - 🌐 [@SangMata_beta_bot](https://t.me/SangMata_beta_bot) _\~ TG nick lookup_
 
