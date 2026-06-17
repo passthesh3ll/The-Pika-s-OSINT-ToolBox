@@ -246,7 +246,7 @@ trufflehog git "https://github.com/<USER>/<REPO>"
 
 ## Corporate 💼
 
-- 🌐 [dnb.com](https://www.dnb.com/business-directory.html) _\~ company lookup_
+- 🌐 [dnb.com](https://www.dnb.com/business-directory.html) (🌐 [zephira.ai](https://zephira.ai/)) _\~ company lookup_
 - 🌐 [skymem.info](https://www.skymem.info/) _\~ company email lookup_
 - 🌐 [lei.info](https://lei.info/) _\~ legal company identifier_
 - 🌐 [opencorporates.com](https://opencorporates.com/) _\~ open corporate database_
