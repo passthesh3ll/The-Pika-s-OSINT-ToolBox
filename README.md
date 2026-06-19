@@ -24,6 +24,12 @@ Open Source Intelligence ([OSINT](https://en.wikipedia.org/wiki/Open-source_inte
 ```html
 inurl:"<USERNAME>" (site:facebook.com | site:instagram.com | site:x.com | site:tiktok.com | site:linkedin.com | site:pinterest.com | site:reddit.com | site:tumblr.com | site:youtube.com | site:twitch.tv | site:stackoverflow.com | site:soundcloud.com) -inurl:videos -inurl:video -inurl:watch -inurl:status -inurl:post -inurl:posts -inurl:photo -inurl:/p/ -inurl:photos -inurl:reply -inurl:reel -inurl:reels -inurl:comment -inurl:comments -inurl:search -inurl:tag -inurl:?__d= -inurl:related_profiles -inurl:popular -inurl:hashtag -inurl:/?v=
 ```
+- ⚙️ [user-scanner](https://github.com/kaifcodec/user-scanner) _\~ reverse username/email lookup_
+
+```bash
+user-scanner -e user@email.com
+user-scanner -u user
+```
 
 - ⚙️ [sherlock](https://github.com/sherlock-project/sherlock) (🌐 [osint.rocks](https://osint.rocks/)) _\~ reverse username lookup_
 
