@@ -132,6 +132,7 @@ instagram-location-search --cookies "<ig-cookie>" --lat "<lat>" --lng "<lng>" --
 https://www.facebook.com/profile.php?id=<PROFILEID>
 ```
 - 📜 [X.com Profile Info Widget](https://greasyfork.org/en/scripts/562550) _\~ X advanced info_
+- 🌐 [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) _\~ X/Twitter search, followers, monitors, MCP_
 
 - 🌐 [onlysearch.co](https://onlysearch.co/) _\~ OF searcher_
 - 📜 [YouTube Channel ID Extractor](https://greasyfork.org/en/scripts/569563) _\~ YT id finder_
@@ -142,7 +143,7 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 - 🌐 [twitch-tools.rootonline.de](https://twitch-tools.rootonline.de/) _\~ TW followers/ing viewer_
 - 🌐 [r00m101.com](https://r00m101.com/) _\~ Reddit profile analyzer_
 - 🌐 [badoo-archive-collection](https://web.archive.org/collection-search/badoo.com) _\~ Badoo wayback db_
-- 🌐 [strava.com/maps](https://www.strava.com/maps/) _\~ Stava global heatmap_
+- 🌐 [strava.com/maps](https://www.strava.com/maps/) _\~ Strava global heatmap_
 
 ## Chat 💬
 
@@ -163,7 +164,7 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 python telegram_phone_number_checker/main.py --phone-numbers '<NUMBER>' --download-profile-photos
 ```
 
-- ⚙️ [telepathy](https://github.com/proseltd/Telepathy-Community) _\~ TG groups/channels lookup_
+- ⚙️ [telepathy](https://github.com/prose-intelligence-ltd/Telepathy-Community) _\~ TG groups/channels lookup_
 
 ```bash
 telepathy -t '<NICKNAME>' -c
