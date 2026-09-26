@@ -252,6 +252,7 @@ trufflehog git "https://github.com/<USER>/<REPO>"
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) _\~ world institutions directory_
 - 🌐 [aleph.occrp.org](https://aleph.occrp.org/) _\~ investigation documents dataset_
 - 🌐 [ean-search.org](https://www.ean-search.org/) _\~ multi-barcode lookup_
+- 🌐 [barcodepedia.com](https://barcodepedia.com/) _\~ barcode to brand owner and registrant lookup_
 - 🌐 [iknowwhatyoudownload.com](https://iknowwhatyoudownload.com/) _\~ reverse torrents lookup_
 
 ## Corporate 💼
