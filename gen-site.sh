@@ -86,6 +86,22 @@ CLEAN_BODY=$(echo "$CLEAN_BODY" | perl -CSD -Mutf8 -pe '
     s/\x{2705}/<i class="bi bi-check-circle icon-sym"><\/i>/g;
 ')
 
+# Duplicate the star-history chart into dark/light SVGs swapped by CSS
+STAR_FIX_SCRIPT=$(mktemp)
+cat > "$STAR_FIX_SCRIPT" <<'PERLEOF'
+undef $/;
+my $data = <STDIN>;
+$data =~ s{<img([^>]*)src="(https://star-history\.dera\.page/svg\?[^"]*?)&amp;theme=(?:dark|light)"([^>]*)>}{
+    my ($pre, $url, $post) = ($1, $2, $3);
+    '<img class="star-history star-history-dark"' . $pre . 'src="' . $url . '&amp;theme=dark"' . $post . '>'
+    . '<img class="star-history star-history-light"' . $pre . 'src="' . $url . '&amp;theme=light"' . $post . '>'
+}ges;
+print $data;
+PERLEOF
+
+CLEAN_BODY=$(echo "$CLEAN_BODY" | perl "$STAR_FIX_SCRIPT")
+rm -f "$STAR_FIX_SCRIPT"
+
 # Transform FlowCharts section into a grid of buttons (opens modal)
 CLEAN_BODY=$(echo "$CLEAN_BODY" | perl -0777 -pe '
 s|<h4[^>]*>([^<]+)</h4>\s*<p>(<img[^>]+>)</p>|<button class="fc-item" type="button" onclick="openFC(this)"><span class="fc-label">$1</span>$2</button>|gs;
@@ -155,8 +171,8 @@ cat > "$OUTPUT_HTML" <<EOF
   --syn-cf: #d98bb0;
 }
 [data-theme="light"] {
-  --bg: #f7f8fa;
-  --surface: #ffffff;
+  --bg: #ffffff;
+  --surface: #f7f8fa;
   --surface-hover: #f0f2f5;
   --border: #e2e5ea;
   --border-strong: #c8ccd3;
@@ -493,6 +509,13 @@ pre code {
 .sourceCode .cf, .sourceCode .ot { color: var(--syn-cf); }
 
 /* ---------------------------------------------------------------------------
+   Star-history chart: CSS swaps the dark/light SVG on theme change
+   --------------------------------------------------------------------------- */
+.star-history-light { display: none; }
+[data-theme="light"] .star-history-dark { display: none; }
+[data-theme="light"] .star-history-light { display: inline; }
+
+/* ---------------------------------------------------------------------------
    FlowCharts grid
    --------------------------------------------------------------------------- */
 .fc-grid {
@@ -738,7 +761,6 @@ $CLEAN_BODY
   }
 })();
 
-/* Mobile navigation drawer */
 /* Mobile navigation drawer */
 (function () {
   var sidebar = document.getElementById('nav-sidebar');

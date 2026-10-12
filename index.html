@@ -44,8 +44,8 @@
   --syn-cf: #d98bb0;
 }
 [data-theme="light"] {
-  --bg: #f7f8fa;
-  --surface: #ffffff;
+  --bg: #ffffff;
+  --surface: #f7f8fa;
   --surface-hover: #f0f2f5;
   --border: #e2e5ea;
   --border-strong: #c8ccd3;
@@ -380,6 +380,13 @@ pre code {
 .sourceCode .va { color: var(--syn-va); }
 .sourceCode .nu { color: var(--syn-nu); }
 .sourceCode .cf, .sourceCode .ot { color: var(--syn-cf); }
+
+/* ---------------------------------------------------------------------------
+   Star-history chart: CSS swaps the dark/light SVG on theme change
+   --------------------------------------------------------------------------- */
+.star-history-light { display: none; }
+[data-theme="light"] .star-history-dark { display: none; }
+[data-theme="light"] .star-history-light { display: inline; }
 
 /* ---------------------------------------------------------------------------
    FlowCharts grid
@@ -930,7 +937,7 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 <li><i class="bi bi-book icon-sym"></i> <a href="https://github.com/Tobee1406/Awesome-Google-Dorks">Awesome Google Dorks</a></li>
 <li><i class="bi bi-book icon-sym"></i> <a href="https://www.exploit-db.com/google-hacking-database">Google Hacking Database ExploitDB</a></li>
 </ul>
-<p><img src="https://star-history.dera.page/svg?repos=passthesh3ll/The-Pika-s-OSINT-ToolBox&amp;theme=dark" alt="image" /></p>
+<p><img class="star-history star-history-dark" src="https://star-history.dera.page/svg?repos=passthesh3ll/The-Pika-s-OSINT-ToolBox&amp;theme=dark" alt="image" /><img class="star-history star-history-light" src="https://star-history.dera.page/svg?repos=passthesh3ll/The-Pika-s-OSINT-ToolBox&amp;theme=light" alt="image" /></p>
 <h2  id="contact-incoming_envelope"><i class="bi bi-envelope-paper"></i> Contact</h2>
 <p>For contributions and reports: <strong><a href="mailto:pikaosint@proton.me">pikaosint@proton.me</a></strong></p>
 <h2  id="donation-yellow_heart"><i class="bi bi-heart"></i> Donation</h2>
@@ -977,7 +984,6 @@ Thank you!</p>
   }
 })();
 
-/* Mobile navigation drawer */
 /* Mobile navigation drawer */
 (function () {
   var sidebar = document.getElementById('nav-sidebar');
