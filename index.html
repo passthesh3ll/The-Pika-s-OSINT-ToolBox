@@ -608,124 +608,126 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 <li><i class="bi bi-robot icon-sym"></i> <em>AI Powered</em></li>
 <li><i class="bi bi-book icon-sym"></i> <em>Wiki/List Resource</em></li>
 </ul>
+<h4 id="abbreviations">Abbreviations</h4>
+<p><code>IG</code> Instagram · <code>FB</code> Facebook · <code>X</code> X/Twitter · <code>YT</code> YouTube · <code>TG</code> Telegram · <code>OF</code> OnlyFans · <code>PSN</code> PlayStation Network · <code>XBL</code> Xbox Live · <code>GMaps</code> Google Maps</p>
 <h2  id="username-label"><i class="bi bi-tag"></i> Username</h2>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Multisite Nickname Search Dork <em>~ multi-site nickname search</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Multisite Nickname Search Dork <em>~ username enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>inurl:&quot;<span class="dt">&lt;</span><span class="kw">USERNAME</span><span class="dt">&gt;</span>&quot; (site:facebook.com | site:instagram.com | site:x.com | site:tiktok.com | site:linkedin.com | site:pinterest.com | site:reddit.com | site:tumblr.com | site:youtube.com | site:twitch.tv | site:stackoverflow.com | site:soundcloud.com) -inurl:videos -inurl:video -inurl:watch -inurl:status -inurl:post -inurl:posts -inurl:photo -inurl:/p/ -inurl:photos -inurl:reply -inurl:reel -inurl:reels -inurl:comment -inurl:comments -inurl:search -inurl:tag -inurl:?__d= -inurl:related_profiles -inurl:popular -inurl:hashtag -inurl:/?v=</span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/kaifcodec/user-scanner">user-scanner</a> <em>~ reverse username/email lookup</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/kaifcodec/user-scanner">user-scanner</a> <em>~ username/email enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">user-scanner</span> <span class="at">-e</span> user@email.com</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">user-scanner</span> <span class="at">-u</span> user</span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/sherlock-project/sherlock">sherlock</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>) <em>~ reverse username lookup</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/sherlock-project/sherlock">sherlock</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>) <em>~ username reverse lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">sherlock</span> <span class="st">&#39;username&#39;</span> <span class="at">--timeout</span> 2</span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python">WhatsMyName</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://whatsmyname.app">whatsmyname.app</a>) <em>~ username scraper</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python">WhatsMyName</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://whatsmyname.app">whatsmyname.app</a>) <em>~ username enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> whatsmyname.py <span class="at">-u</span> <span class="st">&#39;username&#39;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://whatsmynameapp.net/">whatsmynameapp.net</a> <em>~ username scraper</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://whatsmynameapp.net/">whatsmynameapp.net</a> <em>~ username enumeration</em></li>
 </ul>
 <h2  id="email-envelope"><i class="bi bi-envelope"></i> Email</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="http://metricsparrow.com/toolkit/email-permutator">metricsparrow.com</a> <em>~ email permutator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://seintpl.github.io/NAMINT">seintpl.github.io/NAMINT</a> <em>~ email checker</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Email Finder by Domain Dork (<a href="https://rentry.co/top-100-email-providers">top 100 email providers</a>) <em>~ email searcher</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="http://metricsparrow.com/toolkit/email-permutator">metricsparrow.com</a> <em>~ email generator</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://seintpl.github.io/NAMINT">seintpl.github.io/NAMINT</a> <em>~ email generator</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Email Finder by Domain Dork (<a href="https://rentry.co/top-100-email-providers">top 100 email providers</a>) <em>~ email search</em></li>
 </ul>
 <div class="sourceCode" id="cb5"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (intext:&quot;@gmail.com&quot; | intext:&quot;@yahoo.com&quot; | intext:&quot;@hotmail.com&quot; | intext:&quot;@outlook.com&quot;| intext:&quot;@icloud.com&quot;)</span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://tools.emailhippo.com/">tools.emailhippo.com</a> <em>~ email validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://minervaosint.com/">minervaosint.com</a> <em>~ reverse email lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://intelbase.is/">intelbase.is</a> <em>~ reverse email lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://behindtheemail.com/">behindtheemail.com</a> <em>~ reverse email lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://epieos.com/">epieos.com</a> <em>~ reverse email lookup</em></li>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/megadose/holehe">holehe</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>) <em>~ reverse email lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://tools.emailhippo.com/">tools.emailhippo.com</a> <em>~ email deliverability validator</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://minervaosint.com/">minervaosint.com</a> <em>~ email reverse lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://intelbase.is/">intelbase.is</a> <em>~ email reverse lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://behindtheemail.com/">behindtheemail.com</a> <em>~ email reverse lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://epieos.com/">epieos.com</a> <em>~ email reverse lookup</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/megadose/holehe">holehe</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>) <em>~ email reverse lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">holehe</span> <span class="st">&#39;email@provider.com&#39;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/p1ngul1n0/blackbird">blackbird</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osintcabal.org/livecenter/blackbird.html">osintcabal.org</a>) <em>~ reverse email lookup</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/p1ngul1n0/blackbird">blackbird</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osintcabal.org/livecenter/blackbird.html">osintcabal.org</a>) <em>~ email reverse lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">blackbird</span> <span class="at">-e</span> <span class="st">&#39;email@provider.com&#39;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/mxrch/GHunt">ghunt</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>, <i class="bi bi-globe icon-sym"></i> <a href="https://gmail-osint.activetk.jp/">gmail-osint</a>) <em>~ gmail parser</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/mxrch/GHunt">ghunt</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>, <i class="bi bi-globe icon-sym"></i> <a href="https://gmail-osint.activetk.jp/">gmail-osint</a>) <em>~ Google account parser</em></li>
 </ul>
 <h2  id="phone-telephone_receiver"><i class="bi bi-telephone"></i> Phone</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://smsc.ru/testhlr/">smsc.ru</a> <em>~ phone lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://smsc.ru/testhlr/">smsc.ru</a> <em>~ phone validator</em></li>
 <li><i class="bi bi-globe icon-sym"></i> <a href="https://t.me/TrueCalleRobot">@TrueCalleRobot</a> <em>~ phone caller lookup</em></li>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/megadose/ignorant">ignorant</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>) <em>~ reverse phone lookup</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/megadose/ignorant">ignorant</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osint.rocks/">osint.rocks</a>) <em>~ phone reverse lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ignorant</span> <span class="st">&#39;&lt;NUMBER&gt;&#39;</span> <span class="at">--only-used</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.wayp.com/">wayp.com</a> <em>~ world white/yellow pages</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.wayp.com/">wayp.com</a> <em>~ phone directory</em></li>
 </ul>
 <h2  id="image-framed_picture"><i class="bi bi-image"></i> Image</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://pimeyes.com/en">pimeyes.com</a> (<i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/531501">unblur</a>) <em>~ reverse face search</em> <i class="bi bi-robot icon-sym"></i></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://huggingface.co/FaceOnLive/spaces">huggingface.co/FaceOnLive</a> <em>~ reverse face search</em> <i class="bi bi-robot icon-sym"></i></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.tattoodo.com/tattoos">tattoodo.com</a> <em>~ tattoo location lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://images.google.com/">images.google.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://yandex.com/images" title="https://yandex.com/images?">yandex.com</a>) <em>~ reverse image search</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://picdetective.com/">picdetective.com</a> <em>~ reverse image search</em> <i class="bi bi-robot icon-sym"></i></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://exifinfo.org">exifinfo.org</a> <em>~ exif lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://29a.ch/photo-forensics/#forensic-magnifier">29a.ch</a> <em>~ image forensic</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://pimeyes.com/en">pimeyes.com</a> (<i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/531501">unblur</a>) <em>~ facial recognition search</em> <i class="bi bi-robot icon-sym"></i></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://huggingface.co/FaceOnLive/spaces">huggingface.co/FaceOnLive</a> <em>~ facial recognition search</em> <i class="bi bi-robot icon-sym"></i></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.tattoodo.com/tattoos">tattoodo.com</a> <em>~ tattoo search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://images.google.com/">images.google.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://yandex.com/images" title="https://yandex.com/images?">yandex.com</a>) <em>~ image reverse search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://picdetective.com/">picdetective.com</a> <em>~ image reverse search</em> <i class="bi bi-robot icon-sym"></i></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://exifinfo.org">exifinfo.org</a> <em>~ EXIF metadata parser</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://29a.ch/photo-forensics/#forensic-magnifier">29a.ch</a> <em>~ image forensics</em></li>
 </ul>
 <h2  id="social-busts_in_silhouette"><i class="bi bi-people"></i> Social</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://cse.google.com/cse?cx=029ffbc44aa3946cb">cse.google.com</a> <em>~ multi-social search</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Multisocial Search Dork <em>~ multi-social search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://cse.google.com/cse?cx=029ffbc44aa3946cb">cse.google.com</a> <em>~ social search</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Multisocial Search Dork <em>~ social search</em></li>
 </ul>
 <div class="sourceCode" id="cb9"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (site:facebook.com | site:x.com | site:instagram.com | site:tiktok.com) -inurl:videos -inurl:video -inurl:watch -inurl:status -inurl:post -inurl:posts -inurl:photo -inurl:/p/ -inurl:photos -inurl:reply -inurl:reel -inurl:reels -inurl:comment -inurl:comments -inurl:search -inurl:tag -inurl:?__d= -inurl:related_profiles -inurl:popular -inurl:hashtag -inurl:/?v= -inurl:public</span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/instaloader/instaloader">instaloader</a> <em>~ IG backup</em></li>
-<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/527647">Instagram Followers/Following Scraper</a> <em>~ IG followe/rs</em></li>
-<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/527757">Instagram Post Date and Location</a> <em>~ IG geotag+date ui</em></li>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/bellingcat/instagram-location-search">instagram-location-search</a> <em>~ IG location scraper</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/instaloader/instaloader">instaloader</a> <em>~ IG archive</em></li>
+<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/527647">Instagram Followers/Following Scraper</a> <em>~ IG follower tracker</em></li>
+<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/527757">Instagram Post Date and Location</a> <em>~ IG post metadata</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/bellingcat/instagram-location-search">instagram-location-search</a> <em>~ IG location search</em></li>
 </ul>
 <div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">instagram-location-search</span> <span class="at">--cookies</span> <span class="st">&quot;&lt;ig-cookie&gt;&quot;</span> <span class="at">--lat</span> <span class="st">&quot;&lt;lat&gt;&quot;</span> <span class="at">--lng</span> <span class="st">&quot;&lt;lng&gt;&quot;</span> <span class="at">--json</span> locs.json <span class="at">--map</span> map.html</span></code></pre></div>
 <ul>
-<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/526760">Instagram Threads Checker</a> <em>~ IG threads matcher</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://sowsearch.info/">sowsearch.info</a> <em>~ FB searcher</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Facebook Search Dorks <em>~ FB info finder</em></li>
+<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/526760">Instagram Threads Checker</a> <em>~ IG threads lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://sowsearch.info/">sowsearch.info</a> <em>~ FB search</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Facebook Search Dorks <em>~ FB search</em></li>
 </ul>
 <div class="sourceCode" id="cb11"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (&quot;lives in <span class="dt">&lt;</span><span class="kw">PLACE</span><span class="dt">&gt;</span>&quot; | &quot;from <span class="dt">&lt;</span><span class="kw">PLACE</span><span class="dt">&gt;</span>&quot;) site:facebook.com</span></code></pre></div>
 <div class="sourceCode" id="cb12"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (&quot;studied at <span class="dt">&lt;</span><span class="kw">SCHOOL</span><span class="dt">&gt;</span>&quot; | &quot;went to <span class="dt">&lt;</span><span class="kw">SCHOOL</span><span class="dt">&gt;</span>&quot;) site:facebook.com</span></code></pre></div>
 <div class="sourceCode" id="cb13"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; (&quot;worked at <span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>&quot; | &quot;works at <span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>&quot;) site:facebook.com</span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.facebook.com/ads/library/">facebook.com/ads/library</a> <em>~ FB/IG ads library</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0">cse.google.com</a> <em>~ FB published images by keyword</em></li>
-<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/527377">Facebook Profile ID Extractor</a> <em>~ FB id finder</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.facebook.com/ads/library/">facebook.com/ads/library</a> <em>~ FB/IG ads archive</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0">cse.google.com</a> <em>~ FB image search</em></li>
+<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/527377">Facebook Profile ID Extractor</a> <em>~ FB ID extractor</em></li>
 </ul>
 <div class="sourceCode" id="cb14"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>https://www.facebook.com/profile.php?id=<span class="dt">&lt;</span><span class="kw">PROFILEID</span><span class="dt">&gt;</span></span></code></pre></div>
 <ul>
-<li><p><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/562550">X.com Profile Info Widget</a> <em>~ X advanced info</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://onlysearch.co/">onlysearch.co</a> <em>~ OF searcher</em></p></li>
-<li><p><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/569563">YouTube Channel ID Extractor</a> <em>~ YT id finder</em></p></li>
+<li><p><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/562550">X.com Profile Info Widget</a> <em>~ X profile metadata</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://onlysearch.co/">onlysearch.co</a> <em>~ OF search</em></p></li>
+<li><p><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/569563">YouTube Channel ID Extractor</a> <em>~ YT ID extractor</em></p></li>
 <li><p><i class="bi bi-globe icon-sym"></i> <a href="https://mattw.io/youtube-metadata/">mattw.io/youtube-metadata</a> <em>~ YT metadata parser</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://findyoutubevideo.thetechrobo.ca/">findyoutubevideo.thetechrobo.ca</a> <em>~ YT private/removed parser</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://findyoutubevideo.thetechrobo.ca/">findyoutubevideo.thetechrobo.ca</a> <em>~ YT removed video recovery</em></p></li>
 <li><p><i class="bi bi-globe icon-sym"></i> <a href="https://ytcomment.kmcat.uk">ytcomment.kmcat.uk</a> <em>~ YT comments search</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://filmot.com/?searchManualSubs=0">filmot.com</a> <em>~ YT global subtitles search</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://twitch-tools.rootonline.de/">twitch-tools.rootonline.de</a> <em>~ TW followers/ing viewer</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://r00m101.com/">r00m101.com</a> <em>~ Reddit profile analyzer</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://web.archive.org/collection-search/badoo.com">badoo-archive-collection</a> <em>~ Badoo wayback db</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://www.strava.com/maps/">strava.com/maps</a> <em>~ Stava global heatmap</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://filmot.com/?searchManualSubs=0">filmot.com</a> <em>~ YT subtitles search</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://twitch-tools.rootonline.de/">twitch-tools.rootonline.de</a> <em>~ Twitch follower tracker</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://r00m101.com/">r00m101.com</a> <em>~ Reddit profile parser</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://web.archive.org/collection-search/badoo.com">badoo-archive-collection</a> <em>~ Badoo archive</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://www.strava.com/maps/">strava.com/maps</a> <em>~ Strava global heatmap</em></p></li>
 </ul>
 <h2  id="chat-speech_balloon"><i class="bi bi-chat-dots"></i> Chat</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.vedbex.com/">vedbex.com</a> <em>~ SKYPE mail/phone/ip</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://gatecord.com/discord-id-lookup/">gatecord.com</a> <em>~ DISCORD lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://hugonun.github.io/discordid2date/">hugonun.github.io</a> <em>~ DISCORD creation time</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://discord.com/servers">discord.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://discord.me/servers">discord.me</a>, <i class="bi bi-globe icon-sym"></i> <a href="https://disboard.org/">disboard.org</a> ) <em>~ DISCORD server search</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Telegram Search Dork <em>~ TG multi search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.vedbex.com/">vedbex.com</a> <em>~ Skype resolver</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://gatecord.com/discord-id-lookup/">gatecord.com</a> <em>~ Discord ID lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://hugonun.github.io/discordid2date/">hugonun.github.io</a> <em>~ Discord ID creation time</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://discord.com/servers">discord.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://discord.me/servers">discord.me</a>, <i class="bi bi-globe icon-sym"></i> <a href="https://disboard.org/">disboard.org</a> ) <em>~ Discord server search</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Telegram Search Dork <em>~ TG search</em></li>
 </ul>
 <div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&lt;QUERY&gt;&quot;</span> site:telegra.ph OR site:telegram.com OR site:nicegram.app OR site:telegram.im OR site:tgstat.<span class="pp">*</span> OR site:telemetr.me OR site:telega.in OR site:telega.io OR site:tlgrm.<span class="pp">*</span> OR site:tgramsearch.com OR site:telegramchannels.me OR site:tgchannels.org OR site:tglib.net</span></code></pre></div>
 <ul>
 <li><i class="bi bi-globe icon-sym"></i> <a href="https://intelx.io/tools?tab=telegram">intelx.io</a> <em>~ TG search</em></li>
 <li><i class="bi bi-globe icon-sym"></i> <a href="https://tgfind.org/">tgfind.org</a> <em>~ TG channel search</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://web.archive.org/collection-search/telegram">telegram-archive-collection</a> <em>~ TG wayback db</em></li>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/bellingcat/telegram-phone-number-checker">telegram-phone-number-checker</a> <em>~ TG lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://web.archive.org/collection-search/telegram">telegram-archive-collection</a> <em>~ TG archive</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/bellingcat/telegram-phone-number-checker">telegram-phone-number-checker</a> <em>~ TG phone lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> telegram_phone_number_checker/main.py <span class="at">--phone-numbers</span> <span class="st">&#39;&lt;NUMBER&gt;&#39;</span> <span class="at">--download-profile-photos</span></span></code></pre></div>
 <ul>
@@ -733,130 +735,130 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 </ul>
 <div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="ex">telepathy</span> <span class="at">-t</span> <span class="st">&#39;&lt;NICKNAME&gt;&#39;</span> <span class="at">-c</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://t.me/fs_officialsearchbot?start=010814D5EF7674617466">@fs_officialsearchbot</a> <em>~ TG groups lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://t.me/creationdatebot">@creationdatebot</a> <em>~ TG registration lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://t.me/SangMata_beta_bot">@SangMata_beta_bot</a> <em>~ TG nick lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://t.me/fs_officialsearchbot?start=010814D5EF7674617466">@fs_officialsearchbot</a> <em>~ TG group search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://t.me/creationdatebot">@creationdatebot</a> <em>~ TG account age</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://t.me/SangMata_beta_bot">@SangMata_beta_bot</a> <em>~ TG nickname history</em></li>
 </ul>
 <h2  id="gaming-video_game️"><i class="bi bi-controller"></i> Gaming</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://xresolver.com/">xresolver.com</a> <em>~ XBOX/PSN/GTA resolver</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://psnprofiles.com/">psnprofiles.com</a> <em>~ PSN parser</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://xboxgamertag.com/">xboxgamertag.com</a> <em>~ XBOX parser</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://epic-lookup.com/">epic-lookup.com</a> <em>~ EPICGAMES parser</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://xresolver.com/">xresolver.com</a> <em>~ XBL/PSN resolver</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://psnprofiles.com/">psnprofiles.com</a> <em>~ PSN profile parser</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://xboxgamertag.com/">xboxgamertag.com</a> <em>~ XBL profile parser</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://epic-lookup.com/">epic-lookup.com</a> <em>~ Epic profile parser</em></li>
 </ul>
 <h2  id="location-world_map"><i class="bi bi-geo-alt"></i> Location</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://geospy.net/en/geospy">geospy.net</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://www.whereisthisphoto.com/">whereisthisphoto.com</a>, <i class="bi bi-globe icon-sym"></i> <a href="https://picarta.ai/">picarta.ai</a>) <em>~ place finder</em> <i class="bi bi-robot icon-sym"></i></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://overpass-ultra.trailsta.sh/">overpass-ultra.trailsta.sh</a> <em>~ map advanced scripting</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Gmaps Tracker by Gaia ID <em>~ gmap tracker</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://geospy.net/en/geospy">geospy.net</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://www.whereisthisphoto.com/">whereisthisphoto.com</a>, <i class="bi bi-globe icon-sym"></i> <a href="https://picarta.ai/">picarta.ai</a>) <em>~ image geolocation</em> <i class="bi bi-robot icon-sym"></i></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://overpass-ultra.trailsta.sh/">overpass-ultra.trailsta.sh</a> <em>~ OSM query engine</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Gmaps Tracker by Gaia ID <em>~ GMaps contributor tracker</em></li>
 </ul>
 <div class="sourceCode" id="cb18"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>https://www.google.com/maps/contrib/<span class="dt">&lt;</span><span class="kw">GAIA-ID</span><span class="dt">&gt;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/elliott-diy/Weather2Geo">Weather2Geo</a> <em>~ reverse city finder by weather</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/elliott-diy/Weather2Geo">Weather2Geo</a> <em>~ weather geolocation</em></li>
 </ul>
 <div class="sourceCode" id="cb19"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> main.py <span class="at">--time</span> <span class="st">&quot;2025-05-22 14:00&quot;</span> <span class="at">--condition</span> <span class="st">&quot;Mostly cloudy&quot;</span> <span class="at">--temp</span> 18 <span class="at">--tolerance</span> 1.0</span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://colab.research.google.com/github/GalenReich/ShadowFinder/blob/main/ShadowFinderColab.ipynb">colab.research.google.com</a> <em>~ place finder by sun shadow</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://tubvsig-so2sat-vm1.srv.mwn.de/">tubvsig-so2sat-vm1.srv.mwn.de</a> <em>~ global building info</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://pleper.com/index.php?do=tools&amp;sdo=cid_converter">pleper.com</a> <em>~ gmaps spots info</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0">cse.google.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/webcamcse.html">cybdetective.com/webcamcse</a>) <em>~ webcam finder</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://3wifi.dev/map.html">3wifi.dev</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://wigle.net/">wigle.net</a>) <em>~ wifi wardriving map</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://firms.modaps.eosdis.nasa.gov/map/">firms.modaps.eosdis.nasa.gov</a> <em>~ nasa fire map</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.plonkit.net/guide">plonkit.net</a> <em>~ geoguesser wiki</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://geotips.net/">geotips.net</a> <em>~ geoguesser wiki</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://geohints.com/">geohints.com</a> <em>~ geoguesser objects wiki</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://cipher387.github.io/venicle_number_search_toolbox/">cipher387.github.io</a> <em>~ car plate info</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://flightmapper.net/">flightmapper.net</a> <em>~ flight tracking map</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://aerobasegroup.com/tail-number-lookup">aerobasegroup.com</a> <em>~ flight number lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://globe.airplanes.live/">globe.airplanes.live</a> <em>~ live airplane map</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.marinetraffic.com/">marinetraffic.com</a> <em>~ live ship map</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://colab.research.google.com/github/GalenReich/ShadowFinder/blob/main/ShadowFinderColab.ipynb">colab.research.google.com</a> <em>~ shadow geolocation</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://tubvsig-so2sat-vm1.srv.mwn.de/">tubvsig-so2sat-vm1.srv.mwn.de</a> <em>~ building footprint map</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://pleper.com/index.php?do=tools&amp;sdo=cid_converter">pleper.com</a> <em>~ GMaps place lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0">cse.google.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/webcamcse.html">cybdetective.com/webcamcse</a>) <em>~ webcam search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://3wifi.dev/map.html">3wifi.dev</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://wigle.net/">wigle.net</a>) <em>~ WiFi map</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://firms.modaps.eosdis.nasa.gov/map/">firms.modaps.eosdis.nasa.gov</a> <em>~ NASA fire tracker</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.plonkit.net/guide">plonkit.net</a> <em>~ GeoGuessr guide</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://geotips.net/">geotips.net</a> <em>~ GeoGuessr guide</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://geohints.com/">geohints.com</a> <em>~ GeoGuessr objects guide</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://cipher387.github.io/venicle_number_search_toolbox/">cipher387.github.io</a> <em>~ plate lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://flightmapper.net/">flightmapper.net</a> <em>~ flight tracker</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://aerobasegroup.com/tail-number-lookup">aerobasegroup.com</a> <em>~ tail number lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://globe.airplanes.live/">globe.airplanes.live</a> <em>~ live flight map</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.marinetraffic.com/">marinetraffic.com</a> <em>~ ship tracker</em></li>
 </ul>
 <h2  id="general-open_file_folder"><i class="bi bi-folder"></i> General</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://intelx.io/tools?tab=general">intelx.io</a> <em>~ multi-engine search</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Localized Google Search (<a href="https://gist.github.com/tadast/8827699">ISO 3166-1 alpha-2 Table</a>) <em>~ search by country switching</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://intelx.io/tools?tab=general">intelx.io</a> <em>~ OSINT search</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Localized Google Search (<a href="https://gist.github.com/tadast/8827699">ISO 3166-1 alpha-2 Table</a>) <em>~ localized search</em></li>
 </ul>
 <div class="sourceCode" id="cb20"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>https://www.google.com/search?q=<span class="dt">&lt;</span><span class="kw">ANY</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">DORK</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">OR</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">CUSTOM</span><span class="dt">&gt;</span>+<span class="dt">&lt;</span><span class="kw">SEARCH</span><span class="dt">&gt;</span><span class="er">&amp;</span>cr=<span class="dt">&lt;</span><span class="kw">ALPHA-2-COUNTRY-CODE</span><span class="dt">&gt;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Docs Search Dork <em>~ general info gathering</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Docs Search Dork <em>~ document search</em></li>
 </ul>
 <div class="sourceCode" id="cb21"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>&quot;<span class="dt">&lt;</span><span class="kw">NAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">SURNAME</span><span class="dt">&gt;</span>&quot; &quot;<span class="dt">&lt;</span><span class="kw">CITY</span><span class="dt">&gt;</span>&quot; (filetype:pdf | filetype:doc | filetype:docx | filetype:odt | filetype:ods | filetype:odp | filetype:xls | filetype:xlsx | filetype:csv | filetype:txt | filetype:rtf | filetype:xml | filetype:ppt | filetype:pptx | filetype:key | filetype:zip | filetype:rar | filetype:7z | filetype:gz | filetype:log | filetype:json | filetype:audit | filetype:trace | filetype:debug | filetype:out | filetype:err)</span></code></pre></div>
 <ul>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/pastebin.html">cybdetective.com/pastebin</a> <em>~ pastebin search</em></p></li>
-<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/codesearch.html">cybdetective.com/codesearch</a> <em>~ repos search</em></p></li>
-<li><p><i class="bi bi-shield-lock icon-sym"></i> Github User Info <em>~ github user lookup</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/pastebin.html">cybdetective.com/pastebin</a> <em>~ paste search</em></p></li>
+<li><p><i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/codesearch.html">cybdetective.com/codesearch</a> <em>~ code search</em></p></li>
+<li><p><i class="bi bi-shield-lock icon-sym"></i> Github User Info <em>~ GitHub user lookup</em></p></li>
 </ul>
 <div class="sourceCode" id="cb22"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>https://api.github.com/users/<span class="dt">&lt;</span><span class="kw">NICKNAME</span><span class="dt">&gt;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://ghintel.secrets.ninja/">ghintel.secrets.ninja</a> <em>~ github email commits finder</em></li>
-<li><i class="bi bi-gear icon-sym"></i> Hidden Metadata In Local Repos <em>~ repos email/nickname finder</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://ghintel.secrets.ninja/">ghintel.secrets.ninja</a> <em>~ GitHub email search</em></li>
+<li><i class="bi bi-gear icon-sym"></i> Hidden Metadata In Local Repos <em>~ git metadata extractor</em></li>
 </ul>
 <div class="sourceCode" id="cb23"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--pretty</span><span class="op">=</span>format:<span class="st">&quot;[ AUTHOR-EMAIL:%ae | AUTHOR-NICK:%an ][ COMMITTER-EMAIL:%ce | COMMITTER-NICK:%cn ][ DATE:%aD ]&quot;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/trufflesecurity/trufflehog">trufflehog</a> <em>~ repo secret finder</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/trufflesecurity/trufflehog">trufflehog</a> <em>~ secret scanner</em></li>
 </ul>
 <div class="sourceCode" id="cb24"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">trufflehog</span> git <span class="st">&quot;https://github.com/&lt;USER&gt;/&lt;REPO&gt;&quot;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.ispyconnect.com/docs/ispy/default-camera-passwords">ispyconnect.com</a> <em>~ ipcam passwords list</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/osintmap/">cybdetective.com/osintmap</a> <em>~ world institutions directory</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://osintguru.azurewebsites.net/countries/">osintguru.azurewebsites.net</a> <em>~ world institutions directory</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://aleph.occrp.org/">aleph.occrp.org</a> <em>~ investigation documents dataset</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.ean-search.org/">ean-search.org</a> <em>~ multi-barcode lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://iknowwhatyoudownload.com/">iknowwhatyoudownload.com</a> <em>~ reverse torrents lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.ispyconnect.com/docs/ispy/default-camera-passwords">ispyconnect.com</a> <em>~ IP camera credentials</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://cybdetective.com/osintmap/">cybdetective.com/osintmap</a> <em>~ institution directory</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://osintguru.azurewebsites.net/countries/">osintguru.azurewebsites.net</a> <em>~ institution directory</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://aleph.occrp.org/">aleph.occrp.org</a> <em>~ document archive</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.ean-search.org/">ean-search.org</a> <em>~ barcode lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://iknowwhatyoudownload.com/">iknowwhatyoudownload.com</a> <em>~ torrent lookup</em></li>
 </ul>
 <h2  id="corporate-briefcase"><i class="bi bi-briefcase"></i> Corporate</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.dnb.com/business-directory.html">dnb.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://zephira.ai/">zephira.ai</a>) <em>~ company lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.skymem.info/">skymem.info</a> <em>~ company email lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://lei.info/">lei.info</a> <em>~ legal company identifier</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://opencorporates.com/">opencorporates.com</a> <em>~ open corporate database</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Company Employee Dork <em>~ linkedin company users</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.dnb.com/business-directory.html">dnb.com</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://zephira.ai/">zephira.ai</a>) <em>~ company directory</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.skymem.info/">skymem.info</a> <em>~ company email search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://lei.info/">lei.info</a> <em>~ LEI lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://opencorporates.com/">opencorporates.com</a> <em>~ company archive</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Company Employee Dork <em>~ LinkedIn employee search</em></li>
 </ul>
 <div class="sourceCode" id="cb25"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>site:linkedin.com inurl:in “<span class="dt">&lt;</span><span class="kw">COMPANY</span><span class="dt">&gt;</span>”</span></code></pre></div>
 <h2  id="hosting-spider_web"><i class="bi bi-diagram-3"></i> Hosting</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://sitereport.netcraft.com/">sitereport.netcraft.com</a> <em>~ website parser</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://centralops.net/">centralops.net</a> <em>~ whois lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.whoxy.com/archive.php">whoxy.com/archive</a> <em>~ whois DB history parser</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="http://whois.easycounter.com/">whois.easycounter.com</a> <em>~ whois DB history parser</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://whoisfreaks.com/tools/user/whois/reverse/search">whoisfreaks.com</a> <em>~ whois DB history parser</em></li>
-<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/541732">Reverse Whoxy Domain Status</a> <em>~ whois website checker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://dnsdumpster.com/">dnsdumpster.com</a> <em>~ reverse website location lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://informationlaundromat.com/url-search">informationlaundromat.com</a> <em>~ website metadata correlator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://viewdns.info/iphistory/?domain">viewdns.info/iphistory</a> <em>~ ip hosting history lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://viewdns.info/reversens/?ns">viewdns.info/reversens</a> <em>~ reverse dns lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://viewdns.info/reverseip/">viewdns.info/reverseip</a> <em>~ reverse ip lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://host.io/">host.io</a> <em>~ website to website lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://osint.sh/adsense/">osint.sh/adsense</a> <em>~ reverse adsense lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://osint.sh/analytics/">osint.sh/analytics</a> <em>~ reverse google analytics lookup</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://crt.sh/">crt.sh</a> <em>~ certificate analysis</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://sitereport.netcraft.com/">sitereport.netcraft.com</a> <em>~ website profiler</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://centralops.net/">centralops.net</a> <em>~ WHOIS lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.whoxy.com/archive.php">whoxy.com/archive</a> <em>~ historical WHOIS</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="http://whois.easycounter.com/">whois.easycounter.com</a> <em>~ historical WHOIS</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://whoisfreaks.com/tools/user/whois/reverse/search">whoisfreaks.com</a> <em>~ historical WHOIS</em></li>
+<li><i class="bi bi-file-earmark-code icon-sym"></i> <a href="https://greasyfork.org/en/scripts/541732">Reverse Whoxy Domain Status</a> <em>~ WHOIS status tracker</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://dnsdumpster.com/">dnsdumpster.com</a> <em>~ DNS mapper</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://informationlaundromat.com/url-search">informationlaundromat.com</a> <em>~ website correlator</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://viewdns.info/iphistory/?domain">viewdns.info/iphistory</a> <em>~ IP history lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://viewdns.info/reversens/?ns">viewdns.info/reversens</a> <em>~ reverse NS lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://viewdns.info/reverseip/">viewdns.info/reverseip</a> <em>~ reverse IP lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://host.io/">host.io</a> <em>~ domain graph lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://osint.sh/adsense/">osint.sh/adsense</a> <em>~ AdSense reverse lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://osint.sh/analytics/">osint.sh/analytics</a> <em>~ Analytics reverse lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://crt.sh/">crt.sh</a> <em>~ certificate search</em></li>
 <li><i class="bi bi-globe icon-sym"></i> <a href="https://www.shodan.io/">shodan.io</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://en.fofa.info/">fofa.info</a>, <i class="bi bi-globe icon-sym"></i> <a href="https://platform.censys.io/search">platform.censys.io</a>) <em>~ host scanner</em></li>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/moscovium-mc/CloudRip">CloudRip</a> <em>~ ip behind cloudflare by subdomain enum</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/moscovium-mc/CloudRip">CloudRip</a> <em>~ origin IP enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb26"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> cloudrip.py <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50</span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/anmolksachan/wayBackLister">wayBackLister</a> <em>~ wayback directory bruteforcer</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/anmolksachan/wayBackLister">wayBackLister</a> <em>~ wayback enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb27"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> waybacklister.py <span class="at">-d</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50</span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/Spix0r/robofinder">robofinder</a> <em>~ wayback robots.txt parser</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/Spix0r/robofinder">robofinder</a> <em>~ robots.txt archive parser</em></li>
 </ul>
 <div class="sourceCode" id="cb28"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="ex">robofinder</span> <span class="at">-u</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> -t 50 <span class="at">-c</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/duty1g/subcat">subcat</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osintcabal.org/livecenter/subcat.html">osintcabal.org</a>) <em>~ subdomains finder</em></li>
+<li><i class="bi bi-gear icon-sym"></i> <a href="https://github.com/duty1g/subcat">subcat</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://osintcabal.org/livecenter/subcat.html">osintcabal.org</a>) <em>~ subdomain enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb29"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="ex">subcat</span> <span class="at">-d</span> <span class="op">&lt;</span>SITE<span class="op">&gt;</span> --sc <span class="at">--title</span> <span class="at">--tech</span> <span class="at">--up</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Subdomains Finder <em>~ subdomains finder</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Subdomains Finder <em>~ subdomain enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb30"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>https://api.hackertarget.com/hostsearch/?q=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span></span></code></pre></div>
 <div class="sourceCode" id="cb31"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>https://www.virustotal.com/gui/domain/<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/relations</span></code></pre></div>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Wayback Pages Finder (CDX API) <em>~ wayback pages enumerator</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Wayback Pages Finder (CDX API) <em>~ wayback enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb32"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span>/path/page.php?<span class="dt">&lt;</span><span class="kw">PARAMETER</span><span class="dt">&gt;</span>=* [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Wayback Hidden Domains/Files (CDX API) <em>~ wayback pages enumerator</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Wayback Hidden Domains/Files (CDX API) <em>~ wayback enumeration</em></li>
 </ul>
 <div class="sourceCode" id="cb33"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=*.<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>collapse=urlkey [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
 <ul>
@@ -864,49 +866,49 @@ While OSINT itself is not illegal, it is crucial to understand that the legality
 </ul>
 <div class="sourceCode" id="cb34"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>https://web.archive.org/cdx/search/cdx?url=<span class="dt">&lt;</span><span class="kw">WEBSITE</span><span class="dt">&gt;</span><span class="er">&amp;</span>filter=mimetype:text/javascript<span class="er">&amp;</span>collapse=urlkey [<span class="er">&amp;</span>to=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span><span class="er">&amp;</span>from=<span class="dt">&lt;</span><span class="kw">YYYYMMDD</span><span class="dt">&gt;</span>]</span></code></pre></div>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Gravatar API <em>~ gravatar lookup</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Gravatar API <em>~ Gravatar lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb35"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>https://en.gravatar.com/<span class="dt">&lt;</span><span class="kw">MD5_HASH_OF_EMAIL</span><span class="dt">&gt;</span>.json</span></code></pre></div>
 <h2  id="knocking-door"><i class="bi bi-door-open"></i> Knocking</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.instagram.com/accounts/password/reset/">instagram.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ account knocker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.facebook.com/login/identify/?ctx=recover">facebook.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ account knocker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://x.com/account/begin_password_reset">x.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://accounts.google.com/">accounts.google.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i>) <em>~ account knocker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://login.yahoo.com/">login.yahoo.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ account knocker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://iforgot.apple.com/password/verify/appleid">iforgot.apple.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ account knocker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://account.live.com/ResetPassword.aspx">account.live.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-telephone icon-sym"></i><i class="bi bi-envelope icon-sym"></i>) <em>~ account knocker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://account.samsung.com/accounts/v1/SAMSUNGCA/findId">account.samsung.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i>) <em>~ account knocker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.snapchat.com/">snapchat.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://discord.com/login/">discord.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://identity.flickr.com/forgot-password">identity.flickr.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.pinterest.com/password/reset">pinterest.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://accounts.spotify.com/it/login">accounts.spotify.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.epicgames.com/id/login/forgot-password">epicgames.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.airbnb.it/">airbnb.it</a> (<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://github.com/password_reset">github.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://lastpass.com/recover.php">lastpass.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.paypal.com/authflow/email-recovery">paypal.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://accounts.binance.com/en/security/user/reset-password">accounts.binance.com</a> (<i class="bi bi-telephone icon-sym"></i><i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account validator</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.instagram.com/accounts/password/reset/">instagram.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ password reset enumeration</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.facebook.com/login/identify/?ctx=recover">facebook.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ password reset enumeration</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://x.com/account/begin_password_reset">x.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://accounts.google.com/">accounts.google.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i>) <em>~ password reset enumeration</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://login.yahoo.com/">login.yahoo.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ password reset enumeration</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://iforgot.apple.com/password/verify/appleid">iforgot.apple.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>) <em>~ password reset enumeration</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://account.live.com/ResetPassword.aspx">account.live.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-telephone icon-sym"></i><i class="bi bi-envelope icon-sym"></i>) <em>~ password reset enumeration</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://account.samsung.com/accounts/v1/SAMSUNGCA/findId">account.samsung.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-envelope icon-sym"></i>) <em>~ password reset enumeration</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.snapchat.com/">snapchat.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://discord.com/login/">discord.com</a> (<i class="bi bi-tag icon-sym"></i><i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://identity.flickr.com/forgot-password">identity.flickr.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.pinterest.com/password/reset">pinterest.com</a> (<i class="bi bi-tag icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://accounts.spotify.com/it/login">accounts.spotify.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.epicgames.com/id/login/forgot-password">epicgames.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.airbnb.it/">airbnb.it</a> (<i class="bi bi-envelope icon-sym"></i><i class="bi bi-telephone icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://github.com/password_reset">github.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://lastpass.com/recover.php">lastpass.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.paypal.com/authflow/email-recovery">paypal.com</a> (<i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://accounts.binance.com/en/security/user/reset-password">accounts.binance.com</a> (<i class="bi bi-telephone icon-sym"></i><i class="bi bi-envelope icon-sym"></i>-&gt;<i class="bi bi-check-circle icon-sym"></i>) <em>~ account existence check</em></li>
 </ul>
 <h2  id="breaches-pirate_flag"><i class="bi bi-shield-exclamation"></i> Breaches</h2>
 <ul>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://databreach.com/">databreach.com</a> <em>~ breach checker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://haveibeenpwned.com/">haveibeenpwned.com</a> <em>~ breach checker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.dehashed.com/">dehashed.com</a> <em>~ breach checker</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://breach.vip/">breach.vip</a> <em>~ breach searcher</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://idleakcheck.com/search">idleakcheck.com</a> <em>~ NPD searcher</em></li>
-<li><i class="bi bi-globe icon-sym"></i> <a href="https://bf.based.re/">bf.based.re</a> <em>~ breachforums lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://databreach.com/">databreach.com</a> <em>~ breach archive</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://haveibeenpwned.com/">haveibeenpwned.com</a> <em>~ breach lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://www.dehashed.com/">dehashed.com</a> <em>~ dump search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://breach.vip/">breach.vip</a> <em>~ breach search</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://idleakcheck.com/search">idleakcheck.com</a> <em>~ NPD lookup</em></li>
+<li><i class="bi bi-globe icon-sym"></i> <a href="https://bf.based.re/">bf.based.re</a> <em>~ BreachForums search</em></li>
 <li><i class="bi bi-globe icon-sym"></i> <a href="https://archive.is/Rbz1Y">sizeof.cat</a> (<i class="bi bi-globe icon-sym"></i> <a href="https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=">zerobin.net</a>) <i class="bi bi-exclamation-triangle icon-warn"></i> <strong>your responsibility</strong> <em>~ breach torrents</em></li>
-<li><i class="bi bi-shield-lock icon-sym"></i> Hudsonrock Cavalier API <em>~ stealers email searcher</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Hudsonrock Cavalier API <em>~ infostealer email lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb36"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-email?email=<span class="dt">&lt;</span><span class="kw">EXAMPLE</span><span class="er">@</span><span class="ot">GMAIL.COM</span><span class="dt">&gt;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Hudsonrock Cavalier API <em>~ stealers username searcher</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Hudsonrock Cavalier API <em>~ infostealer username lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb37"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-username?username=<span class="dt">&lt;</span><span class="kw">USERNAME</span><span class="dt">&gt;</span></span></code></pre></div>
 <ul>
-<li><i class="bi bi-shield-lock icon-sym"></i> Hudsonrock Cavalier API <em>~ stealers ip searcher</em></li>
+<li><i class="bi bi-shield-lock icon-sym"></i> Hudsonrock Cavalier API <em>~ infostealer IP lookup</em></li>
 </ul>
 <div class="sourceCode" id="cb38"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>https://cavalier.hudsonrock.com/api/json/v2/osint-tools/search-by-ip?ip=<span class="er">&lt;</span>127.0.0.1&gt;</span></code></pre></div>
 <h2  id="flowcharts-bulb"><i class="bi bi-lightbulb"></i> FlowCharts</h2><div class="fc-grid"><button class="fc-item" type="button" onclick="openFC(this)"><span class="fc-label">Name</span><img src="https://i.postimg.cc/Y21bJC2C/image.png" alt="Name" /></button>
