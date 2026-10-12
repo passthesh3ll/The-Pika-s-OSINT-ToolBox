@@ -976,17 +976,24 @@ Thank you!</p>
 })();
 
 /* Mobile navigation drawer */
+/* Mobile navigation drawer */
 (function () {
   var sidebar = document.getElementById('nav-sidebar');
   var backdrop = document.getElementById('nav-backdrop');
   var toggle = document.getElementById('nav-toggle');
+  function open() {
+    sidebar.classList.add('open');
+    backdrop.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
   function close() {
     sidebar.classList.remove('open');
     backdrop.classList.remove('open');
+    document.body.style.overflow = '';
   }
   toggle.addEventListener('click', function () {
-    sidebar.classList.toggle('open');
-    backdrop.classList.toggle('open');
+    if (sidebar.classList.contains('open')) close();
+    else open();
   });
   backdrop.addEventListener('click', close);
   sidebar.addEventListener('click', function (e) {
