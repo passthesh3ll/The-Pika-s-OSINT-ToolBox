@@ -256,7 +256,7 @@ trufflehog git "https://github.com/<USER>/<REPO>"
 - 🌐 [cybdetective.com/osintmap](https://cybdetective.com/osintmap/) _~ institution directory_
 - 🌐 [osintguru.azurewebsites.net](https://osintguru.azurewebsites.net/countries/) _~ institution directory_
 - 🌐 [aleph.occrp.org](https://aleph.occrp.org/) _~ document archive_
-- 🌐 [ean-search.org](https://www.ean-search.org/) _~ barcode lookup_
+- 🌐 [barcodelookup.com](https://www.barcodelookup.com/) (🌐 [upcindex.com](https://www.upcindex.com/)) _~ barcode lookup_
 - 🌐 [iknowwhatyoudownload.com](https://iknowwhatyoudownload.com/) _~ torrent lookup_
 
 ## Corporate 💼
