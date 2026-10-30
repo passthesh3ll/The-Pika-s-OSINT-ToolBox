@@ -187,7 +187,7 @@ telepathy -t '<NICKNAME>' -c
 
 ## Location 🗺️
 
-- 🌐 [geospy.net](https://geospy.net/en/geospy) (🌐 [whereisthisphoto.com](https://www.whereisthisphoto.com/), 🌐 [picarta.ai](https://picarta.ai/)) _~ image geolocation_ 🤖
+- 🌐 [geospy.net](https://geospy.net/en/geospy) (🌐 [whereisthisphoto.com](https://www.whereisthisphoto.com/), 🌐 [picarta.ai](https://picarta.ai/), 🌐 [oceanir.ai](https://oceanir.ai/)) _~ image geolocation_ 🤖
 - 🌐 [overpass-ultra.trailsta.sh](https://overpass-ultra.trailsta.sh/) _~ OSM query engine_
 - 💉 Gmaps Tracker by Gaia ID _~ GMaps contributor tracker_
 
