@@ -213,9 +213,10 @@ python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 -
 - 🌐 [geotips.net](https://geotips.net/) _~ GeoGuessr guide_
 - 🌐 [geohints.com](https://geohints.com/) _~ GeoGuessr objects guide_
 - 🌐 [cipher387.github.io](https://cipher387.github.io/venicle_number_search_toolbox/) _~ plate lookup_
-- 🌐 [flightmapper.net](https://flightmapper.net/) _~ flight tracker_
 - 🌐 [aerobasegroup.com](https://aerobasegroup.com/tail-number-lookup) _~ tail number lookup_
 - 🌐 [globe.airplanes.live](https://globe.airplanes.live/) _~ live flight map_
+- 🌐 [flightmapper.net](https://flightmapper.net/) _~ flight schedules_
+- 🌐 [flightradar24.com](https://www.flightradar24.com/) (🌐 [flightaware.com](https://www.flightaware.com/)) _~ flight tracker_
 - 🌐 [marinetraffic.com](https://www.marinetraffic.com/) _~ ship tracker_
 
 ## General 📂
