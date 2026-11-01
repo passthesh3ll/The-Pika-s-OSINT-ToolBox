@@ -205,9 +205,10 @@ python main.py --time "2025-05-22 14:00" --condition "Mostly cloudy" --temp 18 -
 - 🌐 [colab.research.google.com](https://colab.research.google.com/github/GalenReich/ShadowFinder/blob/main/ShadowFinderColab.ipynb) _~ shadow geolocation_
 - 🌐 [tubvsig-so2sat-vm1.srv.mwn.de](https://tubvsig-so2sat-vm1.srv.mwn.de/) _~ building footprint map_
 - 🌐 [pleper.com](https://pleper.com/index.php?do=tools&sdo=cid_converter) _~ GMaps place lookup_
-- 🌐 [cse.google.com](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0) (🌐 [cybdetective.com/webcamcse](https://cybdetective.com/webcamcse.html)) _~ webcam search_
 - 🌐 [3wifi.dev](https://3wifi.dev/map.html) (🌐 [wigle.net](https://wigle.net/)) _~ WiFi map_
+- 🌐 [osirisai.live](https://osirisai.live/) (🌐 [worldeye.app](https://worldeye.app/)) _~ live OSINT map_
 - 🌐 [firms.modaps.eosdis.nasa.gov](https://firms.modaps.eosdis.nasa.gov/map/) _~ NASA fire tracker_
+- 🌐 [cse.google.com](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0) (🌐 [cybdetective.com/webcamcse](https://cybdetective.com/webcamcse.html)) _~ webcam search_
 - 🌐 [plonkit.net](https://www.plonkit.net/guide) _~ GeoGuessr guide_
 - 🌐 [geotips.net](https://geotips.net/) _~ GeoGuessr guide_
 - 🌐 [geohints.com](https://geohints.com/) _~ GeoGuessr objects guide_
