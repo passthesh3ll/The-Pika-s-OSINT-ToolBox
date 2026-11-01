@@ -367,8 +367,9 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 
 - 🌐 [databreach.com](https://databreach.com/) _~ breach archive_
 - 🌐 [haveibeenpwned.com](https://haveibeenpwned.com/) _~ breach lookup_
-- 🌐 [dehashed.com](https://www.dehashed.com/) _~ dump search_
+- 🌐 [dehashed.com](https://www.dehashed.com/) _~ breach search_
 - 🌐 [breach.vip](https://breach.vip/) _~ breach search_
+- 🌐 [proxynova.com](https://www.proxynova.com/tools/comb) _~ COMB breaches search_
 - 🌐 [idleakcheck.com](https://idleakcheck.com/search) _~ NPD lookup_
 - 🌐 [bf.based.re](https://bf.based.re/) _~ BreachForums search_
 - 🌐 [sizeof.cat](https://archive.is/Rbz1Y) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _~ breach torrents_
