@@ -117,6 +117,7 @@ instagram-location-search --cookies "<ig-cookie>" --lat "<lat>" --lng "<lng>" --
 ```
 
 - 📜 [Instagram Threads Checker](https://greasyfork.org/en/scripts/526760) _~ IG threads lookup_
+- 🌐 [igdatahub.com](https://igdatahub.com/creators/) _~ IG follower history_
 - 🌐 [sowsearch.info](https://sowsearch.info/) _~ FB search_
 - 💉 Facebook Search Dorks _~ FB search_
 
