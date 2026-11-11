@@ -289,7 +289,7 @@ site:linkedin.com inurl:in “<COMPANY>”
 - 🌐 [viewdns.info/reverseip](https://viewdns.info/reverseip/) _~ reverse IP lookup_
 - 🌐 [host.io](https://host.io/) _~ domain graph lookup_
 - 🌐 [osint.sh/adsense](https://osint.sh/adsense/) _~ AdSense reverse lookup_
-- 🌐 [osint.sh/analytics](https://osint.sh/analytics/) _~ Analytics reverse lookup_
+- 🌐 [dnslytics.com/reverse-analytics](https://dnslytics.com/reverse-analytics/) _~ Analytics reverse lookup_
 - 🌐 [crt.sh](https://crt.sh/) _~ certificate search_
 - 🌐 [shodan.io](https://www.shodan.io/) (🌐 [fofa.info](https://en.fofa.info/), 🌐 [platform.censys.io](https://platform.censys.io/search)) _~ host scanner_
 - ⚙️ [CloudRip](https://github.com/moscovium-mc/CloudRip) _~ origin IP enumeration_
@@ -370,8 +370,6 @@ https://en.gravatar.com/<MD5_HASH_OF_EMAIL>.json
 - 🌐 [dehashed.com](https://www.dehashed.com/) _~ breach search_
 - 🌐 [breach.vip](https://breach.vip/) _~ breach search_
 - 🌐 [proxynova.com](https://www.proxynova.com/tools/comb) _~ COMB breaches search_
-- 🌐 [idleakcheck.com](https://idleakcheck.com/search) _~ NPD lookup_
-- 🌐 [bf.based.re](https://bf.based.re/) _~ BreachForums search_
 - 🌐 [sizeof.cat](https://archive.is/Rbz1Y) (🌐 [zerobin.net](https://zerobin.net/?63b7dfdecb91df82#gXCNC9KV04IvisCuqawb5huGUTqAM1ymHaXNN/VvGq4=)) ⚠️ **your responsibility** _~ breach torrents_
 - 💉 Hudsonrock Cavalier API _~ infostealer email lookup_
 ```html
