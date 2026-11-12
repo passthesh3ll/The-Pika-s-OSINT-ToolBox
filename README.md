@@ -142,6 +142,7 @@ https://www.facebook.com/profile.php?id=<PROFILEID>
 - 🌐 [onlysearch.co](https://onlysearch.co/) _~ OF search_
 - 📜 [YouTube Channel ID Extractor](https://greasyfork.org/en/scripts/569563) _~ YT ID extractor_
 - 🌐 [mattw.io/youtube-metadata](https://mattw.io/youtube-metadata/) _~ YT metadata parser_
+- 🌐 [mattw.io/youtube-geofind](https://mattw.io/youtube-geofind/location) _~ YT geo lookup_
 - 🌐 [findyoutubevideo.thetechrobo.ca](https://findyoutubevideo.thetechrobo.ca/) _~ YT removed video recovery_
 - 🌐 [ytcomment.kmcat.uk](https://ytcomment.kmcat.uk) _~ YT comments search_
 - 🌐 [filmot.com](https://filmot.com/?searchManualSubs=0) _~ YT subtitles search_
