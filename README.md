@@ -62,6 +62,7 @@ python whatsmyname.py -u 'username'
 - 🌐 [mxtoolbox.com](https://mxtoolbox.com/EmailHeaders.aspx) _~ email header analyzer_
 - 🌐 [minervaosint.com](https://minervaosint.com/) _~ email reverse lookup_
 - 🌐 [intelbase.is](https://intelbase.is/) _~ email reverse lookup_
+- 🌐 [fingerprint.to](https://fingerprint.to/) _~ email reverse lookup_
 - 🌐 [emailosint.org](https://emailosint.org/) _~ email reverse lookup_
 - 🌐 [behindtheemail.com](https://behindtheemail.com/) _~ email reverse lookup_
 - 🌐 [epieos.com](https://epieos.com/) _~ email reverse lookup_
