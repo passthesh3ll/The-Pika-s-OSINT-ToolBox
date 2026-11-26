@@ -270,6 +270,7 @@ trufflehog git "https://github.com/<USER>/<REPO>"
 - 🌐 [skymem.info](https://www.skymem.info/) _~ company email search_
 - 🌐 [lei.info](https://lei.info/) _~ LEI lookup_
 - 🌐 [opencorporates.com](https://opencorporates.com/) _~ company archive_
+- 🌐 [kausate.com](https://kausate.com/) _~ official company registers, global coverage_
 - 💉 Company Employee Dork _~ LinkedIn employee search_
 
 ```html
